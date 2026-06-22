@@ -183,3 +183,8 @@ img.portrait {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+footer {
+	text-align: center;
+	font-size: 10pt;
+}
