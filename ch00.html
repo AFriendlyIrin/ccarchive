@@ -1,0 +1,183 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 1x: First Blood</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div class="objectives">
+			<font>Objective</font>
+			<font>Save Children
+			<p><i>Ensure every child
+	survives this turn</i></p></font>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(Two children are being menaced by enemies on opposite cliffs.)</div>
+<div>boy</div>
+<div>We're going to die and
+it's all your fault!</div>
+<div>girl</div>
+<div>Nah.</div>
+<div>boy</div>
+<div>I hate you.</div>
+<div>girl</div>
+<div>Doesn't matter. We're dead.</div>
+<div></div><div class="stagedirection">(Ellerie approaches.)</div>
+<div>ellerie</div>
+<div>So much for being the Captain.<br>
+They didn't even warn me before
+running all the way out here.<br>
+Well, time to get myself in shape
+by saving some children.</div>
+<div>narrator</div>
+<div>The weapon triangle (W△)
+gives +/- <font color="red">3 Dmg</font> and <font color="red">30 hit.</font>
+Sword>Axe. Lance>Sword. 
+Axe>Lance. No magic triangle.<br>
+Many player units have powerful
+skills and personal weapons. 
+On selecting a unit, a quick
+explanation will be given.<br>
+Don't worry about messing up 
+here. Time will simply rewind.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ellerie Tooltip</h1>
+			<div class="container">
+<div></div>
+<div>On a <font color="red">kill</font>, Ellerie refreshes the actions
+of <font color="red">all adjacent allies</font>, once per turn.
+Her personal weapon lets her obtain
+these kills easily on weaker foes.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>After Ellerie kills the first unit and refreshes the squad</h1>
+			<div class="container">
+<div>oriana</div>
+<div>Good to see you here with us
+despite our sudden departure.</div>
+<div>mince</div>
+<div>You really put your back into that
+stab. Poor guy stood no chance.</div>
+<div>ellerie</div>
+<div>I try my best, Mince. How are we
+rescuing those kids on the cliffs?</div>
+<div>mince</div>
+<div>You know my <font color="red">teleportation</font> powers.<br>
+I'll cover the kid in the <font color="red">top cliff.</font>
+And that spear won't make a dent.</div>
+<div>lindros</div>
+<div>I'll use <font color="red">Guidance</font> to bring that <font color="red">mage</font>
+where I am and then zap him. Easy.</div>
+<div>oriana</div>
+<div>If you two have that covered, I'll head
+out to get Pomelo back on his feet.</div>
+<div>ellerie</div>
+<div>That's all I've got in me.
+Good going, everyone.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Mince Tooltip</h1>
+			<div class="container">
+<div></div>
+<div>Mince's skill lets him <font color="red">trade places</font>
+with an ally within <font color="red">MAG/2 range.</font>
+Use this to save the kid up top.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Lindros Tooltip</h1>
+			<div class="container">
+<div></div>
+<div>Lindro can <font color="red">trade places</font> with an
+enemy by using his skill, Lunge.
+His personal weapon gives Lunge <font color="red">3-10</font>
+range and a <font color="red">2nd action</font> after Lunge.<br>
+Uses this to bring the mage down from
+the cliff and kill him on this turn!</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Oriana Tooltip</h1>
+			<div class="container">
+<div></div>
+<div>When Oriana uses dance, <font color="red">both the
+target ally and herself</font> are refreshed.
+While fragile, Oriana has quite the 
+headstart in her combat stats.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>After Oriana refreshes Pomelo</h1>
+			<div class="container">
+<div>pomelo</div>
+<div>That pirate's done a runner, but he can't
+outrun a cannon. I'll get the <font color="red">landboat.</font></div>
+<div>oriana</div>
+<div>I'll let you <font color="red">fire at the pirate first.</font> The blast
+will weaken the axeman enough for me.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Pomelo Tooltip</h1>
+			<div class="container">
+<div>narrator</div>
+<div>Pomelo can enter the landboat <font color="red">without
+ending turn</font> to use his ship cannon.<br>
+Shoot the pirate from his start position.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If any children die</h1>
+			<div class="container">
+<div>Ellerie</div>
+<div>I'm not looking forward to
+explaining this to the parents.</div>
+<div>narrator</div>
+<div>Time is rewinding!</div>			
+<div></div><div class="stagedirection">(The map resets to the beginning.)</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>oriana</div>
+<div>Admirable showing, Captain. If not for
+your arrival, I fear what could've been.<br>
+There is hope for this expedition yet.</div>
+<div>ellerie</div>
+<div>Does that mean you previously assumed
+me being in charge would doom us all?</div>
+<div>oriana</div>
+<div>That's not quite what I said,
+but I had reservations.</div>
+<div>ellerie</div>
+<div>I'll be sure to replicate today's
+success in the future.</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
