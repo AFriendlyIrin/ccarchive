@@ -1,0 +1,1107 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 2: Friendly Locals</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>letter</div>
+<div>Dear Mother,<br>
+It was simple, breaking into a small
+tomb as practice for the big prize.<br>
+The undead came pouring out of
+the walls and we still ran into
+some bandits on the way out.<br>
+Despite our victory, we are barely
+richer. If these are the “adventures” 
+the Crescent is known for, I may be regretting my decision.
+Your loving daughter,<br>
+Ellerie</div>			
+			</div>
+			<div class="container transition">
+<div>oriana</div>
+<div>I hope the others aren't too worried. We're
+a full day behind the planned departure.</div>
+<div>tower</div>
+<div>Yvette might be worried. The twins
+would've scampered off somewhere.</div>
+<div>oriana</div>
+<div>I'm sure the twins are
+doing just fine. I hope.</div>
+<div>ellerie</div>
+<div>I hate to interrupt, but there's
+someone fast approaching.</div>
+<div></div><div class="stagedirection">(A villager runs up to the crew.)</div>
+<div>gecko</div>
+<div>I've finally *Huff*,
+found you people!</div>
+<div>ellerie</div>
+<div>I recognise you from the village.
+What are you doing this far out?</div>
+<div>oriana</div>
+<div>Give the girl a second to catch her breath.
+You look like you've run quite the distance.</div>
+<div>gecko</div>
+<div>Rumours have been that your group has come
+into a massive sum of wealth while exploring.<br>
+Some folk have been overcome by greed.
+They're going to ambush you at the harbour!</div>
+<div>oriana</div>
+<div>We've only been out of there for barely a
+night! How could they have already known?</div>
+<div>tower</div>
+<div>The only reasonable explanation is that the
+pirates were connected to the villagers.<br>
+One of them made it back to tell them.</div>
+<div>ellerie</div>
+<div>Is the village elder
+aware of this?</div>
+<div>gecko</div>
+<div>Aware? He's the one
+leading them!</div>
+<div>ellerie</div>
+<div>Damn it all to hell. I hesitate to ask
+the status of our companions.</div>
+<div>gecko</div>
+<div>Didn't see them. I went to search
+for you as fast as I could.</div>
+<div>oriana</div>
+<div>Looks like we're going with
+the old song and dance?</div>
+<div>tower</div>
+<div>Old song and dance it is.
+I'll go gather the rest of us.</div>
+<div></div><div class="stagedirection">(Tower leaves.)</div>
+<div>ellerie</div>
+<div>We are thankful for your efforts in warning
+us. Please take this as our thanks.</div>
+<div>gecko</div>
+<div>I don't want that. Please,
+I want to come with you!</div>
+<div>oriana</div>
+<div>Are you sure about this? Heading deeper 
+into the Crescent is no happy adventure.<br>
+We've got quite the good odds of
+ending up in a shallow grave.</div>
+<div>ellerie</div>
+<div>Besides, your family would
+be worried sick about you.</div>
+<div>gecko</div>
+<div>I'm an orphan. There's no one to miss me.
+Please, this my chance to leave for good.</div>
+<div>oriana</div>
+<div>We really do need any extra
+hand we can muster.</div>
+<div>ellerie</div>
+<div>Are you really committed?
+There's no room for regret.</div>
+<div>gecko</div>
+<div>I was committed the moment I came to you.
+If they saw, I'd be dangling from a tree.</div>
+<div></div><div class="stagedirection">(Tower returns.)</div>
+<div>tower</div>
+<div>Everyone's packed and raring to go. You
+should be leaving, for your own safety.</div>
+<div>ellerie</div>
+<div>It's fine, Tower. We're taking her with us.
+Can I entrust her to you for now, Oriana?</div>
+<div>gecko</div>
+<div>Thank you, Captain! My name is Gecko.
+I will work as hard as I can!</div>
+<div>oriana</div>
+<div>Welcome to the crew, Gecko. You
+can trust us to protect our own.</div>
+<div>ellerie</div>
+<div>Good spirit. We're not afraid of some
+riled up villagers with pitchforks.<br>
+Let's grab our ship and leave
+this damned place behind.</div>			
+			</div>
+			<div class="container transition">
+<div>dirk</div>
+<div>Not so smug now, huh? I'll make
+you pay for humiliating me.</div>
+<div>yvette</div>
+<div>Do you have so little self-esteem
+that you'd hold such a grudge?</div>
+<div>dirk</div>
+<div>You must have slipped something in my
+drink. There's no way I could have lost.
+I'm the strongest on the Crescent!</div>
+<div>yvette</div>
+<div>Big words, for someone who 
+got toppled by me in seconds.</div>
+<div>dirk</div>
+<div>We'll settle this, slowly, painfully.
+Lock her in the brig for now!</div>
+<div>yvette</div>
+<div>Pah! Feel free to take me on
+without your lackeys, craven scum!</div>
+<div></div><div class="stagedirection">(A villager takes Yvette to the brig.)</div>
+<div>elder</div>
+<div>You shouldn't be doing this,
+Dirk. It's a bit much.</div>
+<div>dirk</div>
+<div>We're planning on killing and robbing
+these folks anyway, Grandpa.<br>
+What's another grudge
+settled while we're at it?</div>
+<div>elder</div>
+<div>This isn't some uncouth banditry! It is they
+who've taken treasures from our land!<br>
+It belongs to us by right!</div>
+<div>dirk</div>
+<div>Sure, Grandpa. Anyways, as long as
+we sink the ship, no one will find it.<br>
+It's just some mainlander and a few
+greenhorns. It'll be an easy task.</div>
+<div></div><div class="stagedirection">(A villager runs up to them.)</div>
+<div>villager</div>
+<div>Elder! They're coming! And
+they look armed and ready!</div>
+<div>elder</div>
+<div>Could they suspect already?</div>
+<div>villager</div>
+<div>I think I saw Gecko
+among them...</div>
+<div>elder</div>
+<div>Damn that brat! I knew the daughter of a
+whore would turn up to be no good!<br>
+I should have drowned her in the sea
+as soon as her mother died.</div>
+<div>dirk</div>
+<div>There's far more of us than their
+skeleton crew, Grandfather.<br>
+They stand no chance against us,
+especially me, the Great Dirk!</div>
+<div>elder</div>
+<div>Hmph, I suppose. Alright men, it's time to
+take back what's ours. Let's get them!</div>			
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(A thief and a brigand observe the scene from the edge of the village.)</div>
+<div>locust</div>
+<div>Hey, looks like a fight's about to break out!
+We've got a chance of looting in the chaos.</div>
+<div>big berd</div>
+<div>Give me a moment, Loc.<br>
+According to Babar Vohn's Analysis of the
+Multi-faceted Human Digestive System, running after eating is likely to be
+detrimental to my personal health.</div>
+<div>locust</div>
+<div>Fine, I'll scout ahead. We'll meet after
+you've digested those poor chickens.</div>
+<div>big berd</div>
+<div>And I can easily eat a <font color="red">6th.</font>
+Now go do your thing, will you?</div>
+<div></div><div class="stagedirection">(Locust sneaks into the crowd.)</div>
+			</div>
+			<div class="container transition">
+<div>ellerie</div>
+<div>I was talking big, but I didn't want
+another fight for my life this soon.</div>
+<div>pomelo</div>
+<div>Hmmm, and here we go. Sorry, Captain,
+I was just doing one of my traditions.</div>
+<div>ellerie</div>
+<div>Which is?</div>
+<div>pomelo</div>
+<div>Bit silly really. As a kid I begged some
+performer to teach me some tricks.<br>
+He taught me this way of fortune telling
+with cards. I know it's pretty useless,<br>
+but it soothes the nerves a bit.</div>
+<div>ellerie</div>
+<div>Well, what does it say? I could use some
+reassurance, even a non-existent one.</div>
+<div>pomelo</div>
+<div><font color="red">9</font> of spades.
+<font color="red">Great misfortune.</font> ...</div>
+<div>ellerie</div>
+<div>...</div>
+<div>pomelo</div>
+<div>Ha ha... Fortune telling
+is rather, ah, unreliable.</div>
+<div>ellerie</div>
+<div>Let's stop wasting time. ... <font color="red">And keep
+a good pace.</font> I have a bad feeling...</div>
+<div>narrator</div>
+<div>In an escape map, the map only
+ends when all units reach the exit.<br>
+Escape maps require a minimum
+number of units, being <font color="red">max deploy -2.</font>
+(If total number of units is too low,
+all units must be deployed.)</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(A cavalier and pegasus rider enter from the west.)</div>
+<div>reiker</div>
+<div>What's happening? Those men on our ship
+look armed, and I don't see Yvette anywhere.</div>
+<div>raylin</div>
+<div>Damn, we should assume the worst then. 
+Look that way! It's Tower and the rest.</div>
+<div>reiker</div>
+<div>Let's go join them then.
+I don't like how this looks.</div>
+<div>raylin</div>
+<div>I think we might have a better
+chance against this mob,<br>
+because Tower is going to kill us.</div>
+			</div>
+			<div class="container transition">
+<div>villager</div>
+<div>Elder! There's a pegasus and a rider
+coming from the other road!</div>
+<div>elder</div>
+<div>Then take a few men, and go cut them down!
+Take that archer with you as well.<br>
+Don't let them get to the rest of them.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>New Guide Entries</h1>
+			<h3>Aberdeep</h3>
+				<p>An otherwise innocuous
+fishing town, Aberdeep is
+characterised by its location,
+the first sign of civilisation
+for travellers from the
+mainland.
+</p><p>
+Aberdeep seems to have
+some form of neutrality
+pact with the pirate clans
+in return for their produce,
+but some suspect the
+agreement may go deeper.</p>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 3</h1>
+			<h3>Tavern</h3>
+			<div class="container">
+<div>blaine</div>
+<div>What's that commotion?</div>
+<div></div><div class="stagedirection">(A soldier approaches.)</div>
+<div>soldier</div>
+<div>I heard some band of rogues
+have stolen from the village.<br>
+The villagers are preparing
+to apprehend them.</div>
+<div>blaine</div>
+<div>How disgraceful! As upstanding adventurers,
+it is our duty to help the common folk.</div>
+<div>mage</div>
+<div>Yeah! You tell
+them, Blaine!</div>
+<div>blaine</div>
+<div>And perhaps share in a bit
+of the loot afterwards.</div>
+<div>soldier</div>
+<div>We're all right behind you, Blaine.
+Let's get this happening.</div>
+<div>blaine</div>
+<div>Let us depart,
+as allies of justice!</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 4</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(Blaine's Band emerges from the tavern.)</div>
+<div>tower</div>
+<div>Some more uncouth folk are
+impeding our way forward.</div>
+<div>ellerie</div>
+<div>What's the worst they
+can do, kill us?</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 6</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(Locust and Big Berd enter the battlefield.)</div>
+<div>big berd</div>
+<div>Oh? It appears that the action has
+gotten intense. I must make haste.</div>
+<div>narrator</div>
+<div><font color="red">Big Berd</font> will attack your units, but
+<font color="red">Locust</font> will not.<br>
+They also happen to be one of the few
+enemy units with <font color="red">skills.</font></div>		
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 7 (if Dirk and Elder are still alive)</h1>
+			<div class="container">
+<div>dirk</div>
+<div>Screw this, what's taking so long?
+I'll take them down myself.</div>
+<div></div><div class="stagedirection">(Dirk rushes off.)</div>
+<div>Elder</div>
+<div>Wait, Dirk, don't be hasty!
+Damn, he's already off.</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 8</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>Hmm? What's that coming
+along the road? Oh no.</div>
+<div>oriana</div>
+<div>What is it?<br>
+Oh.</div>
+<div>ellerie</div>
+<div>Yeah. We need
+to leave. Now.</div>			
+<div></div><div class="stagedirection">(On the next turn, a swarm of baels [and Betty, if she survived chapter 1] enter from the northeast. Maurice appears on a northwestern bluff to overlook the battle, but does not say anything.)</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Dirk is killed before the Elder</h1>
+			<div class="container">
+<div></div><div class="stagedirection">(A villager approaches the Elder.)</div>
+<div>villager</div>
+<div>Elder, we've got
+terrible news.</div>
+<div>elder</div>
+<div>What is it?</div>
+<div>villager</div>
+<div>Your grandson has fallen. He was as
+brave as any man could be.<br>
+He took down many of them with him,
+but they swarmed him all at once.</div>
+<div>elder</div>
+<div>Those murdering, pillaging vagabonds
+dare to take my grandson from me?<br>
+You there! Get me my family
+sword from my mantel!</div>
+<div>villager</div>
+<div>On it, Elder! Those criminals will
+get what's coming to them!</div>
+<div></div><div class="stagedirection">(The villager rejoins the battle.)</div>
+<div>elder</div>
+<div>You bastards, I'll make sure there isn't
+enough of you left for the crows.</div>
+<div></div><div class="stagedirection">(The Elder gains a Flame Sword and begins moving.)</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ellerie & Gecko</h1>
+				<div class="container">
+<div>ellerie</div>
+<div>You're looking a bit pale.
+We'll be out of here soon.</div>
+<div>gecko</div>
+<div>I'm sorry, Captain. I'm not as
+brave as I thought I was.</div>
+<div>ellerie</div>
+<div>That's nothing to be sorry
+about. People rarely are.</div>
+<div>gecko</div>
+<div>These people... I've known them for my
+entire life. I thought I really hated them,<br>
+but not enough, not enough for this.</div>
+<div>ellerie</div>
+<div>Part of the fault is mine for
+putting you in this situation.<br>
+Can't be easy to fight familiar
+faces. Don't force yourself.</div>
+<div>gecko</div>
+<div>Thank you, but I'll be alright.<br>
+If I can't be brave now,
+I won't be in the future.</div>
+<div>ellerie</div>
+<div>An admirable attitude. No need to keep
+everything inside. I'm here to listen.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Lindros & Mince</h1>
+				<div class="container">
+<div>lindros</div>
+<div>You're no mage, yet you're
+able to bend space to your will.<br>
+Do you possess some
+powerful artifact?</div>
+<div>mince</div>
+<div>I sure do. It's this handy ring, which
+I was given by a mysterious woman.</div>
+<div>lindros</div>
+<div>It's fine to keep your secrets,
+though that lie is a bit ridiculous.</div>
+<div>mince</div>
+<div><i>(frowns)</i> I'm not joking! Is this the
+face of a man that would lie?</div>
+<div>lindros</div>
+<div>...</div>
+<div>mince</div>
+<div><i>(smiles)</i> Don't answer that. When I was younger,
+I helped a lost bard out of a deadly forest.<br>
+In return, she asked me if I had a wish.</div>
+<div>lindros</div>
+<div>Hey, I think I heard this one before.
+Mary-Anne's Bedtime Tales?</div>
+<div>mince</div>
+<div>Oh shush. Anyways, I was a pretty
+plump child, so I told her I wanted
+to be faster than my friends.</div>
+<div>lindros</div>
+<div>...</div>
+<div>mince</div>
+<div>Oh, come on now, you just witnessed
+the walking dead and a talking sword,
+yet MY tale is too ridiculous?</div>
+<div>lindros</div>
+<div>The unbelievable part is that
+someone could, and would,
+simply hand out something like that.</div>
+<div>mince</div>
+<div>Who knows? I've always
+found myself to be a lucky man.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Blaine</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>blaine</div>
+<div>Stand aside, you are no match
+for my blade!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>ellerie</div>
+<div>Who are you
+supposed to be?</div>
+<div>blaine</div>
+<div>My blade stands for justice!
+Come at me, criminal!</div>
+<div>ellerie</div>
+<div>One of those types, huh?<br>
+I suppose you aren't willing
+to hear me out.</div>
+<div>blaine</div>
+<div>I have no need to hear
+your foul trickery.<br>
+To rob a poor, innocent
+village such as this,<br>
+Your villainy speaks
+for itself.</div>
+<div>ellerie</div>
+<div>Please don't think harshly of
+me on your way down.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Oriana</h1>
+					<div class="container">
+<div>blaine</div>
+<div>A fellow student of the blade?
+You may be fast, but my blade-</div>
+<div>oriana</div>
+<div>An unhealthy reliance on your
+weapon, and not your skill, will only lead you to ruin.</div>
+<div>blaine</div>
+<div>...</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Lindros</h1>
+					<div class="container">
+<div>blaine</div>
+<div>Your cheap magicks will not
+save you from my blade.</div>
+<div>lindros</div>
+<div>I sure fear your blade as I hit
+you from a safe distance.</div>
+<div>blaine</div>
+<div>Then come closer!! Show me
+this power you're so proud of!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>blaine</div>
+<div>Not even I could handle the
+weight of the blade...</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Dirk</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>dirk</div>
+<div>Halt scoundrels! You are not a
+match for me, the Great Dirk!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Raylin</h1>
+					<div class="container">
+<div>dirk</div>
+<div>Hey, that's cheating! How can I
+hit you when you're up there?<br>
+Come down for a fair fight!</div>
+<div>raylin</div>
+<div>I will pass on that offer.</div>
+<div>dirk</div>
+<div>The Great Dirk cannot be
+stopped by some circus tricks!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Gecko</h1>
+					<div class="container">
+<div>dirk</div>
+<div>What are you doing with that
+frying pan, you worm?<br>
+When I'm done with this, I'll give
+you a lesson you won't forget!</div>
+<div>gecko</div>
+<div>I-I'm not afraid of you anymore!
+You're just some brute!</div>
+<div>dirk</div>
+<div>Come closer and
+say that again.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>dirk</div>
+<div>You must have cheated.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death by Gecko</h1>
+					<div class="container">
+<div>dirk</div>
+<div>Defeated, by you?
+How?</div>
+<div></div><div class="stagedirection">(He dies.)</div>
+<div>gecko</div>
+<div>I can't believe it.
+I've really killed him...</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Elder</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>elder</div>
+<div>Bandits! Thieves! Scoundrels!
+You'll get your due!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>ellerie</div>
+<div>Why would you do this, Elder?<br>
+You've brought this calamity
+upon your own village.</div>
+<div>elder</div>
+<div>It's you damned adventurers,
+thinking you can get away with pillaging our lands!
+The treasure is ours by right!<br>
+Ours!</div>
+<div>ellerie</div>
+<div>But if we never came, you
+wouldn't have known of it.<br>
+Besides, I doubt any of you
+could survive the journey.</div>
+<div>elder</div>
+<div>Be silent! I'll bear your
+wicked words no longer!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Tower</h1>
+					<div class="container">
+<div>tower</div>
+<div>Valen trusted you. If he was
+here, you wouldn't have dared.</div>
+<div>elder</div>
+<div>Valen is dead? Good riddance.
+We'll send you all to him.<br>
+You're all just a wicked bunch.
+Preying on us honest folk.</div>
+<div>tower</div>
+<div>So you only strike at us
+when we're at our weakest, like a bunch of vultures?
+How pathetic.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Reiker</h1>
+					<div class="container">
+<div>reiker</div>
+<div>Hey, old bastard! I saw you
+send that archer after Ray.<br>
+Where's the big halberd sent
+against little old me, huh?</div>
+<div>elder</div>
+<div>It's arrogant, ungrateful,
+unfilial brats, like your sort, who have brought about the
+downfall of polite society.</div>
+<div>reiker</div>
+<div>Society? What are
+you talking about?</div>
+<div>elder</div>
+<div>I knew you lot were bad apples
+from the moment you arrived.<br>
+Being so noisy and obnoxious,
+no regard for unspoken rules.</div>
+<div>reiker</div>
+<div>Sheesh.<br>
+I'm sorry for being so rude
+to someone trying to kill me.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Gecko</h1>
+					<div class="container">
+<div>elder</div>
+<div>Bad blood breeds bad blood.
+What is more proof than you?</div>
+<div>gecko</div>
+<div>I'm leaving this damned place,
+to never hear this again!</div>
+<div>elder</div>
+<div>She was nothing but some-</div>
+<div>gecko</div>
+<div>Don't you dare!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>elder</div>
+<div>They're... stop them...</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death by Gecko</h1>
+					<div class="container">
+<div>elder</div>
+<div>I'll see you in hell,
+Gecko.</div>
+<div></div><div class="stagedirection">(He dies.)</div>
+<div>gecko</div>
+<div>Ahhh! I've killed him! No,
+I must escape!</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>North House</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Gecko is visiting</h1>
+					<div class="container">
+<div>young man</div>
+<div>You again, little brat? Trying to look for
+something to steal? Get out of my way!</div>
+<div></div><div class="stagedirection">(The man shoves Gecko aside and runs.)</div>
+<div>gecko</div>
+<div>I sure am glad I won't be seeing him
+again, what a complete bastard.<br>
+The fool didn't even lock his door! ...</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+<div>young man</div>
+<div>If you take this, will you leave me alone?<br>
+I'd be disappointed if you sold it.<br>
+I put effort into making it, you know!</div>					
+					</div>
+				</div>
+				<p class="stagedirection">(The visitor receives an Elixir.)</p>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>West House</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Gecko is visiting</h1>
+					<div class="container">
+<div>man</div>
+<div>Look little girl, I told you if-
+Is that frying pan covered in blood?<br>
+Help! Gecko's finally lost her marbles!</div>
+<div></div><div class="stagedirection">(He runs.)</div>
+<div>gecko</div>
+<div>I can't believe I was ever afraid of him.
+I suppose he won't be needing this.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+<div>man</div>
+<div>Yeek! Brigands!</div>
+<div></div><div class="stagedirection">(He runs.)</div>
+<div>visitor</div>
+<div>How incredibly rude. Hmm? What's this?
+Well, looks like he doesn't really need it much.</div>				
+					</div>
+				</div>				
+				<p class="stagedirection">(The visitor receives a Fortune Cookie.)</p>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Southeast House</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Gecko is visiting</h1>
+					<div class="container">
+<div>man</div>
+<div>So you've taken up
+with adventurers, eh?<br>
+They accepted a little
+coward like you?</div>
+<div>gecko</div>
+<div>You're wrong! They told me
+I was a brave! Very brave!</div>
+<div>man</div>
+<div>Hmph. Is that a frying pan? Really? I don't
+want you to get butchered out there.<br>
+I didn't really need this piece of junk anyway,
+maybe it'll do you a little good.</div>
+<div></div><div class="stagedirection">(He leaves.)</div>
+<div>gecko</div>
+<div>I guess he is nicer than he looks, but 
+I can't actually use this...</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+<div>man</div>
+<div>If you'll do me a favour, stab that
+old bastard well and good.<br>
+Don't tell anyone I saw you.</div>						
+					</div>
+				</div>
+				<p class="stagedirection">(The visitor receives a Wingpiercer.)</p>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Tavern</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Gecko is visiting</h1>
+					<div class="container">
+<div>woman</div>
+<div>Oh, Gecko? You look horrible, dear.<br>
+What have you been doing?</div>
+<div>gecko</div>
+<div>Ms Rosemary, I've finally
+found my ship out of here!</div>
+<div>woman</div>
+<div>You've found a ship? Oh dearie me.
+Don't go foolishly trusting outsiders, you won't know where you'll end up.</div>
+<div>gecko</div>
+<div>Wherever it goes, it has got
+to be better than here.</div>
+<div>woman</div>
+<div>Poor dear, you really deserve
+better than this place.<br>
+I hope you don't forget about
+me out there. I'll miss you!</div>
+<div>gecko</div>
+<div>I won't! Thank you for everything
+you've done for me in these years!</div>
+<div>woman</div>
+<div>Oh, it was nothing dear,
+I only did what I could.<br>
+I can't do much for you anymore,
+but here's something for the road.</div>
+<div>gecko</div>
+<div>Ah, thank you!</div>
+<div></div><div class="stagedirection">(Gecko receives a Hearty Stew.)</div>		
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If visited before Turn 4</h1>
+					<div class="container">
+<div>blaine</div>
+<div>Come on, we can't spend
+all day eating and drinking.</div>
+<div></div><div class="stagedirection">(Blaine leaves. The innkeeper approaches the visitor.)</div>
+<div>woman</div>
+<div>You're Charley, right? Your stew has been
+ready for a while. If it's cold, it's on you.</div>			
+<div></div><div class="stagedirection">(The visitor receives a Hearty Stew.)</div>			
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Default</h1>
+					<div class="container">
+<div>woman</div>
+<div>My clients still aren't back yet.
+A rowdy lot, but they pay well!<br>
+If you see someone called Blaine and
+his lot, call them back for me will you?<br>
+Their dinner is ready!<br>
+Now where could that girl be?</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>That's the rest of them.
+What a mess.</div>
+<div>yvette</div>
+<div>Thanks for the
+save, Captain.</div>
+<div>ellerie</div>
+<div>The first good news in a while!
+Are you unharmed?</div>
+<div>yvette</div>
+<div>Got knocked around a bit,
+but nothing serious.<br>
+Damn cowards, sneaking up
+on me. Made me miss a fight!</div>
+<div>ellerie</div>
+<div>I should have sent you on the
+expedition instead. Then at least
+someone would have had a good time.</div>
+<div>yvette</div>
+<div>I figured you were some runaway
+noble heir, but you've got a bit of
+a fight despite your scrawny frame.</div>
+<div>ellerie</div>
+<div>That's not saying much. A life-threatening
+situation would do that to any person.</div>
+<div>pomelo</div>
+<div>Captain, a bit of bad news.<br>
+It seems some of those villagers
+have made off with our supplies!</div>
+<div>ellerie</div>
+<div>As long as we have the secret
+compartment, we're golden.<br>
+We can just resupply when
+we land on the coast.</div>
+<div>pomelo</div>
+<div>...</div>
+<div>ellerie</div>
+<div>Pomelo, please don't tell me you're
+going to say what I think you are.</div>
+<div>pomelo</div>
+<div>Yeah.</div>
+<div>yvette</div>
+<div>I was wondering why there was
+so much banging around the ship.</div>
+<div>ellerie</div>
+<div>How much of my
+stuff is gone?</div>
+<div>pomelo</div>
+<div>Almost all of it.
+I'm sorry.</div>
+<div>ellerie</div>
+<div>Deep breaths. </div>
+<div>yvette</div>
+<div>My condolences. But I heard from the
+villagers that you guys made the haul
+of a lifetime, so it's a net positive?</div>
+<div>ellerie</div>
+<div>A haul of a lifetime.
+Haha!</div>			
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Maurice was defeated</h1>
+				<div class="container">
+<div>ellerie</div>
+<div>What in Elis's name were you
+shooting at earlier, Pomelo?</div>
+<div>pomelo</div>
+<div>There was some hooded guy stalking
+us, Captain. Decidedly up to no good.</div>
+<div>ellerie</div>
+<div>Hooded man... It can't be. 
+Did you get him?</div>
+<div>pomelo</div>
+<div>I drove him off, but it was kind of
+hard hitting him behind a wall.<br>
+Are you expecting someone?</div>
+<div>ellerie</div>
+<div>Don't worry about it.
+Just thinking of an old friend.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Reiker and Raylin are alive</h1>
+				<div class="container">
+<div>tower</div>
+<div>You brats! Look what has happened in the
+time you were out frolicking in the fields!</div>
+<div>raylin</div>
+<div>We're really sorry, Mr Tower, but I don't
+think there's much we could have done.<br>
+There were too many of them.</div>
+<div>tower</div>
+<div>I didn't expect you two to 
+hold the ship on your own,<br>
+but you've shirked your duties!
+What if Yvette had fallen?<br>
+Is that responsibility you
+two are willing to bear?</div>
+<div>reiker</div>
+<div>We're really, really,
+really sorry.</div>
+<div>raylin</div>
+<div>We'll take responsibility for
+anything that comes up.</div>
+<div>tower</div>
+<div>And that's
+going to help?</div>
+<div>oriana</div>
+<div>No need to be too harsh. We couldn't 
+have predicted the village turning on us,<br>
+that's why we left so few behind.
+What use is there blaming them now?</div>
+<div>tower</div>
+<div>Fine. As long as this never
+happens again, I'll overlook this.<br>
+Now, put in some extra effort!</div>
+<div>raylin</div>
+<div>Yes, Mr Tower!</div>
+<div>reiker</div>
+<div>Thank you, Miss Oriana!</div>
+<div></div><div class="stagedirection">(Reiker and Raylin leave.)</div>				
+				</div>
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">If Reiker and Raylin are alive</p>
+					<div class="container">
+<div>tower</div>
+<div>I'm getting too soft. </div>
+<div>oriana</div>
+<div>What would you have done,
+beat them upside the head?</div>
+<div>tower</div>
+<div>Yes. Why, if this was
+Valen's crew I would have-</div>
+<div>oriana</div>
+<div>But we are not.</div>
+					</div>
+				</div>
+				<div>
+					<p class="splitheader">If Reiker or Raylin are dead</p>
+					<div class="container">
+<div>oriana</div>
+<div>We've not even reached the Crescent,
+and we already almost capsized.</div>
+<div>tower</div>
+<div>Not the happy landing you were
+hoping for, with just greenhorns?</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+<div>oriana</div>
+<div>We've got a ragtag team.
+and a half-baked plan.<br>
+If even Valen's crew couldn't
+make it into the Workshop, are we just sending all these
+people to their deaths?</div>
+<div>tower</div>
+<div>Time's running out. We have
+to play the hand we are dealt.</div>
+<div>oriana</div>
+<div>I do not like it, but you're right.
+Elis knows how much time is left.<br>
+It's been three months since
+I last received a family letter.<br>
+We must stop by before we
+set off towards the Workshop.</div>
+<div>tower</div>
+<div>I would advise we return only
+once we've reached our goal.</div>
+<div>oriana</div>
+<div>Tower, it's been almost two years
+since we've left the coast!</div>
+<div>tower</div>
+<div>Do you think it will help her
+precarious condition, knowing her mother has decided
+to enter the jaws of death?</div>
+<div>oriana</div>
+<div>What if the hourglass ticks down
+while we're at the Workshop?<br>
+We don't even know if we'll return
+alive, if we'll find anything at all!<br>
+What if I miss the last opportunity
+to see her? What then, Tower?</div>
+<div>tower</div>
+<div>I want to see my granddaughter
+as much as you do, Oriana!<br>
+But I want a joyous reunion, not
+tinged with the taste of regret.</div>
+<div>oriana</div>
+<div>And if the Workshop
+has no answers?</div>
+<div>tower</div>
+<div>That line of thinking is not open
+to us. There must be an answer.</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Gecko</b><br>
+An orphan who really wants to see the
+world, presumably due to her childhood.
+Deserves a better place than here.</p>
+<p class="hangingindent"><b>Reiker</b><br>
+Not a strong fellow, but Reiker's 
+horse does all the heavy lifting for him. 
+A bit hot-headed, but courageous.</p>
+<p class="hangingindent"><b>Raylin</b><br>
+There's no way Raylin got her pegasus
+through legitimate means, but we need 
+a scout. Cool-headed and calculating.</p>
+<p class="hangingindent"><b>Dirk</b><br>
+He looks like the first villain from a
+third-rate novel and acts like one too.</p>
+<p class="hangingindent"><b>Elder</b><br>
+Some asshole who thinks he
+has rights to my loot! Mine!</p>
+<p class="hangingindent"><b>Locust</b><br>
+I could've sworn there was someone
+standing right here. Maybe I didn't
+get enough sleep.</p>
+<p class="hangingindent"><b>Big Berd</b><br>
+An incredibly large fellow, who must 
+have spent a fortune on red paint.
+Can't hit the broad side of a barn.</p>
+<p class="hangingindent"><b>Blaine</b><br>
+The man, the legend, the Blaine.
+Seriously, who is this person?</p>
+<p class="hangingindent"><b>Blaine's Band</b><br>
+Blaine! He's the best! Blaine!
+Will beat the rest!</p>
+<p class="hangingindent"><b>Betty</b><br>
+Enjoys playing fetch and the screams of
+the mortally wounded.</p>
+<p class="hangingindent"><b>Betty's Boys</b><br>
+You've messed with the Betty,
+now you're gonna regretti.</p>
+<p class="hangingindent"><b>Villager</b><br>
+Not so harmless now, huh?</p>
+<p class="hangingindent"><b>Militia</b><br>
+Faceless fodder who will be the first to
+die when any kind of true threat arises.</p>
+<p class="hangingindent"><b>Adventurer</b><br>
+Broke soldiers who've realised guard
+duty is not bringing home the money
+and will get themselves killed for gold.</p>
+<p class="hangingindent"><b>Bolgo's Boys</b><br>
+You don't mess with Bolgo's boys,
+or else it'll be your dem-oi-se.</p>
+<p class="hangingindent"><b>Loot</b><br>
+Just gonna yoink this while no
+one's looking. Or smash it.</p>
+<p class="hangingindent"><b>Maurice</b><br>
+An old friend from my days at the royal
+court. Doesn't know it yet, but I'm due 
+to be collecting a lot of debt from him.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>

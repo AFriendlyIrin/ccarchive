@@ -188,3 +188,22 @@ footer {
 	text-align: center;
 	font-size: 10pt;
 }
+
+.chardesc p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.chardesc .bottomtransition {
+	border-bottom: 1px solid gray;
+}
+
+.descs div:nth-child(odd) {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+.descs div:nth-child(even) {
+  padding-left: 22px ;
+  margin-bottom: 1.25em;
+}

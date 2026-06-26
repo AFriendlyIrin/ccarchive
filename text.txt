@@ -3725,7 +3725,7 @@ industrial settlement on the
 Crescent, their workshops 
 almost rivalling cities on the
 mainland. They are most 
-well known for its shipwrights,
+well known for shipwrights,
 critical for the coast's people. 
 
 The current Chief Oren, 
@@ -3738,7 +3738,7 @@ appears to be taking action.
 Enan is supported primarily by
 its salt mines. However in recent
 times they have become more
-famed for its 'Saltsworn', the
+famed for the 'Saltsworn', the
 largest adventuring company
 on the Crescent.
 
@@ -4158,7 +4158,7 @@ farmland and maritime industry.
 They've monopolized oceanic
 trade routes on the Mainland.
 
-It is just shame a House Heron
+It is just a shame House Heron
 also gave birth to my mother,
 and later, me. 
 [0642]
@@ -5336,7 +5336,7 @@ Aigo, Honorary Archsage
 [080E]
 In the wake of Ellerie's death, Unari found a
 a new demanding opponent, one with little
-restraint. Rallying the easten coast to her side,
+restraint. Rallying the eastern coast to her side,
 Unari was the last bastion of preventing the
 Dragon from consuming the entire Crescent.
 [080F]
@@ -6405,9 +6405,8 @@ while also minimising risk.[A]
 [OpenMidRight]I wasn't aware there
 even was a Royal Navy.[A][OpenMidLeft]That's because the so-called navy
 is just three ships and a dinghy.[A]
-Find it hard to believe that a country,
-with half its borders on the coast,[A]
-wouldn't have a decent navy.[A][OpenMidRight][BoxHeight][0x0003]It seems like a pen-pusher type should
+You'd think an almost entirely coastal
+border would require a decent navy.[A][OpenMidRight][BoxHeight][0x0003]It seems like a pen-pusher type should
 be signing papers instead of being out
 and about here in these woods.[A]
 [BoxHeight][0x0002][OpenMidLeft]It seems like you're quite talkative
@@ -7801,7 +7800,7 @@ together, have you?[A]
 of the old world's knowledge.[A]
 Of engineering, of sorcery, but
 more importantly, of medicine.[A]
-We exhausted on our leads on
+We exhausted all our leads on
 the Mainland when we met, so...[A][OpenFarRight](How do you expect me to trust
 your appraisal with that in mind?)[A]
 I'm sure your efforts will come to
@@ -7900,7 +7899,7 @@ ego boost. Don't get careless![A]
 [OpenMidLeft][LoadFace][0x102][OpenRight][LoadFace][0x104][OpenFarRight][LoadFace][0x105][OpenMidLeft]When you said that we'd be
 picking up your family here,[A]
 I was expecting a quick stop, 
-not another armed showdown.[A][OpenRight]I would've though so too, since Mother
+not another armed showdown.[A][OpenRight]I would've thought so too, since Mother
 can handle almost anything herself,[A]
 but the note my brother left shows
 otherwise. If even she's in trouble....[A][OpenFarRight]There's no sign of the Tide.
@@ -8092,7 +8091,7 @@ This whole excursion was a hasty decision,
 and now I'm paying the price for it.[A]
 I could've done anything more sane, such as
 poisoning, stirring dissent or assassination,[A]
-but instead, I gambled all on this Workshop,
+but instead, I gambled it all on this Workshop,
 hoping for weapons that may not exist.[A][OpenMidRight]There's always the option to start over.[A]
 Let the Mainland fight their own petty
 wars while you can simply do whatever.[A][OpenMidLeft]You know I'm not looking for peace of mind.
@@ -8259,7 +8258,7 @@ I hope you have a good excuse ready.[A]
 ballista. I can see their captain from here.[A][OpenMidLeft]There's nothing more to say.
 Commence at once.[A][OpenMidRight]Commander, are you certain? This blow
 to our reputation will be... significant.[A][OpenMidLeft]Weald, are you loyal to me, or
-are loyal to the Saltsworn?[A][OpenMidRight]Always you,
+are you loyal to the Saltsworn?[A][OpenMidRight]Always you,
 Commander.[A][OpenMidLeft][BoxHeight][0x0001]Then give the order.[A][OpenMidRight][BoxHeight][0x0002]Men, set the sights! On my
 order! Unleash the meteors![A]
 [09DA]
@@ -8806,7 +8805,7 @@ I'd rather burn my books than let them
 get their filthy hands on them.[A]
 They spout lofty goals, yet they are
 nothing but leeches. What gives them-[A]
-I've gone off course. It 's a rather
+I've gone off course. It is a rather
 sensitive topic for me, I'm afraid.[A][OpenMidRight](Lindros is in for a rough time.)
 I shouldn't have assumed.[A]
 [OpenMidLeft]No worries. It is a common assumption.
@@ -8846,7 +8845,7 @@ Hammer Helli?[A]
 smith, called Helli. Anything you need?[A][OpenMidRight]I was hoping to have an expert take a look
 at a sword to see if it can be repaired.[A][OpenMidLeft][BoxHeight][0x0003]Unfortunately, I can't help you. It's
 shaped like a sword, but what's inside
-these ain't like any sword I've seen.[A]
+this ain't like any sword I've seen.[A]
 Perhaps the legendary [ToggleRed]forges of
 the Workshop[ToggleRed] may help you.
 But that's a mere pipe dream.[A][OpenMidRight][BoxHeight][0x0002]The forges of the Workshop, you say?
@@ -9112,7 +9111,7 @@ Will annihilate almost anything,[A]
 can summon copies of itself.
 Better luck tracking it on your end?[A]
 [OpenMidLeft]It fled into one of the abandoned
-houses near the workshop.[A]
+houses near the Workshop.[A]
 But we had to run when the Tide
 hit. We lost Andrew and Clyde.[A][OpenMidRight]What tragedy, Clyde was a good man. Andrew,
 couldn't care less. What's our plan then?[A]
@@ -9239,7 +9238,7 @@ I can't give you the same rates.[A][OpenMidLeft]Hear that, dear? You're
 more valuable than I am.[A][OpenFarRight]I don't even need a down payment.
 Just an even cut of the treasure.[A][OpenMidLeft]If nothing else, he'll destabilize
 enemy morale with his stench.[A][OpenRight](With any luck, he won't make it
-back for me to I have to pay him.)[A]
+back for me to have to pay him.)[A]
 Fine, welcome to the Seahawks.[A][OpenFarRight]Fame and glory,
 here I come![A]
 [0A68]
@@ -9582,7 +9581,7 @@ Tower said that the Workshop does not
 have weapons of war. A red herring.[A]
 [OpenMidRight]Even if we don't find whatever deadly 
 artifact you want to for vengeance,[A]
-We'd make a lot of gold from this.[A]
+we'd make a lot of gold from this.[A]
 That probably gets us to a better spot
 than going to the Mainland with nothing.[A]
 [OpenMidLeft]This is all resting on the assumption we
@@ -9746,7 +9745,7 @@ the entire western coast to the Tide.[A]
 [0A97]
 [OpenMidLeft][LoadFace][0x105][OpenRight][LoadFace][0x104][OpenRight]With so few of us heading to the Workshop,
 at least we'll be a smaller target.[A]
-[OpenFarRight][LoadFace][0x119][OpenFarRight]Mother, there's not point in going!
+[OpenFarRight][LoadFace][0x119][OpenFarRight]Mother, there's no point in going!
 You're just going to get everyone killed![A][OpenMidLeft]I've only got a few years left in these old
 bones. Might as well make good use of it.[A]
 [OpenFarRight]Can we not spend my last days as a 
@@ -9781,7 +9780,7 @@ feet on two different ships.[A][OpenRight]You didn't give me a choice. I was goi
 to risk a mutiny from both veterans.[A][OpenFarLeft]That's not what
 we intended![A][OpenRight]But that's in the past! This time,
 the choice is entirely my own.[A][OpenFarLeft]It would be remiss to not remind you that
-this time, there'll be no chance for escape.[A][OpenRight]Oriana, you know I sunk almost my gold
+this time, there'll be no chance for escape.[A][OpenRight]Oriana, you know I sunk almost all my gold
 into the Seahawk, and have very little left.[A]
 I've rehired the crew who are somehow
 still willing to jump into this cesspit.[A]
@@ -9793,7 +9792,7 @@ still a noble. Being broke is death.[A]
 [OpenFarLeft]Then welcome back aboard the non-existent
 ship. Tower, show her our backup plan.[A]
 [OpenLeft]If you say so. This totem was ripped from the
-Workshop's itself, bringing some firepower.[A][OpenRight]You've been carrying this thing
+Workshop itself, bringing some firepower.[A][OpenRight]You've been carrying this thing
 around the whole damn time?[A]
 We didn't need it in any other
 life or death situation?[A]
@@ -9872,7 +9871,7 @@ You told us, that they'd have
 some way into the Workshop.[A]
 You did not tell us about their 
 string of bloody victories,[A]
-of the monstrous killers
+or of the monstrous killers
 that make up their crew![A][OpenLeft]I didn't think it was notable to a famed
 adventuring group band such as yours.[A][OpenRight][BoxHeight][0x0002]
 Since your report regarding their ability
@@ -11408,7 +11407,7 @@ easiest thing in the world.[A]
 [0B16]
 [OpenMidRight][LoadFace][0x102][OpenMidLeft][LoadFace][0x206][OpenMidLeft][BoxHeight][0x0001]You're Lady Ellerie?[A][OpenMidRight]What's it to you?[A][OpenMidLeft][BoxHeight][0x0002]It is a pleasure to meet you, my lady. I am
 Viscount-Consort Leophric III of Valdersby.[A][OpenMidRight][BoxHeight][0x0001]Viscount-consort?[A][OpenMidLeft][BoxHeight][0x0002]Don't ask.[A]
-I request that I may admite the skies
+I request that I may admire the skies
 from the view of that humble airship.[A]
 Perhaps for merely a few hours,
 or a two-day trip?[A][OpenMidRight]How much would
@@ -13058,7 +13057,8 @@ thieves. You have the support of the Rats.[A][OpenRight][ClearFace]
 [OpenRight][LoadFace][0x102][OpenFarFarLeft][ToggleSmile][OpenRight]Brilliant! Let us feast in celebration of our
 victory today, and prepare for another![A]
 [0BA2]
-[OpenFarLeft][LoadFace][0x10C][OpenLeft][LoadFace][0x102][OpenRight][LoadFace][0x104][OpenFarRight][LoadFace][0x105][OpenLeft][BoxHeight][0x0001]Leaving celebration early?[A][OpenRight][BoxHeight][0x0002]I've had my fill
+[OpenFarLeft][LoadFace][0x10C][OpenLeft][LoadFace][0x102][OpenRight][LoadFace][0x104][OpenFarRight][LoadFace][0x105][OpenLeft]Leaving  the
+celebration early?[A][OpenRight]I've had my fill
 of the crowd.[A]
 [OpenFarLeft]Ellerie and I are also taking
 a break from the noise.[A]
@@ -15241,7 +15241,7 @@ I won't let you down![A]
 [ToggleSmile]I think I'm getting real strong.[A][ToggleSmile]
 [0C49]
 Mother said I was too sickly
-to learn the famliy sword arts.[A]
+to learn the family sword arts.[A]
 [0C4A]
 [ToggleSmile]But no more will my
 body be my limitation![A][ToggleSmile]
@@ -16378,7 +16378,7 @@ own work, I'm sure it wouldn't be an issue?[A]
 together. You can count on my aid.[A]
 
 [OpenMidRight][ToggleSmile]Very good. (As long as
-he doesn't dig deeper.[A]
+he doesn't dig deeper.)[A]
 [0C9A]
 [OpenMidLeft][LoadFace][0x112][OpenMidRight][LoadFace][0x120][OpenMidRight][BoxHeight][0x0003]Another day, another lack of prophetic
 vision that dictates my path as the
@@ -16408,7 +16408,7 @@ the best again. Maybe this is another way.[A]
 Now I just need a healer and a swordsman.[A]
 [0C9B]
 [OpenRight][LoadFace][0x20B][OpenFarRight][LoadFace][0x16B][OpenFarLeft][LoadFace][0x16B][OpenLeft][LoadFace][0x16B][OpenFarFarLeft][ToggleSmile][OpenRight]Wonderful! Wonderful! What a brilliant
-victory over these dogs of the Guild[A]
+victory over these dogs of the Guild.[A]
 Men, you all make me so proud.[A]
 I could not have asked for a more
 talented crew in fighting for freedom.[A]
@@ -17536,7 +17536,7 @@ have kept powerful ones for themselves.[A]
 has already stated his stance on-[A]
 [OpenLeft]Be silent. Then, what do
 you suggest, adventurer?[A]
-[OpenRight]It's an opportunity time to test our troops
+[OpenRight]It's an opportune time to test our troops
 while scouting Yalunzar's true strength.[A]
 How are they looking, Bardiche?[A]
 [OpenFarRight]The line ones are ready.[A]
@@ -17717,7 +17717,7 @@ incredibly important asset,[A]
 but I'd rather be compensated
 for putting lives at risk.[A]
 [OpenRight][BoxHeight][0x0003]I could do whatever I can to smooth
-things over your incident with the Sect.
+over your incident with the Sect.
 A tragic misunderstanding that was.[A]
 And I understand the Sect has had some
 hasty assumptions about your daughter, 
@@ -20686,7 +20686,7 @@ I hate this place. [LightIcon][AnimaIcon][StaffIcon]
 Undead spellcasters whose hatred
 prevents them from passing on. [LightIcon]
 [0D63]
-Amphibious, all-purpose, miniature
+Amphibious, all-purpose, miniature,
 magic-powered, war machine.
 [0D64]
 Masters of all forms of magic theory.
@@ -21410,8 +21410,8 @@ Bond: All allies within 3 tiles
 recover 10% HP each turn.
 [0E7E]
 War Ballad
-Passive: Adjacent alllies +5 dmg/50 hit.
-Active: Song attacks gives a buff to
+Passive: Adjacent allies +5 dmg/50 hit.
+Active: Song attacks give a buff to
 adjacent allies and refreshes self.
 Recharge Active by attacking twice.
 [0E7F]
@@ -21453,7 +21453,7 @@ by 6 after combat. (Recover 1/turn)
 Quick Rain: Activate to guarantee
 doubling the target but set hit to 70.
 [0E8C]
-Tonic Master: This unit drink tonic
+Tonic Master: This unit drinks tonic
 for buffs or throw at foes for statuses.
 Tonics refresh after 1 or 2 turns.
 [0E8D]
@@ -21553,7 +21553,7 @@ Breath of Life: After attacking,
 allies in 3 tiles heal 33% max HP.
 [0EAB]
 Crescendo
-Active: Song attacks gives a positive
+Active: Song attacks give a positive
 status to self and refreshes self. 
 Recharge Active by attacking twice.
 [0EAC]
@@ -21800,7 +21800,7 @@ at the start of each chapter.
 [0EF9]
 Philomath: 
 Fire - +8 Def/Res.
-Thunder - Can't miss, 75 crit.
+Thunder - Can't miss, +70 crit.
 Wind - Full move canto.
 Water - Attack speed +20.
 [0EFA]
@@ -22759,7 +22759,7 @@ M[_o][_r][_a]l[_e] M[_o][_d][_u]l[_e]
 Grants all allies the status of +10 Dmg 
 this turn. Using doesn't end unit's turn.
 [1076]
-Ferion got carelesss. -6 Def/Res.
+Ferion got careless. -6 Def/Res.
 [1077]
 Betrayer
 [1078]
@@ -24129,7 +24129,7 @@ than victory will be worth.[A]
 We have to retreat.[A][OpenFarLeft]So that's it, we're done? All of us
 Frostfires who died, for nothing?[A][OpenLeft]It's not for nothing. We've shown the
 Guild can be beaten, but just not today.[A] [OpenLeft][ClearFace][OpenFarLeft][ClearFace][OpenMidRight][LoadFace][0x154][OpenMidRight]So, Irinde shows their hand.
-They will an interesting... ally.[A]
+They will be an interesting... ally.[A]
 [11E4]
 [OpenMidLeft][LoadFace][0x102][OpenMidRight][LoadFace][0x227][OpenMidLeft]You're telling me, that the Guard
 Captain told you all to run,[A]
@@ -24336,7 +24336,7 @@ esoteric, even to Oakhall's elite.[A]
 In practice, I doubt anyone except
 for myself could without many more
 years of dedicated research.[A] [OpenMidLeft][BoxHeight][0x0002]Then, we have our objective.[A]
-We'll go north to this Tower and
+We'll go north to this tower and
 seize the device in your name.[A][OpenMidRight]Master clearly needs to be stopped, for
 our own wellbeing and for the Crescent.[A]
 But regarding the device, perhaps it's better
@@ -26808,7 +26808,7 @@ Slain so suddenly by his own creation.[A][OpenMidRight]I'm sure there's a moral 
 and downfall in there somewhere.[A]
 Have you found out by which manner
 he controls so many monsters?[A][OpenMidLeft]Right here. A most miraculous device
-caparable to even divine artifacts.[A]
+comparable to even divine artifacts.[A]
 To make this with just our research
 alone, Master Ulach is skilled indeed.[A] [OpenMidRight]And you'll be able to take over it
 for our use? Perhaps even replicate it?[A][OpenMidLeft]Highly likely, given similarities
@@ -28664,7 +28664,7 @@ hasn't changed for hundreds of years.[A][OpenMidRight]Every generation puts less
 teachings. It is a tragic sight to behold.[A]
 [1427]
 [OpenMidRight][LoadFace][0x15A][OpenMidLeft][LoadFace][0x104][OpenMidRight]You'll find no friends
-of the Seahawks here.[A][OpenMidLeft][BoxHeight][0x0001]But we're-[A][OpenMidRight][ClearFace][OpenMidLeft][BoxHeight][0x0002] Nevermind.[A]
+of the Seahawks here.[A][OpenMidLeft][BoxHeight][0x0001]But we're-[A][CloseSpeechSlow][OpenMidRight][ClearFace][OpenMidLeft][BoxHeight][0x0002] Nevermind.[A]
 Show through actions,
 not words.[A]
 [1428]
@@ -29485,7 +29485,7 @@ We slew plenty of those so-called
 adventurers, they ain't that tough.[A][OpenRight]The Young Lady's sword instructor is from
 the Crescent. How did that go for you?[A][OpenLeft]Silence, fake priest.
 She was a freak of nature.[A][OpenFarLeft]The Crescent has a lot of those.
-We musn't treat this undertaking lightly,[A]
+We mustn't treat this undertaking lightly,[A]
 lest we be slain due to our arrogance.[A][OpenRight]As expected of a land still suffering
 from the aftermaths of divine wrath.[A]
 Worry not, with my holy guidance,
@@ -31216,7 +31216,7 @@ the package is undamaged. Great work.[A][OpenMidLeft]Yes, no problem at all.
 [OpenMidRight][BoxHeight][0x0001]Here you go.[A]
 [OpenMidLeft][BoxHeight][0x0002]If you have anyone you know
 needing deliveries, recommend me.[A]
-[OpenMidRight][ClearFace][OpenFarFarLeft][ToggleSmile][OpenMidRight][LoadFace][0x102][OpenMidRight]You're doing this muich on the side,
+[OpenMidRight][ClearFace][OpenFarFarLeft][ToggleSmile][OpenMidRight][LoadFace][0x102][OpenMidRight]You're doing this much on the side,
 and you're still heckling me for a raise?[A]
 [OpenMidLeft]Surely, you don't think I'm so shallow
 that I care about just gold, do you?[A]
@@ -31913,7 +31913,7 @@ given she is responsible for
 so much of the Crescent.[A]
 
 [OpenMidRight]So, I'm now someone who is no longer of
-sufficent importance to sit at her table.[A]
+sufficient importance to sit at her table.[A]
 I see through these petty power plays.[A][OpenFarLeft]Listen here, prince man. There is not a day
 where I forget how you messed up my home.[A]
 I am no happier to be here than you are.[A]
@@ -32381,7 +32381,7 @@ so that it is even sturdier.[A]
 Through innovation and a lot of luck,
 our cannon didn't blow itself up.[A]
 We can still use the thing, once.[A][OpenMidRight][ClearFace][OpenMidLeft][LoadFace][0x102][OpenMidLeft]Everyone! Watch out for House
-Heron's specalist forces.[A]
+Heron's specialist forces.[A]
 They might require unique 
 approaches to take down.[A]
 [14EB]
@@ -33156,7 +33156,7 @@ collapse before my eyes...[A][OpenMidLeft][CloseEyes]
 [OpenMidLeft][LoadFace][0x21D][OpenMidLeft]Saviour of the city one day,
 the destroyer the next.[A]
 The ever changing waves of
-the Crescent finally turns...[A][OpenMidLeft][CloseEyes]
+the Crescent finally turn...[A][OpenMidLeft][CloseEyes]
 [153A]
 [OpenMidLeft][LoadFace][0x21E][OpenMidLeft]I see.
 Unfortunate.[A][OpenMidLeft][CloseEyes]
@@ -34970,7 +34970,7 @@ at simply necromancy.[A][OpenRight]Unlike you, old man, I have
 plenty of years left yet to value.[A]
 Is it true each ghost was
 a foe that fell by your hand?[A][OpenLeft]I don't remember every face, but each
-floor roughly show a stage of our journey.[A][OpenRight]This means... This entrance, this welcoming
+floor roughly shows a stage of our journey.[A][OpenRight]This means... This entrance, this welcoming
 party, was all arranged specifically for you.[A][OpenLeft]That fact is...
 a little worrying.[A][OpenFarRight][BoxHeight][0x0001]Only a little worrying?[A][OpenRight][BoxHeight][0x0002]I should've trusted my gut
 instead of being tempted by glory.[A]
@@ -35638,8 +35638,8 @@ me to do and Irinde has pretty good beer.[A][OpenFarLeft][LoadFace][0x10C][OpenF
 last night and came to a decision.[A]
 I intend to settle in Irinde and
 leave the travelling life behind.[A][OpenMidRight]We were planning on the same.[A]
-After all, there's no need for
-adventurers with Qiulan dead.[A]
+The Crescent no longer needs
+adventurers like our kind.[A]
 [OpenFarLeft]Oh, fantastic. I had a whole farewell
 speech prepared and everything.[A]
 Glad I no longer need to use it.[A]
@@ -36510,8 +36510,8 @@ So taken was I by the need to
 show my worth as an Archsage,[A]
 to return to the days in my laboratory,
 that I ignored my own reservations.[A]
-Oakhall's ideals were always lies,
-why did I fall for those lies once more?[A]
+Oakhall's ideals were always lies.
+Why did I fall for those lies once more?[A]
 [1640]
 [OpenMidRight][LoadFace][0x243][OpenMidLeft][LoadFace][0x23E][OpenMidLeft]Are these monsters truly
 the work of the settlers?[A]
@@ -36532,8 +36532,8 @@ Sir Speedwell rakes us over the coals.[A]
 
 [OpenMidLeft]Too late, there he is himself. 
 And he does not look well.[A]
-You better brace yourself,
-good news is not coming.[A]
+You better brace yourself.
+Good news is not coming.[A]
 [1641]
 [OpenRight][LoadFace][0x243][OpenFarRight][LoadFace][0x23E][OpenMidLeft][LoadFace][0x238][OpenRight]Sir Speedwell! You're wounded!
 Has Ellerie struck already?[A][OpenMidLeft]She has.
@@ -37687,7 +37687,7 @@ The inevitable. But call me The Gamer.[A]
 [16B7]
 [OpenMidRight][LoadFace][0x243][OpenMidRight]This unassuming place, the Crescent...
 I will have nightmares of this place.[A]
-But it will not break me, I won't let
+But it will not break me. I won't let
 my life be written off as a failure.[A]
 [16B8]
 [OpenMidRight][LoadFace][0x243][OpenMidLeft][LoadFace][0x23B][OpenMidLeft]...[A][OpenMidRight]Don't scare me like that!
@@ -37898,7 +37898,7 @@ me well before fighting the Tide.[A]
 [OpenMidRight]I do not enjoy the prospect, but
 that is no shield for her misdeeds.[A]
 [OpenMidLeft]I shall play my part when the time
-comes, no need to convince me.[A]
+comes. No need to convince me.[A]
 Although, I didn't expect you
 to take charge like that, Tower.[A]
 
@@ -38335,7 +38335,7 @@ by the rebels that kept seeming to pop up, but
 one day, she thought, she will kill them all. 
 [172D]
 Ten thousand realms received a vision of 
-the Red Onewho brings the end of all ends.
+the Red One who brings the end of all ends.
 Meanwhile, the discarded husk stayed with
 Krynia in Irinde, content to merely exist.
 Perhaps one day, he'll be something more.
@@ -40639,7 +40639,7 @@ And now you tell me I've set myself on this
 path for an idea that was all in my head?[A]
 [17AE]
 [OpenMidLeft][LoadFace][0x10F][OpenMidRight][LoadFace][0x111][OpenMidRight]It has been some time since we
-can truly relex, with the Tide and all.[A][OpenMidLeft]It's been a tough few months.[A]
+can truly relax, with the Tide and all.[A][OpenMidLeft]It's been a tough few months.[A]
 With the Shearwaters disbanding and the
 Tide gone, we'll have plenty of time soon.[A][OpenMidRight]Now that your journey of
 self-improvement has finished,[A]
@@ -40668,7 +40668,7 @@ healer when I have already seen so much?[A]
 [OpenMidLeft]I'm not sure I get it. All of
 that, just makes me so tired.[A]
 I never thought you'd just
-want to leave Irinde for good.[A][OpenMidRight]I never though so too, but
+want to leave Irinde for good.[A][OpenMidRight]I never thought so too, but
 plans and people change.[A]
 I'm glad you've found new love
 for your home, but I have not.[A][OpenMidLeft]Then... It's goodbye?
@@ -41474,7 +41474,7 @@ Berd tried to ease Locust's boredom with
 life in Irinde by having her recover ancient
 tablets for research. He didn't expect her
 to rediscover a lost type of magic which 
-they became pioneers of, [OpenQuote]culitvation.[CloseQuote]
+they became pioneers of, [OpenQuote]cultivation.[CloseQuote]
 [1854]
 Locust was drawn to the promise of glory
 on the Mainland, and dragged Berd with
@@ -41530,8 +41530,7 @@ With the settlers taking the lands where the
 Skyward Gate was, Jo found an opportunity
 to lure settlers into demolishing the gate.
 Jo peacefully passed away years later, now
-that the obsession of his life has vanished,
-
+that the obsession of his life has vanished.
 [1861]
 [OpenLeft][LoadFace][0x102][OpenLeft]Still no. I'm not quite
 that desperate yet.[A]
@@ -41616,7 +41615,7 @@ Pomelo can enter the landboat [ToggleRed]without
 ending turn[ToggleRed] to use his ship cannon.[A]
 Shoot the pirate from his start position.[A]
 [1869]
-Lindro can [ToggleRed]trade places[ToggleRed] with an
+Lindros can [ToggleRed]trade places[ToggleRed] with an
 enemy by using his skill, Lunge.
 His personal weapon gives Lunge [ToggleRed]3-10[ToggleRed]
 range and a [ToggleRed]2nd action[ToggleRed] after Lunge.[A]
@@ -41701,7 +41700,7 @@ good as being paid.[A][OpenMidRight][ClearFace]
 Does heaven spit on me?[A]
 At least make my imposter
 a real swordmaster...[A][OpenMidLeft][ClearFace][OpenMidRight][LoadFace][0x11C][OpenMidRight]Do I not qualify as a
-swordsmaster[A]
+swordsmaster?[A]
 I thought I was getting
 pretty good at this.[A][OpenMidRight][ClearFace][OpenMidLeft][LoadFace][0x211][OpenMidLeft]Not in a million years.[A][OpenMidLeft][ClearFace]
 [1877]
@@ -42363,7 +42362,7 @@ Give how I've helped you out,
 you can do a thing for me,[A]
 surely. Something so simple.
 Just look the other way, yeah?[A][OpenMidLeft][ClearFace][OpenMidRight][LoadFace][0x12B][OpenMidRight]The red-haired lady would
-be pretty made at me.[A]
+be pretty mad at me.[A]
 But Uncle Spices always
 did say to be grateful...[A][OpenMidRight][ClearFace][OpenMidLeft][LoadFace][0x20B][OpenMidLeft]Adventuring's silent law is that
 a good deed begets another.[A]
@@ -42386,7 +42385,7 @@ Is this some other curse
 from the Crescent?[A][OpenMidLeft][ClearFace][OpenMidRight][LoadFace][0x12B][OpenMidRight]Wow, you're the first to think
 I'm more than what I appear.[A][OpenMidRight][ClearFace][OpenMidLeft][LoadFace][0x153][OpenMidLeft]It is made obvious by how you
 stride towards me without fear.[A]
-Well? Why hesitate? Shoe me
+Well? Why hesitate? Show me
 the basis of your audacity.[A][OpenMidLeft][ClearFace]
 [OpenMidRight][LoadFace][0x12B][OpenMidRight]It's just so much metal.
 I can crack open the shell,[A]
@@ -42576,7 +42575,7 @@ off him before it gets to everyone else![A][OpenMidRight][BoxHeight][0x0001][Col
 [18CB]
 [OpenMidLeft][LoadFace][0x117][OpenMidRight][LoadFace][0x223][OpenMidRight]Commander. Irinde's forces sighted,
 a day's march from our east border.[A][OpenMidLeft]Another move from Krynia, and so
-soon? To soon, to her own detriment.[A]
+soon? Too soon, to her own detriment.[A]
 Enan is about to rebel, and the Iron
 Realms still desire independence.[A][OpenMidRight]That's great, but if an angry 
 dragon toasts Frosthaven now,[A]
@@ -42599,7 +42598,7 @@ I will do so once again.
 No matter the cost.[A]
 [18CC]
 [OpenFarLeft][LoadFace][0x163][OpenLeft][LoadFace][0x15E][OpenMidRight][LoadFace][0x10C][OpenFarLeft]I overheard Mother saying that you
-were this super deady adventureer![A][OpenLeft]You were holding out on us!
+were this super deadly adventurer![A][OpenLeft]You were holding out on us!
 You never told us about this.[A][OpenMidRight][ToggleSmile]It wasn't important. That was
 all a very long time ago.[A][ToggleSmile][OpenFarLeft]That was only
 a few years ago![A][OpenMidRight]Did you exist a
@@ -42760,7 +42759,7 @@ It's so hard being an
 alcoholic these days.[A][OpenMidRight][ClearFace]
 [18D7]
 [OpenMidLeft][LoadFace][0x237][OpenMidLeft]None of this foolishness would
-have ocurred if only...[A]
+have occurred if only...[A]
 If only that mad princess had 
 not been so taken with Ellerie,[A]
 fed her ambitions, and shielded
@@ -42908,7 +42907,7 @@ I will pay for it.[A][OpenMidRight][ClearFace]
 And look tender too.[A][OpenMidRight][ClearFace][OpenMidLeft][LoadFace][0x206][OpenMidLeft]Wuh- Are you
 propositioning me?[A]
 I do not have time for
-common vilage maidens.[A][OpenMidLeft][ClearFace]
+common village maidens.[A][OpenMidLeft][ClearFace]
 [OpenMidRight][LoadFace][0x12B][OpenMidRight]No, it's just rare seeing
 a drumstick spice itself.[A][OpenMidRight][ClearFace]
 [OpenMidLeft][LoadFace][0x206][OpenMidLeft]Me? A drumstick? Is that
@@ -43061,7 +43060,7 @@ in this scenario, oh Elis.[A][OpenMidRight][ClearFace]
 my personal dealings?[A][OpenMidLeft][ClearFace]
 [OpenMidRight][LoadFace][0x111][OpenMidRight]Nothing?[A]
 But you just confirmed the 
-personal beneft accusation.[A][OpenMidRight][ClearFace]
+personal benefit accusation.[A][OpenMidRight][ClearFace]
 [OpenMidLeft][LoadFace][0x201][OpenMidLeft]You can talk big all you want
 to justify your heresy,[A]
 but you are still an enemy
@@ -43560,7 +43559,7 @@ since we've left the coast![A]
 [OpenLeft]Do you think it will help her
 precarious condition,[A]
 knowing her mother has decided
-to enter the jaws of death?[A][OpenMidRight]What if the hourglass ticks town
+to enter the jaws of death?[A][OpenMidRight]What if the hourglass ticks down
 while we're at the Workshop?[A]
 We don't even know if we'll return
 alive, if we'll find anything at all![A]
@@ -43699,7 +43698,7 @@ baying for blood.[A][OpenFarLeft]I did not consider that in two years,
 the Sect would be foreign to me,[A]
 and my opponents would have all
 they need to discredit my name![A][OpenLeft]You always assume you'd be correct,
-and look at that what that's cost us![A]
+and look at what that's cost us![A]
 If you were any other person, if you
 did not accompany me all this way,[A]
 if you were not dedicated to Krynia as
@@ -43853,7 +43852,7 @@ Some still whispered her name, but in
 time, those voices also grew silent.
 [191E]
 Ten thousand realms received a vision of 
-the Red Onewho brings the end of all ends.
+the Red One who brings the end of all ends.
 The discarded shell followed Krynia to the
 Mainland, where the visage of a demonic
 fowl appeared in folklore for generations.
@@ -43876,7 +43875,7 @@ named after my grandpa.[A]
 We've been in this business
 for over sixty decades.[A][OpenMidRight]How odd. I've not heard of the
 Levin family business in Irinde.[A]
-[OpenMidLeft]Probably becauser those dirty Flame
+[OpenMidLeft]Probably because those dirty Flame
 and Wind Swords took our market share![A]
 They say Levin Swords are a poor in-
 between, when it's the ideal balance![A][OpenMidRight]I'm the wrong person for you to 
