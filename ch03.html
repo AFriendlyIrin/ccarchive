@@ -1,0 +1,825 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 3: Jolly Cruise</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>narrator</div>
+<div>The Cerulean Crescent, a treasure trove
+of unexplored lands and means to riches,<br>
+a lawless territory not under the
+control of a state or nation.<br>
+It is the land of hope, where one can set
+out to find their fortune, yet equally,<br>
+it is where hope is taken.<br>
+The young and unqualified Captain
+places her hopes upon these shores,<br>
+so laden with the blood of its settlers.</div>			
+			</div>
+			<div class="container transition">
+<div>oriana</div>
+<div>Must be a really fascinating cloud
+you're staring at. What's on your mind?</div>
+<div>ellerie</div>
+<div>Just harbouring some reservations about
+what's to come. I know little about what
+to expect, apart from worrying rumours.</div>
+<div>oriana</div>
+<div>To you this may seem like the wilderness,
+but for me, this is a homecoming.<br>
+The suffocating laws and oppressive
+walls of the Capital have nothing on
+the freedom of the Crescent.</div>
+<div>ellerie</div>
+<div>It seems like a small tradeoff for
+being able to sleep soundly at night.</div>
+<div>oriana</div>
+<div>It's not as bad as you think. In recent
+years, the Crescent is more settled, and the major factions are at peace.
+Maybe you'd find a new home here.</div>
+<div>ellerie</div>
+<div>There is still much I have to
+accomplish on the Mainland.<br>
+This whole journey is
+a means to an end.</div>
+<div>oriana</div>
+<div>I hope you can find
+what you seek.</div>
+<div></div><div class="stagedirection">(Tower approaches.)</div>
+<div>tower</div>
+<div>Albatross Point is on our starboard.<br>
+We want to make a wide berth,
+lest we be beset by certain folk.</div>
+<div>ellerie</div>
+<div>With our luck so far, I will eat my
+lance if we don't have a run in.</div>
+<div></div><div class="stagedirection">(Yvette approaches.)</div>
+<div>yvette</div>
+<div>There's conflict on the horizon! Seems
+to be pirates engaging a merchant ship.</div>
+<div>ellerie</div>
+<div>There it is. How does
+the situation look?</div>
+<div>yvette</div>
+<div>They seem to have taken some
+serious casualties on both sides, but the merchants are obviously
+getting overwhelmed.<br>
+<i>(grins)</i> We're absolutely jumping into
+this one, right? Captain?</div>
+<div>ellerie</div>
+<div>Hand me the spyglass. ... Damn,
+that's quite the amount of wyverns.</div>
+<div>oriana</div>
+<div>It seems that aerial piracy has only
+gotten worse since we've left.<br>
+Pomelo really had some foresight
+in fixing up that old ballista.</div>
+<div>yvette</div>
+<div>That's because I spent ages
+badgering him about it.<br>
+Now I can shoot these big
+lizards out of the sky!</div>
+<div>ellerie</div>
+<div>Even with the ballista, we're fairly
+undermanned. Should we push our luck?</div>
+<div>tower</div>
+<div>I would never advocate for excessive
+risk, but if it's within our power...</div>
+<div>oriana</div>
+<div>Reputation is the lifeblood
+of the adventuring business.<br>
+This should be a quick and 
+easy way to raise ours.</div>
+<div>ellerie</div>
+<div>It feels like little reward
+for such risk. </div>
+<div>tower</div>
+<div>Are you really willing to leave
+these poor bastards to their fate, when we can make a difference
+against this rabble?</div>
+<div>yvette</div>
+<div><i>(serious)</i> I've been itching for a good throwdown,
+especially since I missed the last two.<br>
+You can't deny me this one.</div>
+<div>ellerie</div>
+<div>Alright, alright, I've been outvoted.
+Let's turn the ship around.</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(A lone freelancer is surrounded by priates.)</div>
+<div>telon</div>
+<div>Not even giving me a fair fight...
+Fitting, of a craven.</div>
+<div>d. p. corky</div>
+<div>Hate to break it to you, but maybe someone
+called Dread Pirate doesn't care about fair.<br>
+You have the nerve to sneak into my ship?
+Deckhand, cut him to ribbons. Make it slow.</div>
+<div>telon</div>
+<div><i>(closes eyes)</i> ...</div>
+<div></div><div class="stagedirection">(A lackey approaches.)</div>
+<div>pirate</div>
+<div>Captain, a ship we saw earlier
+is rapidly approaching us.<br>
+And they don't look like they
+want to share biscuits.</div>
+<div>d. p. corky</div>
+<div>I don't like this.<br>
+Attacking us with their numbers indicates
+they're either competent, or foolish,<br>
+and I don't want to be making any bets.
+Tell the wyverns to all charge, now!</div>
+<div>pirate</div>
+<div>About that, Captain...
+They're on strike.</div>
+<div>d. p. corky</div>
+<div>What.</div>
+<div>pirate</div>
+<div>They're demanding hazard pay
+and better wyvern feed.</div>
+<div>d. p. corky</div>
+<div>Oh for the love of-</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(Big Berd and Locust stand amidst the pirates.)</div>
+<div>big berd</div>
+<div>Loc, you look beat.</div>
+<div>locust</div>
+<div>Damn right I am. I can't believe we went
+through all that and only nabbed some ale.</div>
+<div>big berd</div>
+<div>Can't bring home the
+goods every time.</div>
+<div>locust</div>
+<div>How do those villagers have nothing
+more expensive than ale?</div>
+<div>big berd</div>
+<div>Judging from the quality of their dwellings,
+it was a mistake to expect anything more.</div>
+<div>locust</div>
+<div>I suppose so. You go ahead with the ale,
+big man. I'm going to take a short rest, while the pirates finish looting these
+merchants. Maybe I'll find some scraps.</div>
+<div>big berd</div>
+<div>Stay safe.</div>
+<div></div><div class="stagedirection">(Big Berd leaves the battlefield.)</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(A pirate goes belowdecks and finds a woman in one of the ships.)</div>
+<div>pirate</div>
+<div>Hey, they've got a
+lady down here!</div>
+<div>chalice</div>
+<div>I don't suppose you are here
+to rescue me, are you?</div>
+<div>pirate</div>
+<div>Now missy, don't be-</div>
+<div>chalice</div>
+<div>I've heard all this before.<br>
+<i>(sighs)</i> What a string of misfortune.</div>
+			</div>
+			<div class="container transition">
+<div>narrator</div>
+<div><i>Only the NPC units <font color="red">holding items</font> need
+to <font color="red">survive</font> for rewards.<br>
+Human bow users can all operate
+ballistae, which prevents canto.</i></div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 3 (if D. P. Corky and Corkius is still alive)</h1>
+			<div class="container">
+<div>d. p. corky</div>
+<div>What's that good boy? You want a bone?
+There's some good bones right there, with plenty of fresh meat still on them!</div>
+<div></div><div class="stagedirection">(Corkius begins moving to attack.)</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 6 (if the Sky Scoundrels are still alive)</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If D. P. Corky is alive</h1>
+				<div class="container">
+<div>d. p. corky</div>
+<div>Okay, fine! You wyvern riders can
+get your stupid hazard pay.<br>
+Charge! We're getting destroyed!</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If D. P. Corky is dead</h1>
+				<div class="container">
+<div>pirate</div>
+<div>The Captain's dead and
+we'll all die if we don't act, salary increase or not!
+Go, go, go!</div>				
+				</div>
+			</div>
+			<p class="stagedirection">(The Sky Scoundrels begin attacking.)</p>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Locust is still on the field</h1>
+				<div class="container">
+<div>locust</div>
+<div>Zzzz... Hmm? The hell is happening?
+Time to get my ass out of here!</div>
+<div></div><div class="stagedirection">(Locust recovers from Sleep status and begins moving.)</div>			
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>When all pirates are defeated</h1>
+			<div class="container">
+<div>tower</div>
+<div>Have you noticed something
+very peculiar, Captain?</div>
+<div>ellerie</div>
+<div>I assume you are talking
+about the passengers.</div>
+<div>tower</div>
+<div>Yes. There seems to be a lot of people
+below deck, far more than there should.<br>
+The entrances happen to be rather
+well-secured? Quite odd, isn't it?</div>
+<div>ellerie</div>
+<div>I assume we will be having some
+interesting words with the captain.</div>
+<div></div><div class="stagedirection">(Milan approaches the crew.)</div>
+<div>milan</div>
+<div>Thank you, kind travellers!<br>
+Oh, to help a man in need. May
+the heavens look kindly on you!</div>
+<div>ellerie</div>
+<div>What kind of business do you run,
+Merchant? Surely not a passenger ship.</div>
+<div>milan</div>
+<div>Ah. Well you see, the Mainland's nobles
+demand discreet forms of labour.<br>
+No one would miss a few
+of these coastal folk.</div>
+<div>ellerie</div>
+<div>You're surprisingly
+upfront about this.</div>
+<div>milan</div>
+<div>You've clearly already noticed. It's simple
+business after all. I will ensure you get a
+share of the cut, brave adventurer.</div>
+<div>tower</div>
+<div>Captain, what more is there to say?
+Shall we carry out Elis's will?</div>
+<div>ellerie</div>
+<div>I'm no woman of the faith, but as a 
+former civil servant, I can say this a
+very major breach of Mainland law.</div>
+<div>milan</div>
+<div>Why are your weapons drawn?<br>
+You can't, you can't! Are you not 
+adventurers? Don't you respect gold?</div>
+<div>tower</div>
+<div>The heavens do not look
+kindly on you, friend.</div>			
+<div></div><div class="stagedirection">(Milan and his bodyguards become hostile.)</div>
+<div>narrator</div>
+<div><i>All player units have been fully
+healed and can act again.</i></div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Telon & Anyone</h1>
+				<div class="container">
+<div>speaker</div>
+<div>Hey, you don't seem
+to be one of them.</div>
+<div>telon</div>
+<div>...</div>
+<div>speaker</div>
+<div>They left you for dead, huh?
+Need a hand?</div>
+<div>telon</div>
+<div>They'll pay dearly.</div>
+<div></div><div class="stagedirection">(Telon charges off.)</div>
+<div>speaker</div>
+<div>Not a word of thanks?</div>
+<div></div><div class="stagedirection">(Telon roars and activates Inner Power.)</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Telon dies before recruitment</h1>
+				<div class="container">
+<div>telon</div>
+<div>Strength... Am I not strong
+enough, or was this inevitable?</div>			
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ellerie & Mince</h1>
+				<div class="container">
+<div>mince</div>
+<div>Hey Caps.</div>
+<div>ellerie</div>
+<div>That's a new one.
+Something the matter?</div>
+<div>mince</div>
+<div>I was thinking, we're running a tad low on
+supplies, especially in regards to meat.</div>
+<div>ellerie</div>
+<div>The journey took longer than we predicted, 
+but it's not long before we can restock.</div>
+<div>mince</div>
+<div>We have a chance to
+restock right here.</div>
+<div>ellerie</div>
+<div>Do you really want to eat what
+those pirates have touched?</div>
+<div>mince</div>
+<div>I don't mean that, I mean fresh meat!
+I've always wanted to try wyvern steak.</div>
+<div>ellerie</div>
+<div>That's... Wyverns are incredibly
+intelligent and majestic creatures.</div>
+<div>mince</div>
+<div>So what? If we're shooting them down, what's
+the sense in not maximising our resources?</div>
+<div>ellerie</div>
+<div>If you really want to,
+I can't stop you.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Pomelo & Yvette</h1>
+				<div class="container">
+<div>pomelo</div>
+<div>The ballista all
+looking good?</div>
+<div>yvette</div>
+<div>You've done great, Pom.
+She's an absolute beauty.</div>
+<div>pomelo</div>
+<div>You're making me blush. It was only
+minor damage to the frame, nothing difficult to fix.</div>
+<div>yvette</div>
+<div>Don't sell yourself short. This looks as good
+as new! Why, I'd wager she'd shoot 10 tiles.</div>
+<div>pomelo</div>
+<div>Tiles? Is that a unit
+of measurement?</div>
+<div>yvette</div>
+<div>You don't use tiles?</div>
+<div>pomelo</div>
+<div>I've never heard of this one.
+Around how long is a tile?</div>
+<div>yvette</div>
+<div>The length of a tile varies depending
+on location, but here, I'd say, around the size of this barrel,
+but it'll be different elsewhere.</div>
+<div>pomelo</div>
+<div>I don't quite
+understand.</div>
+<div>yvette</div>
+<div>I'll explain to you later after
+we're done with this warm up.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Corkius</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>corkius</div>
+<div class="inverted">Awwwooooo!</div>			
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Mince</h1>
+					<div class="container">
+<div>mince</div>
+<div>Fat and juicy, just how I like it.
+Hold still, it'll be over quickly.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>corkius</div>
+<div class="inverted">Yawp!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death by Mince</h1>
+					<div class="container">
+<div>mince</div>
+<div>I'm thinking of a fine stew,
+but maybe a nice roast, hmmm...</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>D. P. Corky</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>d. p. corky</div>
+<div>Tremble in fear at the name of
+Dread Pirate Corky!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Pomelo</h1>
+					<div class="container">
+<div>pomelo</div>
+<div>Avast, ye lily-livered landlubber!
+If ye resist, ye will be sleeping
+with the fishes!</div>
+<div>d. p. corky</div>
+<div>Let's see if your “humor” holds
+up to the end of my axe.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Tower</h1>
+					<div class="container">
+<div>d. p. corky</div>
+<div>Ha! One of you folk. My plate
+protects me from all magic.<br>
+You can't do a thing to me.</div>
+<div>tower</div>
+<div>Are you sure? Allow me to
+demonstrate my magic.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Telon</h1>
+					<div class="container">
+<div>d. p. corky</div>
+<div>Haven't learnt your lesson?
+Coming for another round?</div>
+<div>telon</div>
+<div>Die.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Raylin</h1>
+					<div class="container">
+<div>raylin</div>
+<div>I notice you've got a good
+few wyverns, but no pegasi.<br>
+Is it because your ugly 
+mug scared them all away?</div>
+<div>d. p. corky</div>
+<div>You think some brat is
+going to get me riled up?</div>
+<div>raylin</div>
+<div>Oh, really?<br>
+I wonder if your mother regrets
+giving birth to a thing like you.<br>
+All those hopes and dreams, only
+to become a “Dread Pirate!”<br>
+It's one thing to be infamous, 
+but with a name like that, you're a third-rate one at best.<br>
+Do you stay awake at night
+wondering how you got here?<br>
+You've burned any possible
+bridges to a hopeful future.<br>
+The most you can hope for 
+is to spend your gold on drink,<br>
+and forget how pitiful your
+sad existence of a life is.</div>
+<div>d. p. corky</div>
+<div>I'm going to dismember you
+and feed you to the wyverns.</div>
+<div>raylin</div>
+<div><i>(grins)</i> I knew I'd get
+there eventually.</div>				
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>d. p. corky</div>
+<div>I really do have the
+most atrocious luck.</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Milan</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>milan</div>
+<div>What are you doing? Please,
+I'll pay anything! Anything!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>milan</div>
+<div>You have no right to do this!
+Mainland laws do not hold here!</div>
+<div>ellerie</div>
+<div>Do we look like
+law-abiding citizens?</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Telon</h1>
+					<div class="container">
+<div>telon</div>
+<div>We meet again.</div>
+<div>milan</div>
+<div>Please, sir, I have a family
+waiting for me back home.</div>
+<div>telon</div>
+<div>So did those who you took 
+from our shores.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Reiker</h1>
+					<div class="container">
+<div>milan</div>
+<div>Look, kid! I've got gold,
+alright? It could be your-</div>
+<div>reiker</div>
+<div>Do you think I look stupid?
+I know Sis always says so.<br>
+Is that why you picked me
+to bribe out of everyone?</div>
+<div>milan</div>
+<div>No, I just mean you clearly
+look like an gullib- upstand-</div>
+<div>reiker</div>
+<div>I don't like being called 
+stupid, wagon man.<br>
+Prepare to be stabbed
+extra hard for this.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>milan</div>
+<div>My family, my future!</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ship's Hold</h1>
+				<div class="container">
+<div>pirate</div>
+<div>Arrgh! Please, have mercy!
+I didn't mean anything, I swear!</div>
+<div>chalice</div>
+<div>I'll spare your life, in Elis's name.
+Now, begone from my sight.</div>
+<div>pirate</div>
+<div>Ye- Yes! You're too kind!</div>
+<div></div><div class="stagedirection">(The pirate runs off as the visitor approaches.)</div>
+<div>visitor</div>
+<div>...</div>
+<div>chalice</div>
+<div>You're here to rescue me, right?</div>
+<div>visitor</div>
+<div>Yes?</div>
+<div>chalice</div>
+<div>Good, you don't want to end up
+like that other poor bastard.<br>
+I'm no fighter, so keep me in the
+back, okay?</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>And that's that. Looks like we weren't able
+to save the poor merchant. What a shame.</div>
+<div>oriana</div>
+<div>We've found around a few dozen
+civilians in the “merchant” ship hold,<br>
+mostly women and children.
+They appear to be the main “cargo”.</div>
+<div>ellerie</div>
+<div>I'm aware the slave trade east of
+the Mainland was increasing in size,<br>
+but I never would have expected
+to see it in action myself.</div>
+<div>oriana</div>
+<div>Thankfully we interfered. I fear what 
+fate may have befallen these folks,<br>
+regardless of who emerged victorious.</div>
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">If Chalice survived or was not recruited</p>
+					<div class="container">
+<div></div><div class="stagedirection">(Chalice approaches.)</div>
+<div>chalice</div>
+<div>I'm Chalice, a lowly disciple of Elis.
+We are deeply indebted to you.</div>
+<div>ellerie</div>
+<div>A simple task for skilled
+adventurers like ourselves.</div>
+<div>oriana</div>
+<div>Yes, skilled. I remember you.
+You're the tailor's child.</div>
+<div>chalice</div>
+<div>That I am. Forgive me, but
+your voice is not one I recall.</div>
+<div>oriana</div>
+<div>That is no surprise. I have not
+returned to Irinde in years.<br>
+Captain, since these folk were 
+taken from Irinde's shores, it aligns nicely with our route
+for us to escort them home.</div>
+<div>chalice</div>
+<div>Elis looks favourably upon you
+for your charitable actions.</div>		
+<div></div><div class="stagedirection">(Chalice leaves.)</div>			
+					</div>
+				</div>
+				<div>
+					<p class="splitheader">If Chalice died</p>
+					<div class="container">
+<div></div><div class="stagedirection">(The freed slaves approach.)</div>
+<div>young woman</div>
+<div>Thank you, our 
+brave heroes!</div>
+<div>ellerie</div>
+<div>A simple task for skilled
+adventurers like ourselves.</div>
+<div>oriana</div>
+<div>Yes, skilled. You're all
+from Irinde, are you not?</div>
+<div>young woman</div>
+<div>Up and down Irinde's
+coastline, ma'am.</div>
+<div>oriana</div>
+<div>Captain, since these folk were 
+taken from Irinde's shores, it aligns nicely with our route
+for us to escort them home.</div>
+<div>young woman</div>
+<div>Thank you all, again!</div>
+<div></div><div class="stagedirection">(The woman leaves.)</div>					
+					</div>
+				</div>
+			</div>
+			<div class="container">
+<div>ellerie</div>
+<div>After our last stay, I've developed
+wariness towards coastal villages.</div>
+<div>oriana</div>
+<div>You need not fear Irinde. It is a 
+welcoming place like no other.</div>
+<div>ellerie</div>
+<div>You said something similar
+about the previous village.</div>
+<div>oriana</div>
+<div>That was... I did not know 
+the extent of their villainy!<br>
+But this is different. Irinde 
+was once my own home.<br>
+Its chief, Oren, is a man
+well known for his virtue.</div>
+<div>ellerie</div>
+<div>I certainly hope so. As much as I
+want to sleep in a warm bed,<br>
+we should stay aboard for safety.</div>
+<div>oriana</div>
+<div>What we did today is not mere altruism.
+It would grant us goodwill with Irinde.<br>
+and open more doors. In this line of work,
+it's the difference between life and death.</div>
+<div>ellerie</div>
+<div>The good old reputation 
+economy. I'll keep it in mind.</div>
+<div></div><div class="stagedirection">(Lindros approaches.)</div>
+<div>lindros</div>
+<div>No dice.<br>
+Only interesting things Pom
+found were love letters.<br>
+I almost feel bad for
+these pirates.</div>			
+<div></div><div class="stagedirection">(He gives Ellerie 500 gold.)</div>
+<div>ellerie</div>
+<div>This is simply tragic.
+And the merchants?</div>
+<div>lindros</div>
+<div>You saw their unconventional cargo. We've
+got the civilians on board. It's a tight fit, but with half the crew missing, it works out.
+Tower's patching up the injured.</div>
+<div>ellerie</div>
+<div>A rather disappointing haul, but at
+least we got a good deed out of it.<br>
+Let's sail for better opportunities.</div>
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Mince is alive</h1>
+				<div class="container">
+<div>mince</div>
+<div>Now this is a huge haul!
+Tonight we feast!</div>
+<div>ellerie</div>
+<div>I, I think I'll pass
+on this one.</div>
+<div>mince</div>
+<div>You don't blink when taking a life,
+but eating a wyvern is too much?</div>
+<div>ellerie</div>
+<div>That's not the same.</div>
+<div>mince</div>
+<div>Damn right it ain't the same.
+Your loss, Caps.</div>				
+<div></div><div class="stagedirection">(The party gains a Wyvern Tail.)</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Telon and Chalice survived</h1>
+				<div class="container">
+<div>telon</div>
+<div>...</div>
+<div>chalice</div>
+<div>...</div>
+<div>telon</div>
+<div>Look, Chalice, I-</div>
+<div>chalice</div>
+<div>Telon Ironsmith, you absolute
+buffoon! Why, in Elis's name,<br>
+did you think working with the so-called 
+“Dread Pirates” was a good idea?<br>
+How could you have ensured they
+fulfil their end of the bargain?</div>
+<div>telon</div>
+<div>The Chief and my sister weren't
+doing anything. I couldn't just wait.</div>
+<div>chalice</div>
+<div>Do you think you could do what the Chief
+can't? You should have trusted him.</div>
+<div>telon</div>
+<div>I was scared, alright?
+I didn't know what to do.</div>
+<div>chalice</div>
+<div>... I'm sorry, Telon. You went quite
+far for me and the townsfolk.<br>
+Just... Try and find a plan that's not
+guaranteed to kill you, next time.</div>
+<div>telon</div>
+<div>If only I was stronger, then the
+plan would have worked fine.<br>
+then I could have prevented this.
+I wouldn't have had to run away.</div>
+<div>chalice</div>
+<div>Being stronger
+isn't everything.</div>
+<div>telon</div>
+<div>On the Crescent,
+it may as well be.</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Yvette</b><br>
+A capable archer and a ballistician.
+Always first into battle despite her 
+reliance on ranged weaponry.</p>
+<p class="hangingindent"><b>Telon</b><br>
+A moody and unapproachable young 
+man with a fascination for strong rivals.
+I wager he's not going to live for long.</p>
+<p class="hangingindent"><b>Chalice</b><br>
+A nominal member of the Sect. Bold
+and stalwart, odd qualities for a healer.
+I swear she has no problem seeing.</p>
+<p class="hangingindent"><b>D. P. Corky</b><br>
+Stole some armour off a dead dread
+fighter. Hasn't shut up about it since.</p>
+<p class="hangingindent"><b>Corkius</b><br>
+Corky's beloved companion, fought
+alongside him through thick and thin.
+How cool would it be if I had one?</p>
+<p class="hangingindent"><b>Corky's Crew</b><br>
+Merry men who rob the rich (everyone)
+and give to the poor (themselves).</p>
+<p class="hangingindent"><b>Sky Scoundrel</b><br>
+As it turns out, aerial piracy is actually
+a great idea. Provided one actually
+makes enough to feed a wyvern.</p>
+<p class="hangingindent"><b>Milan</b><br>
+An unfortunate merchant who didn't
+spend enough money in hiring guards.</p>
+<p class="hangingindent"><b>Hired Hand</b><br>
+Able-bodied fighters paid to protect
+their employer, and failing at that.</p>
+<p class="hangingindent"><b>Villager</b><br>
+Not so harmless now, huh?</p>
+<p class="hangingindent"><b>Locust</b><br>
+I could've sworn there was someone
+standing right here. Maybe I didn't
+get enough sleep.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
