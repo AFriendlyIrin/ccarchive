@@ -82,6 +82,11 @@
 	border-bottom: 1px solid gray;
 }
 
+.split.triplesplit {
+	display:grid;
+	grid-template-columns: 33% 33% 33% !important;
+}
+
 .splitheader {
 	text-align: center;
 	font-weight: bold;
