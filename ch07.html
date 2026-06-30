@@ -1,0 +1,708 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 7: Forest Stroll</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>letter</div>
+<div>Your Highness,<br>
+I have tracked down the traitor to the
+Crescent. While a discreet intervention
+has failed, it is only a matter of time.<br>
+I must extend my stay, Ellerie cannot
+be allowed time to plan her wicked
+schemes. I will bring her to justice.<br>
+-Your loyal servant,<br>
+Maurice</div>			
+			</div>
+			<div class="container transition">
+<div>pomelo</div>
+<div>Lindy, over there!</div>
+<div>lindros</div>
+<div>Where?</div>
+<div>pomelo</div>
+<div>You're as blind as a bat. That's
+your master, in that big house!</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(An archsage runs into the village's largest house.)</div>
+<div>elder</div>
+<div>There's more villagers trapped in
+their homes! You're an Archsage, is there nothing more you can do?</div>
+<div>ulach</div>
+<div>I must stay here to prepare the portal.
+They will have to make their own way.</div>
+<div>elder</div>
+<div>Then the rest is
+up to the gods.</div>
+<div>ulach</div>
+<div>Faith ought to be placed in the
+hands of men rather than gods.</div>			
+<div></div><div class="stagedirection">(Ulach casts a flashy spell, then warps away.)</div>
+			</div>
+			<div class="container transition">
+<div>lindros</div>
+<div>That's Master alright. Only he puts
+so much flashiness in his spellwork.</div>
+<div>ellerie</div>
+<div>Isn't that normal
+for Archsages?</div>
+<div>lindros</div>
+<div>Showing your lack of magical
+education once again.</div>
+<div>ellerie</div>
+<div>Why did I open
+my mouth?</div>
+<div>lindros</div>
+<div>A lights show like that is not
+part of any portal spell.<br>
+No, it's all dramatic flair.</div>
+<div>ellerie</div>
+<div>Great. Fantastic, even. But that's a
+portal he's made in that house, you say?</div>
+<div>lindros</div>
+<div>Straight to Enan, judging from the wasted
+magic I feel all the way up further east.</div>
+<div>ellerie</div>
+<div>Then let's go for it! The Saltsworn would
+never expect us to go into their home.</div>
+<div>pomelo</div>
+<div>That's good in theory, but...
+Everyone in Enan could just kill us?</div>
+<div>ellerie</div>
+<div>With a force like that out hunting for us,
+how many would they have left at Enan?<br>
+Besides, we don't even know if they've 
+sent word home to hunt all of us down.</div>
+<div>lindros</div>
+<div>You're gambling our lives on two
+unsubstantiated assumptions.<br>
+We know neither the extent of their
+forces nor if Enan knows we're here.</div>
+<div>ellerie</div>
+<div>If you want us to stay in the wilds and die
+in the Green Tide, try to convince me.</div>
+<div>lindros</div>
+<div>I agree with your course of action. I just
+want to point out how flawed your logic is.</div>
+<div>ellerie</div>
+<div>Thanks. You're really going
+to waste time on that?</div>
+<div>pomelo</div>
+<div>Captain, Lin, there's still civilians trapped
+in the houses. If we're heading through, we might as well give them a hand!</div>
+<div>ellerie</div>
+<div>We'd also be cleaning up the Green
+Tide for the benefit of our foes.</div>
+<div>pomelo</div>
+<div>Captain.</div>
+<div>ellerie</div>
+<div>I'm not saying we shouldn't
+save who we can.<br>
+I'm just saying this is what the
+Saltsworn should be doing!<br>
+This is their damn job!
+The bastards.</div>
+<div>lindros</div>
+<div>Now who's wasting 
+time complaining?</div>
+<div>pomelo</div>
+<div>You two are terrible.
+Let's just get moving.</div>		
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(A girl appears and casts a light spell that obliterates a monster.)</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Old Bob's son was spoken to</h1>
+				<div class="container">
+<div>acielle</div>
+<div>Begone, filthy beasts!</div>
+<div>young bob</div>
+<div>I thought I was done for.
+Do you need any help?</div>
+<div>acielle</div>
+<div>You can barely lift that sword of yours. 
+Have no fear, I will handle it from here.</div>
+<div>young bob</div>
+<div>There's a lot of them; I hear
+more coming from the trees!<br>
+Can we break through?</div>
+<div>acielle</div>
+<div>A divine champion isn't going to
+fall to these small time creatures.<br>
+What kind of a tale would that be?</div>
+<div>young bob</div>
+<div>One chosen by the Goddess herself?
+I didn't think they still existed.</div>
+<div>acielle</div>
+<div>In the flesh, ready to blast
+some monsters.</div>
+<div>young bob</div>
+<div>So you must be a very
+powerful magic user.</div>
+<div>acielle</div>
+<div><i>(smiles)</i> This my first time ever casting magic.<br>
+But the goddess is with me, everything will turn out just fine.</div>
+<div>young bob</div>
+<div>We're doomed.</div>			
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If not</h1>
+				<div class="container">
+<div>acielle</div>
+<div>Feel the wrath of a
+divine champion!</div>
+<div>offscreen</div>
+<div>Acielle, run for the town hall!
+What are you doing?</div>
+<div>acielle</div>
+<div><i>(smiles)</i> I'm a bit busy saving
+the day, Elder!</div>
+<div>offscreen</div>
+<div>Have you lost your
+mind? Run!</div>
+<div>acielle</div>
+<div>A chosen one of the
+goddess won't fall here!<br>
+I'll be finished with these
+monsters in no time!</div>			
+				</div>
+			</div>
+			<div class="container transition">
+<div>krynia</div>
+<div>I've recovered enough
+from the last outbreak.<br>
+I must join this battle!</div>
+<div>oriana</div>
+<div>The last battle you fought was what
+made this outbreak so much worse!</div>
+<div>krynia</div>
+<div>We don't know that for sure!<br>
+It could be that my hourglass
+is just naturally running dry.</div>
+<div>oriana</div>
+<div>The Workshop is so close, Krynia!
+Once we reach it, it'll all be-</div>
+<div>krynia</div>
+<div>I'm not six anymore. No one knows 
+what's there. Not you, not Grandfather!</div>
+<div>oriana</div>
+<div>But there's a very
+good chance!</div>
+<div>krynia</div>
+<div>For my whole life, all I've done is put my
+family in danger for a chance at living!<br>
+This is finally the moment where even
+my meager aid can be appreciated, where I can finally be more than a burden!<br>
+Are you going to let me die knowing I've
+done nothing of value my whole life?</div>
+<div>oriana</div>
+<div>You're worth the world to me.
+You don't have to prove anything!</div>
+<div>krynia</div>
+<div>To you, Mother.
+But not to myself.</div>
+<div>oriana</div>
+<div>You're absolutely convinced
+that your death is inevitable.</div>
+<div>krynia</div>
+<div>Mother, please, don't
+take this away from me.<br>
+I may be too sickly to learn
+the complexities of a blade, but with this sharp stick?
+Just point and push.</div>
+<div>oriana</div>
+<div>What parent can be happy that their
+child insists on entering the battlefield?<br>
+Fine, Krynia. Just please, stay close.</div>
+			</div>
+			<div class="container transition">
+<div>narrator</div>
+<div><i>Each house will contain a green unit.<br>
+Green units will begin with escape AI,
+but their AI can be changed with talk.<br>
+Rescuing dropping or shoving the unit
+onto the escape tile will also count.</i></div>
+			</div>
+			<div class="container transition">
+<div>acielle</div>
+<div><i>(smiles)</i> Fear not citizens! These oversized
+drakes shall not breach your walls,<br>
+not after I use my god-given powers
+to smite them from existence!</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>New Guide Entries</h1>
+			<h3>The Faithful</h3>
+			<p>The Faithful blame Elis's
+murder of a god for instigating
+the centuries of strife, and 
+hope for the return of the gods.
+While they are labelled as a
+single group, their customs are
+deeply divided by which gods
+they worship.
+</p><p>
+Many groups of the Faithful
+would make the journey to the
+Crescent to escape hostility
+from the growing influence
+of the Sect of Elis.</p>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 4 (if west house not visited)</h1>
+			<h3>West House</h3>
+			<div class="container">
+<div>man</div>
+<div>Okay, I've got all my good wine!
+I can do this! Making a run for it!</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 5 (if northwest house not visited)</h1>
+			<h3>Northwest House</h3>
+			<div class="container">
+<div>young woman</div>
+<div>Goddess save me! Faith be
+my shield! I have to go!</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 5 (if central house not visited)</h1>
+			<h3>Central House</h3>
+			<div class="container">
+<div>girl</div>
+<div>Momma isn't coming back, is she?
+It's up to me! I'll make it out!</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 6</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>Look at that. No hordes of angry wights,
+spiders, or mercenaries at our rear.<br>
+I could get used to this.</div>			
+<div></div><div class="stagedirection">(The Green Tide expands.)</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ellerie & Acielle</h1>
+				<div class="container">
+<div>ellerie</div>
+<div>So what's this whole chosen one deal?
+Haven't the gods been dead for centuries?</div>
+<div>acielle</div>
+<div>Lies propagated by the unfaithful!
+The Goddess came to me in my sleep.<br>
+From a young age I knew of my destiny.</div>
+<div>ellerie</div>
+<div>What did she say?
+Some ominous prophecy?</div>
+<div>acielle</div>
+<div>I couldn't make out what she said
+to me. But I'm sure finding out
+will be half the journey.</div>
+<div>ellerie</div>
+<div>And that's it? I was expecting a 
+bit more than just a vague dream.<br>
+Any other life-changing event?</div>
+<div>acielle</div>
+<div>Nope.<br>
+The Goddess works in mysterious ways.</div>
+<div>ellerie</div>
+<div>I figured a heroic tale should come
+with something more. Maybe an
+ancient evil, or some global catastrophe.</div>
+<div>acielle</div>
+<div>They're not off the table yet.
+This is the Crescent after all.<br>
+Maybe this invasion is the turning
+point where an ancient evil is unleashed
+and a global catastrophe begins.</div>
+<div>ellerie</div>
+<div>I sure hope that statement is completely
+wrong. I've already had a miserable week.</div>
+<div>acielle</div>
+<div>Well, if you get an indication of
+such, you know who to find.<br>
+No heroic tale spends the entire time
+facing your run-of-the-mill beasts.</div>
+<div></div><div class="stagedirection">(Acielle leaves.)</div>
+<div>ellerie</div>
+<div>Maybe I should warn her about Tower,
+but I'd doubt he'd even believe her.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Iosaf & Vermillion</h1>
+				<div class="container">
+<div>vermillion</div>
+<div class="inverted">This is ridiculous. No one acknowledges
+my presence or my deeds.</div>
+<div>iosaf</div>
+<div>Shut up. This clucking
+is driving me mad.</div>
+<div>vermillion</div>
+<div class="inverted">I'll cluck all I want, you bumbling oaf!</div>
+<div>iosaf</div>
+<div>Me, bumbling? I'm the
+most nimble fella around.</div>
+<div>vermillion</div>
+<div class="inverted">Oh great, the only person that
+understands me is a stupid cyclops.</div>
+<div>iosaf</div>
+<div>I'm sorry, look at how large my
+brain is, then look at yourself.<br>
+You can barely fit a walnut in there.</div>
+<div>vermillion</div>
+<div class="inverted">Of course size is the only thing
+that matters to you.<br>
+I'm one-fiftieth your size, yet
+with fifty times the achievement.</div>
+<div>iosaf</div>
+<div>I may be second-best,
+but you sure ain't first.</div>
+<div>vermillion</div>
+<div>Your lone eye must be for decoration,
+because you're not seeing much!</div>
+<div></div><div class="stagedirection">(Ellerie and Tower watch the exchange from afar.)</div>
+<div>ellerie</div>
+<div>What is going on over there?
+Is it talking to a chicken?</div>
+<div>tower</div>
+<div>It's already going mad.
+It'll snap any day now.</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>West House</h1>
+				<div class="container">
+<div>man</div>
+<div>But my gold, my wine! At least give me
+time to grab some of the better stuff.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Northwest House</h1>
+				<div class="container">
+<div>young woman</div>
+<div>I pray to the Goddess every day.
+What did I do to deserve this?</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Central House</h1>
+				<div class="container">
+<div>girl</div>
+<div>Momma, this isn't funny anymore!
+You said you'd be back for me!</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>That's about all I have in me.
+Let's get to this Enan place.</div>			
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If all civilians saved</h1>
+				<div class="container">
+<div>elder</div>
+<div>The Goddess is with us on this blessed day!
+All who were trapped made it through.</div>
+<div>ellerie</div>
+<div>I'd like to think it was us rather than
+the Goddess, but it was no easy feat.</div>
+<div>elder</div>
+<div>It must be the Goddess that guided
+you to us in this hour of need.<br>
+I will reward you in kind.</div>
+<div>ellerie</div>
+<div>I'm happy to do more in the name
+of the Goddess if it nets us supplies.</div>		
+<div></div><div class="stagedirection">(Ellerie receives Quality Liquor and a Skullsmash staff.)</div>		
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If 1 or 2 civilians saved</h1>
+				<div class="container">
+<div>elder</div>
+<div>Is this everyone who
+has come through?</div>
+<div>ellerie</div>
+<div>That is all.</div>
+<div>elder</div>
+<div>I see. Thank you
+for your efforts.</div>				
+<div></div><div class="stagedirection">(Ellerie receives Quality Liquor if she save 2 civilians, or Common Tools if she only saved one.)</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If no civilians saved</h1>
+				<div class="container">
+<div>elder</div>
+<div>Are you all that
+came through?</div>
+<div>ellerie</div>
+<div>I'm sorry.</div>
+<div>elder</div>
+<div>Such is the nature of this cruel land.
+They are happier with the Goddess now.</div>				
+				</div>
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Old Bob's son is present</h1>
+				<div class="container">
+<div>young bob</div>
+<div>You again! Don't think I'll forgive you
+because of some petty deeds.</div>
+<div>ellerie</div>
+<div>What a tragedy.
+I will never recover.</div>
+<div>young bob</div>
+<div>One day, your luck will run out. 
+And you'll be sorry.</div>
+<div></div><div class="stagedirection">(He leaves.)</div>
+<div>ellerie</div>
+<div>I'd be more concerned if it was coming
+out of someone that could lift a sword.<br>
+The idiot didn't even take it with him.
+Hmph, I think I deserve some compensation.</div>		
+<div></div><div class="stagedirection">(Ellerie receives a Cutlass.)</div>
+				</div>
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Acielle survived</h1>
+				<div class="container">
+<div>elder</div>
+<div>What in the name of- Were you
+shooting light out of your hands?</div>
+<div>acielle</div>
+<div>I told you all that the Goddess wasn't
+just a dream. You all called me delusional!</div>
+<div>elder</div>
+<div>She hasn't been seen since the cataclysm,
+and to choose you of all people?</div>
+<div>acielle</div>
+<div>The Goddess works
+in mysterious ways.</div>
+<div>elder</div>
+<div>But... Why some magical
+rolling log of all things?<br>
+Our goddess isn't a patron
+of trees, dead or alive!</div>
+<div>acielle</div>
+<div>This is not just some log, Elder!<br>
+This is THE log that I've been
+daydreaming on for years!<br>
+It's all, uh, symbolic, I think. Not 
+sure what, but I'm pretty sure.</div>
+<div>elder</div>
+<div>Symbolic of your head
+being in the clouds?</div>
+<div>acielle</div>
+<div>See you in a decade, Elder.
+I have an adventure to begin!</div>
+<div></div><div class="stagedirection">(Acielle leaves.)</div>
+<div>elder</div>
+<div>Acielle, a chosen one? Is the world
+going crazy? Am I going crazy?</div>				
+				</div>
+			</div>
+			<br>
+			<div class="container">
+<div>lindros</div>
+<div>Master! What are
+you doing here?</div>
+<div>ulach</div>
+<div>Field research on the Green Tide. It almost
+sounds like you're not happy to see me.</div>
+<div>lindros</div>
+<div>Of course not.
+I mean yes- er, no.</div>
+<div>ulach</div>
+<div>We are not at Oakhall.<br>
+I cannot test you on the application
+of plane shifting out of the blue.</div>
+<div>lindros</div>
+<div>Fantastic.</div>
+<div>ulach</div>
+<div>That is not what someone who studied
+applications of plane shifting would say.<br>
+Adventuring business is not an excuse
+to slack off on life-long learning.</div>
+<div>lindros</div>
+<div>Master, please.</div>
+<div>ulach</div>
+<div>That's about enough. So how's
+your field research coming along?<br>
+Certainly more exciting than
+hitting the books.</div>
+<div>lindros</div>
+<div>I've learnt much more than expected.
+I witnessed the monsters operating
+under the command of living trees,<br>
+a monster capable of speech and 
+reason and allegedly, humans who can
+transform into ferocious creatures.<br>
+I thought I searched the limits of
+Oakhall's records, yet there is so
+much that they don't contain.</div>
+<div>ulach</div>
+<div>Fascinating. You must fill
+me in on the details later.</div>
+<div>lindros</div>
+<div>My initial hypotheses have been scrapped.<br>
+I am hoping the Workshop contains what I
+need to fill in the gaps. Will you join us?</div>
+<div>ulach</div>
+<div>Alas, the Green Tide calls.<br>
+Stay safe out there, my boy.<br>
+Oakhall won't allow me another
+apprentice if a sixth goes missing.</div>
+<div>lindros</div>
+<div>I don't intend
+to be the sixth.</div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(Some time later, Ellerie has gathered the crew for a meeting at Enan's inn.)</div>
+<div>ellerie</div>
+<div>...and I thank you all for joining the
+Seahawk on this difficult journey.<br>
+Unfortunately, it's difficult being a
+crew of a ship that no longer exists,<br>
+and thus, our union comes to an end.<br>
+I wish you all the best of luck
+on your future endeavours.</div>			
+<div></div><div class="stagedirection">(Ellerie leaves.)</div>
+<div>pomelo</div>
+<div>Someone else was as beat up about
+the Seahawk getting blown up as I am.<br>
+Lindy, what's the plan now?</div>
+<div>lindros</div>
+<div>I don't know. I assumed we were still
+going to the Workshop. Mince,<br>
+did you know anything about this?</div>
+<div>mince</div>
+<div>I got nothing. It's not like she ran
+important decisions by me.<br>
+It'd be Tower and Oriana.</div>
+<div>pomelo</div>
+<div>They must have it hard,
+with Krynia's condition and all.</div>
+<div>mince</div>
+<div><i>(frowns)</i> It doesn't feel right to abandon them.
+We've been through a lot together.</div>
+<div></div><div class="stagedirection">(Tower and Oriana converse amongst themselves.)</div>
+<div>tower</div>
+<div>Well, damn.</div>
+<div>oriana</div>
+<div>It's not a surprise when everything up
+to now has been a series of misfortunes.<br>
+That trouble with the Sect, then Krynia...</div>
+<div>tower</div>
+<div>Regardless, now we're down our
+source of funding. And a crew.</div>
+<div>oriana</div>
+<div>Krynia is not getting any better.
+Oh by Elis, do we risk it all?</div>
+<div>tower</div>
+<div>We have no other options. If it
+has to be just us, it will be just us.</div>
+<div>oriana</div>
+<div>We'll figure something out.
+We have to.</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Reiker, Raylin, and Gecko are alive</h1>
+				<div class="container">
+<div>gecko</div>
+<div>We're disbanding?
+Where do I go from here?<br>
+I can't go home.</div>
+<div>raylin</div>
+<div>You could always
+just come with us.</div>
+<div>reiker</div>
+<div>I've always wanted to
+upgrade to the terrible trio.</div>
+<div>gecko</div>
+<div>You'd have me? I fear
+I'd only slow you down.</div>
+<div>reiker</div>
+<div><i>(smiles)</i> Nonsense! You're Galeforce Gecko,
+wielder of the dreaded frying pan!</div>
+<div>raylin</div>
+<div><i>(smiles)</i> Scourge of the
+western coast.</div>
+<div>reiker</div>
+<div>Breaker of skulls,
+reaver of souls!</div>
+<div>raylin</div>
+<div>We should ask if
+you'd have us.</div>
+<div>gecko</div>
+<div><i>(smiles)</i> No need to tease me. I'd love
+to join you. Where would we go?</div>
+<div>reiker</div>
+<div>We haven't thought
+of that just yet.</div>
+<div>raylin</div>
+<div>I'm certain between the three of our
+brilliant minds, we can form a plan.</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Acielle</b><br>
+A self-proclaimed “ally of justice” on
+a journey to find herself. I'm very
+happy to take advantage of that.</p>
+<p class="hangingindent"><b>Justice</b><br>
+A force of nature imbued with madness. 
+It is not known what tree it once was.</p>
+<p class="hangingindent"><b>Wood Lord</b><br>
+A conduit for the invasion forces
+determined to exterminate humanity.</p>		
+<p class="hangingindent"><b>Free Fiend</b><br>
+Monstrous beings who've claimed these
+lands since the fall of the old civilisation.</p>
+<p class="hangingindent"><b>Tomb Terror</b><br>
+Incredibly unhappy to be robbed, and 
+even more so for being woken up.</p>
+<p class="hangingindent"><b>Coastal Citizen</b><br>
+An average citizen trying to 
+make a living on the Crescent.
+A rather poor choice.</p>
+<p class="hangingindent"><b>Mythic Merc</b><br>
+An amateur band of sellswords whose only
+objective is to live up to their lofty name.</p>
+<p class="hangingindent"><b>Loot</b><br>
+Just gonna yoink this while no
+one's looking. Or smash it.</p>
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
