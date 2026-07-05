@@ -1,0 +1,1404 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 12: Irinde Incursion</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div class="objectives">
+			<font>Objective</font>
+			<font>Defend/Dft. Boss
+			<p><i>Crush these “bosses”
+under your boots</i></p></font>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>narrator</div>
+<div>The peace brought about by the 
+creation of the Coastal Coalition
+lasted merely twenty years.<br>
+In the year 294 Restoration Era,
+two incidents dragged almost all
+the colonies into conflict.<br>
+One in the east, where the Guild
+fought its rivals for control.<br>
+The other in the west, a skirmish
+between pirates and the colonies.<br>
+It was during this time when the
+name Ellerie came to prominence...<br>
+<p>
+-Records of the Crescent</p></div>
+<div></div><div class="stagedirection">(Keilu and the Corsair Coven march on Irinde.)</div>
+<div>keilu</div>
+<div>“Irinde will pay for what they've done to
+Enan, to the Saltsworn, to Mother!"</div>
+<div>cold caller</div>
+<div>“The Seahawks will be easy pickings once
+we've eliminated all of their allies."</div>
+			</div>
+			<div class="container transition">
+<div>pirate 1</div>
+<div>These villagers are putting up a hell
+of a fight. Why couldn't this be easy?</div>
+<div>pirate 2</div>
+<div>We just want to take their stuff.
+Why do they have to be so difficult?</div>
+<div>pirate 3</div>
+<div>I hear this warehouse belongs to
+the Seahawks. Let's take a look.</div>
+<div>pirate 1</div>
+<div>Surely, they have
+tons of loot.</div>
+<div>pirate 2</div>
+<div>I don't know, man. I heard stories
+about them and it seems risky.</div>
+<div>pirate 3</div>
+<div>No worries. They're halfway
+across the coast by now.<br>
+They won't make it back.</div>
+<div></div><div class="stagedirection">(The Seahawks rush in. Mince attacks one of the pirates, killing him in one blow.)</div>
+<div>pirate</div>
+<div>Seahawks! Leg it!</div>
+<div></div><div class="stagedirection">(Pomelo kills another pirate as they try to run, but the last pirate escapes. The Seahawks move into the city, meeting with the militia.)</div>
+<div>guard</div>
+<div>Seahawks! Couldn't have
+come at a better time. </div>
+<div>ellerie</div>
+<div>We came as fast as we
+could. How's the situation? </div>
+<div>guard</div>
+<div>We've prevented these rabble from
+breaking into the residential area, but their main invasion force is
+going straight for Irinde's town hall!</div>
+<div>ellerie</div>
+<div>Looks like raiding the town is a
+secondary objective to them. </div>
+<div>guard</div>
+<div>There's a secret entrance here.
+You should be able to surprise them.</div>
+<div>ellerie</div>
+<div>Are you sure you can hold the gate?<br>
+No point in saving the leaders if the
+civilians get slaughtered in the process.</div>
+<div></div><div class="stagedirection">(Johnny Spices, the Matron, and a chicken arrive to reinforce the militia.)</div>
+<div>johnny spices</div>
+<div>Us civilians can take
+care of ourselves.</div>
+<div>matron</div>
+<div>I usually don't interfere in external affairs,
+but this would be really bad for business.</div>
+<div>johnny spices</div>
+<div>No idea what business you
+run, but I can say the same.</div>
+<div>guard</div>
+<div>Glad to have you with us.<br>
+The bravery of every one of
+Irinde is worth ten pirates.</div>
+<div>matron</div>
+<div>I can attest to that. A bunch of pirates
+snuck in earlier and got torn to pieces.</div>
+<div>ellerie</div>
+<div>I'm impressed. The villagers at the
+Bay didn't even put up a fight.</div>
+<div>guard</div>
+<div>Don't compare us to those pushovers.<br>
+They came to the Crescent fleeing danger.
+We came to the Crescent seeking danger.</div>
+<div>johnny spices</div>
+<div>Go ahead, Captain. If these pirates
+think we're as easy game as the Bay, they've got another thing coming.</div>
+<div>ellerie</div>
+<div>Then we'll be going.<br>
+Give them hell.</div>
+<div></div><div class="stagedirection">(The Seahawks enter the secret passage.)</div>
+<div>johnny spices</div>
+<div>Drinks are on me tonight.
+Everyone better live to see it.</div>
+<div>guard</div>
+<div>I'll hold you to that promise.<br>
+We'll show them why Irinde is the
+most vicious town on the Crescent!</div>
+<div></div><div class="stagedirection">(The pirates watch from afar.)</div>
+<div>pirate 1</div>
+<div>The Seahawks got
+Death Axe and Jim!</div>
+<div>pirate 2</div>
+<div>I'm not going up against the Seahawks.
+I heard what they did to Corky.</div>
+<div>pirate 1</div>
+<div>A bunch of armed citizens have
+arrived as well. Odds look bad.</div>
+<div>pirate 3</div>
+<div>Let's just sneak away. This
+ain't worth giving up our lives.</div>
+<div></div><div class="stagedirection">(They try to sneak away, but run into the main invasion force.)</div>
+<div>cold caller</div>
+<div>Leaving work early,
+gentlemen?</div>
+<div>pirate</div>
+<div>There's too many! They got loads of backup.
+We had to make a tactical retreat.</div>
+<div>cold caller</div>
+<div>You've got a good head on your shoulders.
+Let's see what new foes have arrived.</div>
+<div>pirate</div>
+<div>Thanks, Boss.
+They're over there.</div>
+<div></div><div class="stagedirection">(The Cold Caller examines Irinde's forces.)</div>
+<div>cold caller</div>
+<div>Really. This pathetic rabble
+is what caused you to flee?</div>
+<div>pirate</div>
+<div>No, not just that.
+There were these-</div>
+<div>cold caller</div>
+<div>The only place you're tactically
+retreating to is the afterlife.</div>
+<div></div><div class="stagedirection">(The Cold Caller executes him.)</div>
+<div>cold caller</div>
+<div>Well? Anyone else thinking of
+running from some civilians?</div>
+<div>pirate</div>
+<div>No, Boss! We'll fight
+to the end, Boss!</div>
+<div>cold caller</div>
+<div>I thought not. Now, let me show you
+why they call me the Cold Caller!</div>
+<div></div><div class="stagedirection">(The Cold Caller summons a snowstorm.)</div>
+<div>guard</div>
+<div>Is this... snow? I heard we had this
+further north, but never seen it before.</div>
+<div>johnny spices</div>
+<div>This isn't good. I suppose this is the work
+of the Cold Caller, given the “cold” part.</div>
+<div>guard</div>
+<div>Sounds like a lame title. Surely
+we can take this Cold Caller.</div>
+<div>johnny spices</div>
+<div>I assumed so as well, but he's powerful
+enough to make it snow in this climate.<br>
+What more is he capable of?</div>
+<div></div><div class="stagedirection">(The Corsair Coven advances on the militia.)</div>
+<div>guard</div>
+<div>Halt! You'll not make another
+step into Irinde, pirate scum! </div>
+<div>johnny spices</div>
+<div>The only thing that's going to be
+cold after this is your corpse. </div>
+<div>cold caller</div>
+<div>Some may call you brave for challenging
+me, but I would just call you fools.</div>
+<div>guard</div>
+<div>Know that you face
+the lance of-</div>
+<div>cold caller</div>
+<div>Silence. I have no need to hear the words
+of walking corpses. You'll be the first. </div>
+<div></div><div class="stagedirection">(The Cold Caller attacks, but misses. The guard retaliates with a critical hit, killing him instantly.)</div>
+<div>guard</div>
+<div>I got him? </div>
+<div>johnny spices</div>
+<div>Why are you all standing
+around? Slaughter them! </div>
+<div></div><div class="stagedirection">(He Who Chops and Potato kill two of their vanguard, causing the rearguard to flee in terror.)</div>
+<div>matron</div>
+<div>Press the advantage! Paint the
+streets red with their blood!</div>
+<div></div><div class="stagedirection">(The villagers descend on the Corsair Coven.)</div>
+			</div>
+			<h3 class="transition">Underground Passage</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(The Seahawks find Jake and Anna waiting in the passage.)</div>
+<div>jake</div>
+<div>Is the fighting over? </div>
+<div>ellerie</div>
+<div>No, we're commandeering use of this
+tunnel for official purposes. Move aside.</div>
+<div>anna</div>
+<div>Hey, who gave you the right
+to just march down here!<br>
+We're charging a fee of right of-</div>
+<div></div><div class="stagedirection">(The Seahawks ignore them and break through to the town hall.)</div>
+			</div>
+			<h3 class="transition">Town Hall</h3>
+			<div class="container">
+<div>keilu</div>
+<div>Working with pirates leaves a
+bad taste in my mouth, but if Master Maurice thinks this
+will work, I won't question it.<br>
+These people are complicit in Mother's
+murder. Show them no mercy!</div>		
+			</div>
+			<div class="container transition">
+<div>loquat</div>
+<div>To think the great Archsage Nerysa would
+enshrine herself in some tribal town.<br>
+You may have tried keeping your secrets
+from Oakhall, but it will only benefit me!</div>			
+			</div>
+			<div class="container transition">
+<div>pirate</div>
+<div>Some shady thief is
+causing a ruckus, Boss!</div>
+<div>wheelhouse</div>
+<div>What ruckus?</div>
+<div>pirate</div>
+<div>She's saying the Seahawks beat Hagendire
+at the Bay and are heading this way now!<br>
+The men are getting really nervous.</div>
+<div>wheelhouse</div>
+<div>Damn that incompetent Hagendire! Men,
+prepare every entrance for full assault!</div>
+<div>pirate</div>
+<div>Yes, Boss! Should we
+prepare some traps?</div>
+<div>wheelhouse</div>
+<div>Wait, that doesn't make sense.<br>
+If the thief saw this happen, how did she outrun a skyboat to
+make it here before they did?</div>
+<div>pirate</div>
+<div>... Yeah. That's not right.</div>
+<div>wheelhouse</div>
+<div>False alarm. Don't bother with
+the traps. Keep looting this fort.</div>			
+			</div>
+			<div class="container transition">
+<div>narrator</div>
+<div><i>Each blue tile activates effects
+to bring about some form of help.<br>
+Nerysa's death is a game over
+for this chapter only.</i></div>
+			</div>
+			<div class="container transition">
+<div></div><div class="stagedirection">(Tasel hides behind a cracked wall.)</div>
+<div>tasel</div>
+<div>Why, why, why? I thought the
+fort would be the safest place!<br>
+Surely they won't find me in here.</div>
+<div>pirate 1</div>
+<div>You reckon I'm strong enough
+to break this cracked wall?</div>
+<div>pirate 2</div>
+<div>No way, mate.
+You're all fat, no muscle.</div>
+<div>pirate 1</div>
+<div>I'll give it a crack.
+Heh, get it?</div>
+			</div>
+			<div class="container transition">
+<div>dune</div>
+<div>You have some interesting colleagues.
+To go this far to try to steal your work?</div>
+<div>nerysa</div>
+<div>Didn't think they could be this brazen.<br>
+They've never dared to make
+direct confrontations until now.</div>
+<div>dune</div>
+<div>With Enan's help and Oren being
+absent, they've got a good shot.<br>
+We know why Enan is here, of course.</div>
+<div>nerysa</div>
+<div>No use blaming Oren now,
+let's focus on the present.<br>
+I'd rather die than let these pirates
+get their hands on my hard work.</div>
+<div>dune</div>
+<div>I care not for whatever hocus
+pocus you're developing, but I cannot disgrace myself by
+letting Irinde fall under my watch!</div>
+<div>nerysa</div>
+<div>I suppose there's worse people
+to fight to the death alongside. </div>
+<div>dune</div>
+<div>And certainly better,
+but I can't be picky.</div>			
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>After looting the Circle member's Iron Axe</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>I'm mostly sure that plain old thing is the
+“Chopper” that the man asked us to find.<br>
+Call it intuition.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Nerysa Death</h1>
+				<div class="container">
+<div>nerysa</div>
+<div>I hoped my death could
+be more... something.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Telon & Dune</h1>
+				<div class="container">
+<div>telon</div>
+<div>Sister! Sister! I'm glad you're
+okay, I really feared that-</div>
+<div>dune</div>
+<div>Telon! Not now.</div>
+<div>telon</div>
+<div>Huh?</div>
+<div>dune</div>
+<div>We're in the middle of a battle. You can
+get all emotional later, victory comes first.</div>
+<div>telon</div>
+<div>Ah, I'm- I'm sorry.</div>
+<div>dune</div>
+<div>Lift your head, straighten your shoulders!<br>
+The Ironsmith family would be proud of
+having a fine warrior such as yourself,<br>
+act with the confidence of one!</div>
+<div>telon</div>
+<div>Yes, of course!</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Keilu</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>keilu</div>
+<div>The Seahawk Captain!
+Finally, we are face to face.</div>
+<div>ellerie</div>
+<div>So you're the son of that
+Saltsworn commander?</div>
+<div>keilu</div>
+<div>I am. You, the Seahawks, Oren,
+you'll all pay for your crimes.</div>
+<div>ellerie</div>
+<div>What a joke. She attacked us
+out of the blue, got killed, and we still have to deal
+with the aftermath?<br>
+Should have died in a ditch
+and saved us the trouble. </div>
+<div>keilu</div>
+<div>Trying to enrage me?
+I won't fall for your tricks.</div>
+<div>ellerie</div>
+<div>I want to hear it from you.<br>
+Why do you think your
+Mother attacked us?</div>
+<div>keilu</div>
+<div>I don't care. All I know is
+that you need to die.</div>
+<div>ellerie</div>
+<div>If you're insistent in following
+your mother's footsteps,<br>
+then I'll send you to her.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Dune</h1>
+					<div class="container">
+<div>dune</div>
+<div>For Irinde to be threatened by
+a brat throwing a tantrum?<br>
+What a joke. This is what we
+get with Oren as the Chief, desiring cooperation over
+improving Irinde's defences.</div>
+<div>keilu</div>
+<div>Oren? Cooperation?
+Don't make laugh!<br>
+He planned Mother's death
+for his own schemes!</div>
+<div>dune</div>
+<div>Oren is too foolish to have
+a single manipulative bone.<br>
+Your mother didn't die because
+of some made-up treachery.<br>
+Your mother died because 
+she was a weak commander.</div>
+<div>keilu</div>
+<div>She is the strongest
+person I've ever known!<br>
+Cease your lies!</div>
+<div>dune</div>
+<div>The victor can bring whatever
+story they want into reality.<br>
+But you lost, so flee with your
+tail between your legs, brat!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Oriana</h1>
+					<div class="container">
+<div>oriana</div>
+<div>You're the new
+Saltsworn Commander?<br>
+You can't be much
+older than my daughter.</div>
+<div>keilu</div>
+<div>Don't look down on me because
+of my age. Draw your blade!</div>
+<div>oriana</div>
+<div>It pains me, but very well.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Acielle</h1>
+					<div class="container">
+<div>keilu</div>
+<div>You're doing alright.<br>
+Shocked me that you did
+obtain god-given powers.</div>
+<div>acielle</div>
+<div>I thought you always
+believed me. </div>
+<div>keilu</div>
+<div>Not really, no. But you
+proved yourself right.</div>
+<div>acielle</div>
+<div>It's good to see you again,
+but not... where we are now.</div>
+<div>keilu</div>
+<div>You want to stick
+with these murderers?</div>
+<div>acielle</div>
+<div>They aren't bad people.<br>
+I'm sure this is the
+will of the Goddess.</div>
+<div>keilu</div>
+<div>Then you are my enemy.</div>
+<div>acielle</div>
+<div>Justice, what am I to do?</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Defeat</h1>
+					<div class="container">
+<div>keilu</div>
+<div>My arm, my arm! You won't
+get me that easily, Seahawks!</div>
+<div>saltsworn</div>
+<div>I'll cover for you, run for it!</div>
+<div>keilu</div>
+<div>I won't forget this!</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Wheelhouse</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>wheelhouse</div>
+<div>Feel the perfect fusion
+of might and magic!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Yvette</h1>
+					<div class="container">
+<div>wheelhouse</div>
+<div>Bows, the weapons of the weak!
+Your kind make me sick.</div>
+<div>yvette</div>
+<div>That's the most ridiculous
+thing I've ever heard.<br>
+Do you know how much strength
+it takes to draw these bows?</div>
+<div>wheelhouse</div>
+<div>Bah, how much muscle does it
+take to pull back some string?</div>
+<div>yvette</div>
+<div>You're one to talk.
+You're casting magic.</div>
+<div>wheelhouse</div>
+<div>Ignorant fool, my magic draws
+from the strength of my body.<br>
+This is a real man's weapon,
+unlike the toothpicks you sling.</div>
+<div>yvette</div>
+<div>Let's test out my toothpicks, and tell me if there's any
+strength behind it.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Thyme</h1>
+					<div class="container">
+<div>wheelhouse</div>
+<div>I've heard of you, magic thief!<br>
+Your tricks have no effect, my
+magic comes from muscle!</div>
+<div>thyme</div>
+<div>That's crap. Your magic is no
+more special than anyone else.</div>
+<div>wheelhouse</div>
+<div>Preposterous! My magic
+is unique only to me!</div>
+<div>thyme</div>
+<div>Let's put it to the test.<br>
+If you survive the outcome I'll
+say you're proven correct.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Iosaf</h1>
+					<div class="container">
+<div>wheelhouse</div>
+<div>The ideal human physique! The
+Gods knew the perfect body, for them to create monsters
+in this form.</div>
+<div>iosaf</div>
+<div>I don't compare myself 
+to these weak humans, but that sounded like
+a compliment.</div>
+<div>wheelhouse</div>
+<div>I must dissect it to see how I
+can improve my own physique.</div>
+<div>iosaf</div>
+<div>That did not sound
+like a compliment.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>wheelhouse</div>
+<div>My flawless body. Is failing?
+Is this the limits of humanity?</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Loquat</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>loquat</div>
+<div>You aren't supposed to be here!
+No matter, I've survived worse.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Nerysa</h1>
+					<div class="container">
+<div>nerysa</div>
+<div>The years haven't been
+kind to you, Loquat, if you have to steal my
+work to get anywhere.</div>
+<div>loquat</div>
+<div>Don't overplay your worth.<br>
+I can do far more with
+your research than you can.</div>
+<div>nerysa</div>
+<div>The arrogance in those words
+is very much like you.</div>
+<div>loquat</div>
+<div>That's because I am fully
+dedicated to my work.<br>
+I didn't abandon Oakhall to
+marry some frontier warlord.</div>
+<div>nerysa</div>
+<div>As opposed to being 
+a frontier warlord?</div>
+<div>loquat</div>
+<div>Let's take our spat out of the
+theoretical to the physical.<br>
+I'll take it from your corpse.</div>
+<div>nerysa</div>
+<div>Neither of us are skilled
+in actual combat,<br>
+this will be a long duel.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Thyme</h1>
+					<div class="container">
+<div>thyme</div>
+<div>Good to see you again, Master.
+Sad to say, I'm still alive.</div>
+<div>loquat</div>
+<div>You knew only how to steal.<br>
+Little wonder that you'd drop
+your studies to run a racket.</div>
+<div>thyme</div>
+<div>That's a tad hypocritical.<br>
+And you're here to have a
+nice chat with Nerysa?</div>
+<div>loquat</div>
+<div>Don't put us on the same level.<br>
+I can do much more with
+her work than she can, keeping her work hidden.</div>
+<div>thyme</div>
+<div>We're both thieves, but at
+least I'm honest about it.</div>
+<div>loquat</div>
+<div>Enough with this chatter.
+I will end your life here.</div>
+<div>thyme</div>
+<div>For all your talent Master,
+you were never a good fighter.<br>
+I think I'll be just fine.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Lindros</h1>
+					<div class="container">
+<div>lindros</div>
+<div>So you're behind these
+abominations we've fought.</div>
+<div>loquat</div>
+<div>Very few understand my works.<br>
+Your magic is the Oakhall style,
+Surely, you can appreciate it.</div>
+<div>lindros</div>
+<div>It's an incredible application
+of Jurgin's Second Theorem, but it breaks all of Oakhall's
+principles. In doing no harm, in-</div>
+<div>loquat</div>
+<div>I'm not going to be lectured by
+some boy wet behind the ears.</div>
+<div>lindros</div>
+<div>I don't plan to lecture you
+on anything, I plan to kill you. </div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>loquat</div>
+<div>My mind fractures further,
+but I will cheat death again.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>True Death</h1>
+					<div class="container">
+<div>loquat</div>
+<div>All those years of work,
+they'll all die with me.</div>					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Skullcrack Jr.</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>skullcrack jr.</div>
+<div>Your bravery won't overcome
+difference in equipment quality!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Tasel</h1>
+					<div class="container">
+<div>skullcrack jr.</div>
+<div>You! You're that merchant who
+scammed us out of our coin!</div>
+<div>tasel</div>
+<div>No, I just, just, got lost.<br>
+On my way back with all the
+weapons. I have them now.</div>
+<div>skullcrack jr.</div>
+<div>Really? So you have those
+twenty silver swords, fifteen silver lances and
+seventeen silver axes?</div>
+<div>tasel</div>
+<div>Well yes, but- Need a bit more
+time to get them all ready.</div>
+<div>skullcrack jr.</div>
+<div>Okay. How long?</div>
+<div>tasel</div>
+<div>Err- Half a year?</div>
+<div>skullcrack jr.</div>
+<div>I think I'd rather just turn
+you into meat paste.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Rohesia</h1>
+					<div class="container">
+<div>skullcrack jr.</div>
+<div>Are you the Headtaker,
+in the flesh?</div>
+<div>rohesia</div>
+<div>The one and only.</div>
+<div>skullcrack jr.</div>
+<div>Your tales were a great
+inspiration to me, and starting up my
+own adventuring band.</div>
+<div>rohesia</div>
+<div>Ha, good to hear youngsters
+taking in my footsteps.<br>
+Though there's a slight issue.</div>
+<div>skullcrack jr.</div>
+<div>I'm going to be your
+next victim, aren't I?</div>
+<div>rohesia</div>
+<div>Yeah. I'll make
+it quick, no worries.</div>
+<div>skullcrack jr.</div>
+<div>Cr-</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Marlow</h1>
+					<div class="container">
+<div>marlow</div>
+<div>You're that guy from the inn.<br>
+Shouting about how you
+were going to make it big.</div>
+<div>skullcrack jr.</div>
+<div>Yes. I remember how your
+ilk scorned my ambitions, claiming I was nothing but a
+pale imitation of my father.<br>
+I have long awaited the day
+which am I vindicated!<br>
+That was why I took this
+assignment against Irinde.</div>
+<div>marlow</div>
+<div>Hold on, what did I do?<br>
+I was just minding my own
+business and getting drunk!</div>
+<div>skullcrack jr.</div>
+<div>You didn't even react to my
+spirited words, the worst insult!<br>
+Casual indifference was more
+scornful than any barbed word.</div>
+<div>marlow</div>
+<div>Who pissed in your drink?<br>
+It's so hard being an
+alcoholic these days.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>skullcrack jr.</div>
+<div>But we came so prepared...
+Is good gear not enough?</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>nerysa</div>
+<div>How bad are the casualties?
+How bad is damage to the town?</div>
+<div>guard</div>
+<div>Minimal to both, Archsage.</div>
+<div>ellerie</div>
+<div>I can tell. Everyone's looking cheerful
+and all the buildings are still standing.</div> 
+<div>nerysa</div>
+<div>What a relief. I was expecting
+so much worse.</div>
+<div>ellerie</div>
+<div>We've killed two of the Pirate
+Sages but one is unaccounted for.<br>
+We can't let our guard down yet.</div>
+<div>guard</div>
+<div><i>(grins)</i> The Cold Caller person?
+Not to worry, here!</div>
+<div></div><div class="stagedirection">(Ellerie starts.)</div>
+<div>ellerie</div>
+<div>Ah!</div>
+<div>nerysa</div>
+<div>This is his head? How
+did he fall that easily?</div>
+<div>guard</div>
+<div>I took his head in single combat.
+It was as glorious as it sounded.</div>
+<div>ellerie</div>
+<div>An impressive feat, but we would
+have believed eyewitnesses.<br>
+Didn't need to bring his head back.</div>
+<div>guard</div>
+<div><i>(serious)</i> This is a family tradition. It will go up
+on my wall to honor my ancestors.</div>
+<div>ellerie</div>
+<div>An interesting practice
+I will not ask about.<br>
+But now that our immediate
+worries have been solved, time to address the next step.</div>
+<div>nerysa</div>
+<div>We should wait for Chief Oren to return.
+Let's not make decisions on his behalf.<br>
+Which, if I may remind you, is your job.</div>
+<div>ellerie</div>
+<div>I'm sure he'd agree Irinde's safety comes
+before him getting a quicker lift home.<br>
+We can't waste the advantage we earned!</div>
+<div>nerysa</div>
+<div>Surely, you don't suggest
+we attack Enan immediately?</div>
+<div>ellerie</div>
+<div>Of course I do. We can't allow
+them time to lick their wounds, to go without retribution!</div>
+<div>nerysa</div>
+<div>This is betting the lives of Irinde's people,
+and future, on an impromptu invasion!<br>
+We need time to learn about our foes,
+prepare supplies, minimise risk, and-</div>
+<div>dune</div>
+<div>If we don't retaliate now, they'll
+take it as a sign of weakness.<br>
+With the Seahawks's help, our
+victory is all but guaranteed.</div>
+<div>oriana</div>
+<div>I would not shed tears if the Saltsworn 
+was to be permanently destroyed, but keep in mind that while they control
+Enan, they are not the townspeople.</div>
+<div>guard</div>
+<div>Bah, semantics! We should crush them as an
+example to whoever dares to mess with us.</div>
+<div>johnny spices</div>
+<div>Do I have to give an opinion?
+I'm not sure what to say.</div>
+<div>matron</div>
+<div>This is beyond my concern. I'm retiring early for
+the night, have my own health to look after.</div>
+<div></div><div class="stagedirection">(The Matron leaves.)</div>
+<div>nerysa</div>
+<div>You're overstepping your
+boundaries, Seahawk Captain.</div>
+<div>dune</div>
+<div>Perhaps so, but what she
+suggests bears merit.</div>
+<div>nerysa</div>
+<div>I suspect she could suggest we burn down
+the town and you'd agree to spite me.</div>
+<div>dune</div>
+<div>Quite petty on your behalf to
+assume this is mere pettiness.</div>
+<div>ellerie</div>
+<div>This won't get anywhere.
+Let's see what Irinde has to say.</div> 		
+<div></div><div class="stagedirection">(Ellerie addresses the crowd.)</div>
+<div>ellerie</div>
+<div>Are we going to let these
+invaders go unpunished?</div>
+<div>crowd</div>
+<div>No!
+<p>No!</p></div>
+<div>ellerie</div>
+<div>Do we want them to think
+we're weak without the Chief?</div>
+<div>crowd</div>
+<div>No!
+<p>No!</p></div>
+<div>ellerie</div>
+<div>Should we take the fight to the enemy?
+Show them the might of Irinde?</div>
+<div>crowd</div>
+<div>Yes!
+<p>An eye for an eye!</p></div>
+<div>ellerie</div>
+<div><i>(grins)</i> We've come to a conclusion.
+Let's take the fight to Enan!<br>
+Glory to Irinde!</div>
+<div>guard</div>
+<div>Of course!
+Glory to Irinde!</div>
+<div>dune</div>
+<div>We have a reputation to defend.
+The Saltsworn will regret this.</div>
+<div>nerysa</div>
+<div>I suppose the
+die is cast.</div>
+<div>johnny spices</div>
+<div>If all hands are in,
+I'm in too.</div>
+<div>oriana</div>
+<div>I will follow your lead.</div>
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">If Thyme is alive</p>
+					<div class="container">
+<div></div><div class="stagedirection">(Thyme approaches with the Rat Ring in tow.)</div>
+<div>thyme</div>
+<div>Let it be known that there is honor among
+thieves. You have the support of the Rats.</div>				
+					</div>
+				</div>
+			</div>
+			<div class="container">
+<div>ellerie</div>
+<div>Brilliant! Let us feast in celebration of our
+victory today, and prepare for another!</div>			
+			</div>
+			<h3 class="transition">Later...</h3>
+			<div class="container">
+<div>ellerie</div>
+<div>Leaving  the
+celebration early?</div>
+<div>oriana</div>
+<div>I've had my fill
+of the crowd.</div>
+<div>mince</div>
+<div>Ellerie and I are also taking
+a break from the noise.<br>
+These coastfolk sure get
+excited for celebrations.</div>
+<div>tower</div>
+<div>There's little interest in watching rowdy
+folk get drunk and sing atrocious tunes.</div>
+<div>ellerie</div>
+<div>You can't be so grouchy that
+you wouldn't enjoy a celebration.<br>
+You were with the spit-roasted
+pig for quite some time.</div>
+<div>mince</div>
+<div>You practically devoured it.</div>
+<div>tower</div>
+<div>The meat was mediocre at best, but Elis
+teaches us to not turn down generosity.</div>
+<div>oriana</div>
+<div>People kept offering us drinks as well.
+We've made quite the name around here.</div>
+<div>ellerie</div>
+<div>Unfortunately, they don't understand
+that a person might choose to not drink.<br>
+Kept bothering me about it.</div>
+<div>tower</div>
+<div>Left me well alone when
+I glared at them enough.</div>
+<div>ellerie</div>
+<div>What happened to not
+turning down generosity?</div>
+<div>tower</div>
+<div>It has its limits, the limit being letting
+me have my peace and quiet.</div>
+<div>mince</div>
+<div>I do want to point out that if
+we didn't stop for pastries, we wouldn't have stopped to help
+Sundown Bay and kept going.<br>
+The conclusion is that pastries
+saved Irinde.</div>
+<div>ellerie</div>
+<div>I'm not entertaining
+that conclusion.</div>
+<div>oriana</div>
+<div>As much as Irinde credits us
+for arriving and saving the day, I have a feeling that the town would
+have been fine even without us.</div>
+<div>mince</div>
+<div>You think so?</div>			
+<div></div><div class="stagedirection">(In the background, two townspeople murder one of the remaining pirates.)</div>
+<div>ellerie</div>
+<div>The townsfolk here do seem more...
+militant, than the Bay not far over.<br>
+How can so little distance
+create such a difference?</div>
+<div>tower</div>
+<div>It's only been decades since each colony 
+was founded by very different settlers.<br>
+Those initial differences mean
+much more than short distances.</div>
+<div>oriana</div>
+<div>It's silly that each colony fought so much
+when the Crescent itself is such a threat. <br>
+Each life lost in these wars is one wasted,
+hence I am not eager for this battle.</div>
+<div>mince</div>
+<div>I'm a bit surprised. You've always fought
+like a lion, not a drop of hesitation visible.</div>
+<div>oriana</div>
+<div>Because I don't compromise the
+survival of my family or my team.<br>
+But I'd much rather be fighting
+the Crescent and its dangers. </div>
+<div>ellerie</div>
+<div>We're adventurers, conflict is our enterprise.<br>
+And human conflicts tend to be a lot more
+profitable than all those inhuman ones.</div>
+<div>oriana</div>
+<div>There are other ways to put coins on the
+table. Enan has given me hospitality before,<br>
+I'd hate to return with steel and torches.</div>
+<div>ellerie</div>
+<div>There's only so many tombs to raid,
+relics to pillage. But the scope of this
+opportunity goes beyond that.<br>
+Here, we have a town without solid
+leadership and an easy enemy to
+focus its hatred towards.<br>
+We've already earned their gratitude.
+We can further establish our
+influence with a good victory.</div>
+<div>tower</div>
+<div>That's why you're stirring the pot.<br>
+It's a more dangerous game than
+simply hunting down a dragon.</div>
+<div>ellerie</div>
+<div>I've made it no secret that I don't wish
+to remain just another adventurer.<br>
+I see the chance to establish ourselves.<br>
+A real power on the Crescent like the 
+Saltsworn, rather than just a warm body.</div>
+<div>tower</div>
+<div>Hmph. I don't recall you discussing
+this with us before your decision.</div>
+<div>oriana</div>
+<div>This line of thinking is what sparked the
+wars that brought about the treaty.</div>
+<div>ellerie</div>
+<div>We suffered those hardships in our Workshop
+trip because we were just some adventurers.<br>
+There's no power on the Crescent that will
+protect us, but if we become that power?<br>
+Is that not what you want for Krynia?
+Knowing your foes, her foes, are out there?</div>
+<div>oriana</div>
+<div>...</div>
+<div>ellerie</div>
+<div>Besides, we ain't burning the town down.<br>
+We've heard how the Saltsworn struggled
+with the Carrion Crows after Caliane ate it.<br>
+A simple change in control will be enough
+to turn Enan from enemy to reluctant ally.</div>
+<div>oriana</div>
+<div>That's sufficient reason. I have no
+objection against this excursion.</div>
+<div>tower</div>
+<div>You've got your mind set. There's nothing I
+could have said that would have mattered.</div>
+<div>ellerie</div>
+<div>I value the crew's inputs,
+especially senior members.</div>
+<div>tower</div>
+<div>Sure.<br>
+While the rest of the
+crew are merrymaking, it's up to responsible adults
+to get everything ready.<br>
+I will return to the warehouse
+to start preparations.</div>
+<div>oriana</div>
+<div>I will as well. See you
+two in the morning.</div>
+<div></div><div class="stagedirection">(Tower and Oriana leave.)</div>
+<div>mince</div>
+<div>Making bigger plans so soon?
+That's the Ellerie I remember.</div>
+<div>ellerie</div>
+<div>Of course. If I want to have
+a serious shot at revenge, it won't be as a wandering
+vagrant. One step at a time.</div>
+<div>mince</div>
+<div>I'm glad you've toned down your
+foolhardiness. I have your back.</div>
+			</div>
+			<h3 class="transition">Warehouse</h3>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you recovered Potato's belongings</h1>
+				<div class="container">
+<div>ellerie</div>
+<div>I've gathered your belongings.
+Odd items, but I won't judge.</div>
+<div>potato</div>
+<div>It's been a long day. Came home to
+see my farm burned, my house wrecked, and pirates eating my food at my table.</div>
+<div>ellerie</div>
+<div>It is quite the trying time.
+If you need some time-</div>
+<div>potato</div>
+<div>They're now fertilizing my field.
+Here's my sword, I won't be needing it.</div>
+<div>ellerie</div>
+<div>You seem to be making pretty
+good use of it, but I'll take it.</div>			
+<div></div><div class="stagedirection">(Ellerie receives Da Slasha.)</div>	
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you recovered He Who Chops's chopper</h1>
+				<div class="container">
+<div>he who chops</div>
+<div>Happy days! I can feel
+my axe call out to me.</div>
+<div>ellerie</div>
+<div>Are you sure this is it? Looks nearly
+identical to anything else I've seen.</div>
+<div>he who chops</div>
+<div>I am certain. Its unassuming
+exterior hides unrivaled power.</div>
+<div>ellerie</div>
+<div>If you're so sure, I'd
+like my reward then.</div>
+<div>he who chops</div>
+<div>Here you go! With my beloved by my
+side, I need no other axe as replacement.<br>
+Now, there's much choppin' to be done!</div>
+<div></div><div class="stagedirection">(He gives Ellerie a Brave Axe and leaves.)</div>
+<div>ellerie</div>
+<div>Well, I guess I'm not going to
+ask about those free chops.</div>				
+				</div>
+			</div>
+			<br>
+			<p class="stagedirection">If you did not take Wheatley's quest:</p>
+			<div class="container">
+<div>ellerie</div>
+<div>Odd time for a request now,
+given we're going to war.</div>
+<div>wheatley</div>
+<div>I have a very relevant offer,
+given said circumstances.</div>
+<div>ellerie</div>
+<div>Let's hear it.</div>
+			</div>
+			<p class="stagedirection">Otherwise:</p>
+			<div class="split">
+				<div>
+					<p class="splitheader">If you accepted Wheatley's quest and completed it</p>
+					<div class="container">
+<div>ellerie</div>
+<div>I remember you, you were that shady
+woman that gave us that odd request.</div>
+<div>wheatley</div>
+<div>A fee for a job nicely done.
+It was some nice lightworks.</div>
+<div>ellerie</div>
+<div>We shot a beacon for a heretical
+god into the sky for 1000 gold!<br>
+I'd have taken much more than that.</div>
+<div>wheatley</div>
+<div>Perhaps if you didn't assume it was
+some nonsense coastal tradition, you'd have been more on your guard.<br>
+Besides, nothing changed because of it.</div>
+<div>ellerie</div>
+<div>Because the Sect was on our backs.<br>
+If that hadn't been the case already,
+you'd have thrown us into the deep end.</div>
+<div>wheatley</div>
+<div>Would you like to waffle on
+about inconsequential things, or do you want to hear my offer?</div>					
+					</div>
+				</div>
+				<div>
+					<p class="splitheader">If you accepted Wheatley's quest but did not complete it</p>
+					<div class="container">
+<div>ellerie</div>
+<div>I remember you, you were that shady
+fellow that gave us that odd request.</div>
+<div>wheatley</div>
+<div>A fee for a job unperformed.</div>
+<div>ellerie</div>
+<div>If I recall correctly, we were
+busy with other things.<br>
+Like not being slaughtered
+by a billion angry Saltsworn.</div>
+<div>wheatley</div>
+<div>I can't say you could have not tried
+harder under the circumstances.<br>
+I shall be taking back that torch
+which I gave you, if you don't mind.</div>
+<div>ellerie</div>
+<div>I do mind a little,
+but it's unearned.</div>
+<div>wheatley</div>
+<div>What's over is of no importance.
+What is important is my current offer.</div>					
+					</div>
+				</div>
+			</div>
+			<div class="container">
+<div>ellerie</div>
+<div>I'm skeptical,
+but tell me.</div>
+<div>wheatley</div>
+<div>I assume Irinde will support
+C. Curio and the Carrion
+Crows in controlling Enan?</div>
+<div>ellerie</div>
+<div>That's an easy deduction given our
+common enemy in the Saltsworn.</div>
+<div>wheatley</div>
+<div>The Carrion Crows are short-sighted, gold-hungry sellswords.<br>
+They cannot be dealt
+with in the long-term.</div>
+<div>ellerie</div>
+<div>Perhaps, but what does
+that have to do with you?</div>
+<div>wheatley</div>
+<div>I put forward myself and my
+acolytes as more suitable allies.</div>
+<div>ellerie</div>
+<div>It does me no favours in the eyes
+of most to be associated with
+the old gods and their followers.</div>
+<div>wheatley</div>
+<div>Enan originates from those who
+escaped the Sect's persecution.<br>
+The old gods have sway. A few select
+words, a manufactured divine miracle, can easily distort public perception.<br>
+Especially for those with less
+than stellar reputations in Enan.</div>
+<div>ellerie</div>
+<div>You make a compelling argument, but the Sect still holds considerable
+influence over the Crescent today.</div>
+<div>wheatley</div>
+<div>It's common knowledge
+you're no friend of the Sect.</div>
+<div>ellerie</div>
+<div>That doesn't mean we can
+afford to defend their enemies.</div>
+<div>wheatley</div>
+<div>Of course I cannot expect that, but this year they'll have bigger
+issues to deal with than heresy.<br>
+Besides, you will run into their
+backwards tenets again in the future, for which you could use some allies.</div>
+<div>ellerie</div>
+<div>Despite your claims of being a
+priestess of the old gods, you only
+represent yourself, not your deity.</div>
+<div>wheatley</div>
+<div>We're both professionals.
+We can skip those pretenses.</div>
+<div>ellerie</div>
+<div>If you'd made a religious appeal,
+I'd have declined you immediately.<br>
+I'm inclined to take your offer given
+you're truly capable of what you claim.</div>
+<div>wheatley</div>
+<div>I suspected this was a deal you
+would take. To a fruitful partnership.</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you have the Plucker's Gift</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(Wheatley dismisses her followers to speak to Ellerie alone.)</div>
+<div>ellerie</div>
+<div>What was so important you wanted
+to speak with no others around?</div>
+<div>wheatley</div>
+<div>It's difficult being a follower of
+the Old Gods in this day and age.<br>
+I understand the need to hide
+your faith from the less tolerant.</div>
+<div>ellerie</div>
+<div>I have no idea what you mean.
+I've never followed the old faiths.</div>
+<div>wheatley</div>
+<div>No need to keep up the act. Even
+if we do not follow the same deities,<br>
+we are united through a common foe.</div>
+<div>ellerie</div>
+<div>If I was of the faithful, then I would
+have no more need to hide anything.<br>
+But I am not and am clueless to
+how you came to this conclusion.</div>
+<div>wheatley</div>
+<div>But I can feel the mark of
+the otherworldly on you.<br>
+Allow me to trace it, it is not
+the Bard, nor the Smith, but-</div>
+<div><img class="portrait" src="images/Ellerie_eyeless.png">
+ellerie</div>
+<div>Well?</div>
+<div>wheatley</div>
+<div>By the Divines,
+no, it's nothing.</div>
+<div>ellerie</div>
+<div>Are you sure? Explain! There
+was something to it, right?</div>
+<div>wheatley</div>
+<div>I was mistaken. It is nothing.
+I bid you a good day.</div>
+<div></div><div class="stagedirection">(Wheatley leaves.)</div>
+<div>ellerie</div>
+<div>...</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Nerysa</b><br>
+Used to be a big deal at Oakhall, now
+an advisor in the middle of nowhere.
+An odd career choice if you ask me.</p>
+<p class="hangingindent"><b>Dune</b><br>
+Head of the guard at Irinde. Spouts
+crap about dedication and honour
+and is about as boring as they come.</p>
+<p class="hangingindent"><b>Tasel</b><br>
+Self-proclaimed greatest trader on the
+coast that has fallen on hard times.
+If he's to be believed, which he isn't.</p>
+<p class="hangingindent"><b>Epic</b><br>
+Only in times of crisis will a true
+hero appear to those in need.</p>			
+<p class="hangingindent"><b>Keilu</b><br>
+The son of that Commander who got
+herself killed. Thinks it's our fault 
+despite the facts, what an idiot.</p>		
+<p class="hangingindent"><b>Saltsworn</b><br>
+One of the biggest adventuring guilds on
+the Crescent. Trades quality for quantity.</p>	
+<p class="hangingindent"><b>Salt Elite</b><br>
+The finest the Saltsworn has to offer.
+Not really that good, but there's a lot.</p>		
+<p class="hangingindent"><b>Loquat</b><br>
+A researcher turned pirate. Exiled from
+Oakhall due to accusations of grisly
+experiments, what a waste of talent.</p>
+<div class="subdesc">
+	<p><b>Personal Skill: Summon Self</b><br>
+	If only one half is alive
+at the start of turn, summon the other.</p>
+</div>	
+<p class="hangingindent"><b>Spirit</b><br>
+Ethereal constructs formed from
+the creator's magical prowess.</p>			
+<p class="hangingindent"><b>Wheelhouse</b><br>
+The strongest spellcaster in the world,
+physically. Not very magically inclined,
+but has mastered self-healing.</p>
+<div class="subdesc">
+	<p><b>Big Sage</b><br>
+	They're like normal sages, but bigger.
+And slower. And “stronger.”</p>
+	<p><b>Personal Skill: Imbue</b><br>
+	Restore all HP
+at the start of the turn.</p>
+</div>		
+<p class="hangingindent"><b>Soul Splice</b><br>
+Some kind of bizarre abomination
+that could have only been made
+by a brilliant mind.</p>
+<p class="hangingindent"><b>Corsair Coven</b><br>
+Lackeys of the Pirate Sages that raid
+coastal trade for both riches and for
+materials used in wicked research.</p>	
+<p class="hangingindent"><b>Sky Scoundrel</b><br>
+As it turns out, aerial piracy is actually
+a great idea. Provided one actually
+makes enough to feed a wyvern.</p>
+<p class="hangingindent"><b>Militia</b><br>
+Faceless fodder who will be the first to
+die when any kind of true threat arises.</p>	
+<p class="hangingindent"><b>Skullcrack Jr.</b><br>
+Leader of the Way Winders. Purely 
+riding the fame of his late father and
+not much of a leader or warrior.</p>		
+<p class="hangingindent"><b>Way Winder</b><br>
+An amateur band of adventurers who
+think they're big game after finding a 
+stash of good weapons, big mistake.</p>		
+<p class="hangingindent"><b>Betty's Boys</b><br>
+You've messed with the Betty,
+now you're gonna regretti.</p>
+<p class="hangingindent"><b>The Circle</b><br>
+A tightly-knit organisation responsible
+for many of the Crescent's rising stars.
+Their members seem to follow conflict.</p>
+<p class="hangingindent"><b>Locust</b><br>
+I could've sworn there was someone
+standing right here. Maybe I didn't
+get enough sleep.</p>
+<p class="hangingindent"><b>Irinde</b><br>
+An inhabitant of Irinde who has taken
+up arms. Not well trained, but eager.</p>			
+<p class="hangingindent"><b>Barricade</b><br>
+A handy barricade to slow down 
+the people who want to kill us.</p>			
+<p class="hangingindent"><b>Chicken</b><br>
+Bawk.</p>			
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
