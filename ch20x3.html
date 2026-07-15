@@ -1,0 +1,1204 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Chapter 20x-3: Hunter's Hollow</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>letter</div>
+<div>Dear Krynia,<br>
+Is your work in Irinde treating you well?
+I trust Ellerie, but she can be quite the
+taskmaster. Don't push yourself too hard.<br>
+Don't forget to keep your diet balanced.<br>
+I noticed your appetite has increased
+threefold recently, but slabs of meat
+are no good as a meal, especially raw.<br>
+Also, do try and avoid transforming
+unless it's life or death. We don't know
+for sure if it will have any lasting effects.<br>
+Ask Ellerie to teach you some trick
+with the lance if necessary.
+She's not half-bad with it now.<br>
+Don't forget to write back.
+I won't be able to receive it
+for a month, but I'll be waiting.
+<p>
+Your loving mother,<br>
+Oriana</p></div>			
+			</div>
+			<div class="container transition">
+<div>oriana</div>
+<div>We've arrived. Quite the quaint little place.<br>
+Not what I'd expect for the last stop before
+the highest mortality rate on the Crescent.</div>
+<div>tower</div>
+<div>Perhaps you can reserve a few coffins.
+I heard the scenery here is to die for.</div>
+<div>oriana</div>
+<div>Most I'm willing to do is a mass
+grave. It would fit the budget.<br>
+You always used to say,
+“This expedition will be the last.”<br>
+What happened to retirement?</div>
+<div>tower</div>
+<div>Already tried it, boring as sin.<br>
+There's only so much drinking and looking
+at the beach before it gets really old.<br>
+I'd rather end up in a mass grave,
+at least I'd be doing something of value.</div>
+<div>oriana</div>
+<div>Let's hope you do
+not get your wish.</div>
+<div></div><div class="stagedirection">(The village elder approaches.)</div>
+<div>elder</div>
+<div>You must be Oriana, the Dancing Blade!<br>
+What an honour for the Seahawks
+themselves to come to our little village!</div>
+<div>tower</div>
+<div>The what blade?</div>
+<div>oriana</div>
+<div>Think nothing of it. We're here to serve the
+Crescent. Although, not as the Seahawks.</div>
+<div>tower</div>
+<div>Now we're called the... Shearwaters.<br>
+Because we were too unoriginal to come up
+with something other than the bird theme.</div>
+<div>oriana</div>
+<div>You still haven't let
+me up on that?</div>
+<div>elder</div>
+<div>My mistake, Hunter's Hollow doesn't get
+news fast, being in these secluded parts.<br>
+We are endlessly grateful for such expert
+adventurers like you to come to our aid.<br>
+However, I must warn you. This Green Tide
+is far deadlier than those that came before.</div>
+<div>oriana</div>
+<div>How so?</div>
+<div>elder</div>
+<div>Adventurers report that once common
+monsters now come far better armed, move in a more organised manner and
+utilise deadly abilities not seen before.<br>
+Many a confident party were wiped
+out by these new developments.</div>
+<div>tower</div>
+<div>That blockage over the river all those
+months ago. Those sentient demon trees.<br>
+We've seen these changes for ourselves.</div>
+<div>oriana</div>
+<div>It was quite odd how the last Green
+Tide was so easily repelled by Irinde.<br>
+Perhaps the malevolent forces at work
+were building their forces elsewhere.<br>
+Here, to be exact.</div>
+<div>elder</div>
+<div>Of course such knowledge does not escape
+experienced adventurers like yourselves!<br>
+Do know that our markets have plentiful
+goods for every adventurer's needs.<br>
+May the Goddess be with you, brave heroes!</div>
+<div></div><div class="stagedirection">(The Elder leaves.)</div>
+<div>tower</div>
+<div>If they really were grateful, they'd
+actually provide us some tangible help.<br>
+We still have to buy supplies off them.</div>
+<div>oriana</div>
+<div>Everyone has to eat. They're used to
+making their business off adventurers.</div>
+<div>tower</div>
+<div>I wouldn't be complaining so much if we
+weren't self-funding saving the Crescent.<br>
+The good Chief does not have sufficient
+concern for the monster horde on our backs.</div>
+<div>oriana</div>
+<div>She lent us Dune and gave
+us this ship. That's not nothing.</div>
+<div>tower</div>
+<div>Let's not pretend that it wasn't
+just to get Dune out of Irinde.<br>
+I will concede, she did give us a fine ship.<br>
+Shame we won't be able to use it, 
+given we're heading into a forest.</div>
+<div></div><div class="stagedirection">(Mince approaches.)</div>
+<div>mince</div>
+<div>Hey, Quartermaster! Sorry,
+Captain. Force of habit.<br>
+Great marketplace over there,
+packed our provisions for the trip.</div>
+<div>oriana</div>
+<div>What in the- Can we carry all that?
+We're travelling on land, you realise?</div>
+<div>mince</div>
+<div>Of course, just double checking...
+Pepper, check. Smoked pork, check.<br>
+Potatoes, check. Pegasus cheese, check.
+We're going to be eating good.</div>
+<div>tower</div>
+<div>Pegasus cheese?</div>
+<div>mince</div>
+<div>That stuff goes for a billion gold
+per kilo back in the Capital.<br>
+Amazed they even have this
+here, and so cheap too.</div>
+<div>tower</div>
+<div>This is an expedition, not a picnic.<br>
+Let us not be overencumbered by
+foodstuffs and be light on tools.</div>
+<div>mince</div>
+<div>You're free to replace your
+portion of food with a shovel.</div>
+<div>tower</div>
+<div>After some consideration,
+I've decided against this.</div>
+<div>mince</div>
+<div>Then why are you complaining?<br>
+Adventurers always fight
+better on a full stomach.<br>
+Call me if you need to. I'll be
+finishing the last bit of packing.</div>
+<div></div><div class="stagedirection">(Mince leaves.)</div>
+<div>oriana</div>
+<div>Glad he's so enthusiastic.</div>
+<div>tower</div>
+<div>And you aren't? This is finally your
+chance to be a “real adventurer.”</div>
+<div>oriana</div>
+<div>I suppose I am, Tower. No more pointless
+power struggles. No more dubious alliances.<br>
+Just protecting the Crescent from danger.</div>
+			</div>
+			<div class="container transition">
+<div>maurice</div>
+<div>...</div>
+<div>woman</div>
+<div>What are you doing sneaking
+around here, stranger?<br>
+Hey, you look like that guy
+from all those bounty boards.</div>
+<div>maurice</div>
+<div>(How in Elis's name did she just sneak
+up on me without a single sound?)<br>
+That's not me.</div>
+<div>woman</div>
+<div>Ah, okay. Want some apples?
+They're freshly picked.</div>
+<div>maurice</div>
+<div>... Sure.</div>
+<div>woman</div>
+<div>If I was the guy from the bounty 
+boards, I'd get out of town.<br>
+There's so many adventurers 
+coming in for the Green Tide.</div>
+<div>maurice</div>
+<div>I would take that advice if there
+was a large bounty on my head.</div>
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you looted 2-3 houses in Chapter 17</h1>
+				<div class="container">
+<div>man 1</div>
+<div>Are those the Seahawks?</div>
+<div>man 2</div>
+<div>Keep clear. You heard what
+they did at Yalunzar.</div>
+<div>man 3</div>
+<div>It was just rumours, right?</div>
+<div>man 2</div>
+<div>If all villains looked evil,
+that would be too easy.</div>
+<div>man 1</div>
+<div>They're coming here...
+Don't give them eye contact.</div>
+<div>man 3</div>
+<div>What does that achieve?</div>
+<div>man 1</div>
+<div>I don't know. 
+Less likely to kill you?</div>				
+				</div>
+			</div>			
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you looted 4+ houses in Chapter 17</h1>
+				<div class="container">
+<div>man 1</div>
+<div>Seahawks! It's them!</div>
+<div>man 2</div>
+<div>You know what they did to
+those poor people at Yalunzar.<br>
+They'll stoop to any low
+if given the opportunity.</div>
+<div>man 3</div>
+<div>Surely, they can't do
+that in broad daylight.</div>
+<div>man 2</div>
+<div>You're gonna
+risk that? Run!</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>New Guide Entries</h1>
+			<h3>Hunter's Hollow</h3>
+			<p>Hunter's Hollow is an outpost
+of humanity into the wilderness.
+Many poor fellows hope to profit
+off the bounties of the forest,
+such as treasure and reagents.
+</p><p>
+Hunter's Hollow has become
+something of a retirement home
+for adventurers in recent times.
+Think twice before misbehaving
+in Hunter's Hollow, for you never
+know if the elderly innkeeper
+might pull out a warhammer.</p>
+			<h3>Two</h3>
+			<p>Why do you stay silent? Is my
+offer of insufficient value to 
+move you? Are you some older
+cultivator who has no need for 
+such gifts, or do you mean to
+extort me?
+</p><p>
+Speak! I know you are still there.
+Still watching. Is this some kind 
+of entertainment to you? Do you
+derive twisted pleasure upon
+seeing a fellow cultivator suffer
+an ignoble fate?</p>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Vermillion, Joyful Jo, & Empress</h1>
+				<div class="container">
+<div>empress</div>
+<div class="inverted">You have the honour of being in the
+presence of the Celestial Jade Empress, Guardian of the Skyward Gate, Ruler of
+the Cerulean Crescent! Kneel before me!</div>
+				</div>
+				<div class="split">
+					<div>
+						<p class="splitheader">If Vermillion's level is 16+</p>
+						<div class="container">
+<div>vermillion</div>
+<div class="inverted">Such a powerful aura! My legs
+wish to bend, but I will stand firm!</div>
+<div>empress</div>
+<div class="inverted">Oh? You can resist my aura
+refined by a thousand battles?<br>
+Truly impressive for one
+whose path is still so short.</div>
+<div>joyful jo</div>
+<div class="inverted">I've never heard you compliment a junior.
+You must have truly impressed her.</div>
+<div>empress</div>
+<div class="inverted">It was no compliment,
+it was simply a remark.</div>
+						</div>
+					</div>
+					<div>
+						<p class="splitheader">If Vermillion's level is 15 or less</p>
+						<div class="container">
+<div>vermillion</div>
+<div class="inverted">Such a powerful aura! My legs
+are bending on their own...<br>
+Is this the might of a true master?</div>
+<div>joyful jo</div>
+<div class="inverted">There is no need to bully your
+junior, Empress. Release him.</div>
+<div>empress</div>
+<div class="inverted">Why should I stop someone
+for giving me due respect?</div>						
+						</div>
+					</div>
+				</div>
+				<div class="container">
+<div>empress</div>
+<div class="inverted">The audacity of you to show
+your ugly beak in my domain.</div>
+<div>joyful jo</div>
+<div class="inverted">You've said that the last
+thirteen times we've met.<br>
+Young Red, this is the Jade Empress,
+the mightiest ascender in these lands.</div>
+<div>vermillion</div>
+<div class="inverted">This young one is honoured to
+meet such an esteemed master.</div>
+<div>empress</div>
+<div class="inverted">As you should be. Another apprentice
+to spread your backwards teaching to?</div>
+<div>vermillion</div>
+<div class="inverted">Senior has taught me much
+in the path to ascension.</div>
+<div>empress</div>
+<div class="inverted">Oh, and what has
+he taught you?</div>
+<div>vermillion</div>
+<div class="inverted">To fully understand your desires and
+reject them, that is the rightful path.</div>
+<div>empress</div>
+<div class="inverted">Hahahaha! How delightfully amusing.
+Allow me to regale you with a short story.<br>
+There was once a chicken, proud and mighty,
+standing at the precipice of ascension.<br>
+He entered the Skyward Gate,
+but he could not ascend.<br>
+Instead of questioning his own strength,
+he instead questioned his own direction.<br>
+While those around him strove for greater
+heights, he remained fruitlessly searching,<br>
+lost within himself. Now he has neither
+power nor respect, a miserable broken thing.<br>
+He still walks the Crescent, spouting a
+broken philosophy to anyone who'd listen.</div>
+<div>vermillion</div>
+<div class="inverted">...</div>
+<div>joyful jo</div>
+<div class="inverted">What an uncharitable retelling, Empress.
+What do you have to gain by interfering?</div>
+<div>empress</div>
+<div class="inverted">Do you see? The old monster would've
+fought me to the death for this insult.<br>
+But now, he can do naught but scowl, while it is I who stands here
+at the precipice of ascension.<br>
+Do well to remember this story.</div>
+<div></div><div class="stagedirection">(Empress leaves.)</div>
+<div>joyful jo</div>
+<div class="inverted">She is mighty, there can be no doubt.
+But do well to remember, despite her bluster, she has yet to truly ascend.<br>
+That last wall is
+why I was forced to give up my old ways, the challenge of one's own self. No violence,
+no bloodshed will let you pass that obstacle.<br>
+Please do remember that.</div>
+<div>vermillion</div>
+<div class="inverted">I will keep that
+in mind, Senior.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Lilac & Chalice</h1>
+				<div class="container">
+<div>lilac</div>
+<div>Hey, uh, fellow disciple. </div>
+<div>chalice</div>
+<div>Greetings.</div>
+<div>lilac</div>
+<div>I don't want to impose, but there
+is something I want to inquire about.<br>
+It is about the matters of faith,
+and I wouldn't want to offend-</div>
+<div>chalice</div>
+<div>If you have something to ask,
+just spit it out. No roundabouts.</div>
+<div>lilac</div>
+<div>You fought the Sect while travelling
+with the Seahawks, did you not?<br>
+Merzed's faction, the Reclaimists.
+How did you reconcile that with faith?</div>
+<div>chalice</div>
+<div>... That's not what I
+expected to be asked.<br>
+I've spent many a night
+thinking about this.</div>
+<div>lilac</div>
+<div>And what conclusion
+did you find?</div>
+<div>chalice</div>
+<div>I concluded I didn't care. It's not my fault I was defending myself.<br>
+I still follow the teachings of Elis. No one's
+come to Irinde to demand my expulsion.<br>
+Nothing came of this.</div>
+<div>lilac</div>
+<div>That's... simple.<br>
+Do you have thoughts on
+why they did what they did?<br>
+Why their faith would lead
+them down this path? </div>
+<div>chalice</div>
+<div>Telon's a brainless idiot, but his
+stance might be right on this.<br>
+They attacked us for existing.
+That justifies my retaliation.<br>
+I don't care about whatever
+Sect denomination they follow.<br>
+It's all squabbling over nonsense.</div>
+<div>lilac</div>
+<div>That must make it so easy.<br>
+I had to see this squabbling every
+waking day when I was in the Sect.</div>
+<div>chalice</div>
+<div>If they were true followers of Elis, they
+shouldn't be skirmishing in the first place.<br>
+Perhaps they are all in the wrong and
+I'm the rightful successor of Elis's legacy.</div>
+<div>lilac</div>
+<div>Maybe you are. You should inform
+the old bastards at the base of this.</div>
+<div></div><div class="stagedirection">(A Sect disciple approaches.)</div>
+<div>disciple</div>
+<div>If I may join in, fellow disciples?
+A pleasure to meet you, Arbiter Lilac.</div>
+<div>lilac</div>
+<div>Oh, lovely.</div>
+<div>chalice</div>
+<div>We have not
+met before.</div>
+<div>disciple</div>
+<div>I overheard you talk of Merzed,
+and frankly, I approve of his demise.<br>
+His backwards beliefs have
+no place in the Sect's future.</div>
+<div>chalice</div>
+<div>Happy to serve?</div>
+<div>disciple</div>
+<div>It's rare to see disciples become
+such renowned adventurers,<br>
+it is truly an honour to count
+you among our ranks.</div>
+<div>lilac</div>
+<div>I was in the Seahawks
+for a month at most.</div>
+<div>disciple</div>
+<div>I must make some inquiries
+on behalf of the Sect.<br>
+There are rumours that Chief Ellerie
+is researching... unsavoury subjects.<br>
+Have you seen any trace of such?<br>
+Or seen what plans she might have
+for the Crescent's immediate future?</div>
+<div>chalice</div>
+<div>I can't see anything.
+I'm blind.</div>
+<div>disciple</div>
+<div>Figuratively speaking, of course.
+Surely, you must have heard-</div>
+<div>chalice</div>
+<div>It is with great grief that I say
+I cannot help you, fellow disciple.<br>
+It was great to meet you,
+but I must depart.</div>
+<div></div><div class="stagedirection">(Chalice leaves.)</div>
+<div>disciple</div>
+<div>It figures that one raised in a place such
+as Irinde's does not have the same etique-</div>
+<div>lilac</div>
+<div>The ant knows not why
+man steps on its home.</div>
+<div></div><div class="stagedirection">(Lilac leaves.)</div>
+<div>disciple</div>
+<div>Pardon me? Hey!
+... The bastards.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Acielle & Iosaf</h1>
+				<div class="container">
+<div>acielle</div>
+<div><i>(smiling)</i> I think this is it, Iosaf!
+Are you not excited?</div>
+<div>iosaf</div>
+<div> What is it?</div>
+<div>acielle</div>
+<div>The big adventure! The prophesied
+journey! I hear the call of destiny!</div>
+<div>iosaf</div>
+<div>All I hear is wind
+and leaves.</div>
+<div>acielle</div>
+<div><i>(frowns)</i> It was figurative, Iosaf. But can't
+you see the pieces falling into place?<br>
+This Green Tide is somehow different
+and deadlier than the previous, all amidst political turmoil that
+makes the Crescent helpless!<br>
+If this doesn't say, “start of an epic
+heroic legend”, I don't know what does.</div>
+<div>iosaf</div>
+<div>That... Maybe it makes sense? I've
+not read any epic heroic legends.</div>
+<div>acielle</div>
+<div>I can feel it, Iosaf! We're finally
+going to meet that mysterious goddess.<br>
+Everything is going to make sense.</div>
+<div>iosaf</div>
+<div>I would like to meet her too.
+Maybe she'd explain...</div>
+<div>acielle</div>
+<div>How to become
+the best?</div>
+<div>iosaf</div>
+<div>.... That but also... Why I am
+what I am, when others are not.</div>
+<div>acielle</div>
+<div>No idea what you meant by
+that, but that sounds important.<br>
+Oh, I am so excited for
+what tomorrow will bring.</div>
+<div>iosaf</div>
+<div>We're just camping here tomorrow.
+What is exciting about that?</div>
+<div>acielle</div>
+<div>Iosaf, I meant-<br>
+Forget it.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Telon, Raylin, & Reiker</h1>
+				<div class="container">
+<div>telon</div>
+<div>There's no art in defeating
+these soulless automatons.<br>
+They have brute strength,
+but no technique, no warrior's pride.</div>
+<div>raylin</div>
+<div><i>(smirks)</i> Are you hearing this
+guy? Warrior's pride, pft.</div>
+<div>reiker</div>
+<div><i>(smirks)</i> By Elis, what a loser.</div>
+<div>telon</div>
+<div>If you have a problem with me,
+then let's settle it in a duel!</div>
+<div>reiker</div>
+<div>Nah. And challenging everyone to a duel
+doesn't change the fact you're a loser.</div>
+<div>telon</div>
+<div>...</div>
+<div>reiker</div>
+<div>What can you do, glower at me?
+Wow, you're so intimidating.</div>
+<div>raylin</div>
+<div>Going to go crying
+to your sister?</div>
+<div></div><div class="stagedirection">(Telon leaves.)</div>
+<div>reiker</div>
+<div><i>(subdued)</i> Ha, he thinks he's a huge deal, but he is nowhere near as good
+an adventurer as us, right? Ray?</div>
+<div>raylin</div>
+<div><i>(serious)</i> ...</div>
+<div>reiker</div>
+<div>Ray, what's the matter?</div>
+<div>raylin</div>
+<div>Just thinking, Bro. We... We can't
+keep being adventurers, forever.</div>
+<div>reiker</div>
+<div>Why not, Sis?</div>
+<div>raylin</div>
+<div>Our luck can't carry us forever, Rei.<br>
+We were only roped into this line to
+escape House Heron hanging us.</div>
+<div>reiker</div>
+<div>It used to be luck, but we're getting
+real good. We can just, not lose?</div>
+<div>raylin</div>
+<div>That's not how things work.<br>
+It's only a matter of time
+before one mistake gets us.<br>
+We need an exit plan.</div>
+<div>reiker</div>
+<div>But I'm liking how
+things are now.</div>
+<div>raylin</div>
+<div>At least Telon can go begging to his
+sister to get him a job or something.<br>
+What do we have? We can't read, 
+can't farm, can't craft, can't sew, can't do anything except fight.</div>
+<div>reiker</div>
+<div>We could go to the Chief Captain.
+She wouldn't turn us down, right?</div>
+<div>raylin</div>
+<div>And do what?
+More fighting?</div>
+<div>reiker</div>
+<div>Then let's keep doing what
+we're good at. It's in demand.</div>
+<div>raylin</div>
+<div>...</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Quilan</h1>
+				<div class="container">
+<div>oriana</div>
+<div>Qiulan? I thought you were still
+writing that epic on Ellerie.</div>
+<div>quilan</div>
+<div>I still am, Quartermaster. My
+trusty quill is never at rest.<br>
+But the good Chief's story
+is taking a short break, so I must follow the action here.</div>
+<div>oriana</div>
+<div>This Green Tide is said to
+be the deadliest yet.<br>
+Is it worth putting your life at
+such risk for a few verses?</div>
+<div>quilan</div>
+<div>For a few verses? No, no, no, 
+Quartermaster, you don't understand.<br>
+Without wading through the bloodstained
+fields, the screams of dying men in my ears, how can my words carry any weight at all?</div>
+<div>oriana</div>
+<div>You're right,
+I don't understand.</div>
+<div>quilan</div>
+<div>This does mean I will be following
+your adventure for the time being.</div>
+<div>oriana</div>
+<div>I do not desire nor will I pay
+for anything written about me.</div>
+<div>quilan</div>
+<div>Call it a special sense of mine, I can tell it is you that will be at the
+centre of this new unfurling tale.<br>
+You need not concern
+yourself with my needs.<br>
+I shall be behind you no
+matter the circumstances.</div>
+<div></div><div class="stagedirection">(Quilan leaves.)</div>
+<div>oriana</div>
+<div>That was an ominous
+statement.</div>
+<div></div><div class="stagedirection">(Tower approaches.)</div>
+<div>tower</div>
+<div>Bloody bards.</div>
+<div>oriana</div>
+<div>I didn't know you held some
+special opinion on bards, Tower.</div>
+<div>tower</div>
+<div>Glorifying the horrors of war
+while pulling no weight themselves.<br>
+Leading the youth to seek
+glory and die pointless deaths.<br>
+Turning the real sorrow of good
+folk into the likes of entertainment.<br>
+The worst kind of human being.</div>
+<div>oriana</div>
+<div>You'll be happy to hear Qiulan
+has decided she will be joining us.</div>
+<div>tower</div>
+<div>With any luck, I'll get a
+chance to put my axe in her.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Frostfires</h1>
+				<div class="container">
+<div>frostfire 1</div>
+<div>Hmm.</div>
+<div>frostfire 2</div>
+<div>Hmmm.</div>
+<div>frostfire 1</div>
+<div>Hmmmm.</div>
+<div>frostfire 2</div>
+<div>Hmmmmm.</div>
+<div>frostfire 1</div>
+<div>Check.</div>
+<div>frostfire 2</div>
+<div>Ha.</div>
+<div>frostfire 1</div>
+<div>Can you castle while in check?</div>
+<div>frostfire 2</div>
+<div>Why couldn't you?
+That seems like a silly exception.</div>
+<div>frostfire 1</div>
+<div>Maybe. Wait...
+This doesn't make sense.<br>
+How did you castle if-<br>
+You put your queen and the
+king the wrong way around!</div>
+<div>frostfire 2</div>
+<div>What? I thought you set up the
+board. How did you not notice?</div>
+<div>frostfire 1</div>
+<div>How did YOU not notice?
+You were using those pieces!</div>
+<div>frostfire 2</div>
+<div>Whatever, dude.
+So, what, we keep going?</div>
+<div>frostfire 1</div>
+<div>Sure. We've already
+put in an hour.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Rookies</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you looted 2 or more houses in Chapter 17</h1>
+					<div class="container">
+<div>man 1</div>
+<div>...</div>
+<div>man 2</div>
+<div>...</div>
+<div>man 3</div>
+<div>...</div>
+<div>oriana</div>
+<div>They're really wary of us.<br>
+Certain reputation cannot be
+shaken once it has been obtained...<br>
+But I will turn this around.</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If not</h1>
+					<div class="container">
+<div>man 1</div>
+<div>You go.</div>
+<div>man 2</div>
+<div>No, what. You.</div>
+<div>man 3</div>
+<div>Huh?</div>
+<div>man 2</div>
+<div>Go!</div>
+<div>man 3</div>
+<div>Uh, hey. So, uh...</div>
+<div>man 2</div>
+<div>We have this cool thing.</div>
+<div>man 3</div>
+<div>You can have it.</div>
+<div>man 1</div>
+<div>It is to help our town.</div>
+<div>man 3</div>
+<div>It was for helping our town.</div>
+<div>man 2</div>
+<div>They haven't helped
+us yet, you dolt.</div>
+<div>man 3</div>
+<div>Shut up! Yeah,
+what that guy said.</div>
+<div>man 2</div>
+<div>Let's go!</div>
+<div></div><div class="stagedirection">(They give Oriana a Sanctuary, then leave.)</div>
+<div>oriana</div>
+<div>Odd. It is good they've placed
+their trust in us, at least.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Lower Dwelling</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you looted 2 or more houses in Chapter 17</h1>
+					<div class="container">
+<div>man</div>
+<div>You'll find no friends
+of the Seahawks here.</div>
+<div>oriana</div>
+<div>But we're-</div>
+<div></div><div class="stagedirection">(The man slams the door in Oriana's face.)</div>
+<div>oriana</div>
+<div> Nevermind.<br>
+Show through actions,
+not words.</div>				
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If not</h1>
+					<div class="container">
+<div>man</div>
+<div>Seahawks?</div>
+<div>oriana</div>
+<div>Well, no-</div>
+<div>man</div>
+<div>Bunch of maniacs you are, but can't
+be that bad if you're out here.</div>
+<div>oriana</div>
+<div>But we're not-</div>
+<div>man</div>
+<div>This is my finest elixir. Drink it and kill
+the monsters. Maybe not in that order.</div>
+<div>oriana</div>
+<div>This works too.</div>			
+<div></div><div class="stagedirection">(Oriana receives an Elixir.)</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Middle Dwelling</h1>
+				<div class="container">
+<div>young woman</div>
+<div>You're great adventurers, aren't you?
+I implore you, save my companions!</div>
+<div>oriana</div>
+<div>What is the situation?</div>
+<div>young woman</div>
+<div>We had left for the Buried City,
+hoping for gold and glory.<br>
+The fools we were! Only I alone escaped,
+but the rest yet wait for rescue, I know it.</div>
+<div>oriana</div>
+<div>We are to head that way anyways,
+we will look for your companions.<br>
+Where did you split with them?</div>
+<div>young woman</div>
+<div>I don't remember, it was
+dark, and oh Goddess!<br>
+All I know is that we had hid in
+some cave behind a waterfall.<br>
+Thank you, everyone else I've
+asked declined without a thought.</div>
+<div>oriana</div>
+<div>I will warn you, with the Green
+Tide, the odds are not favourable.</div>
+<div>young woman</div>
+<div>I believe you can make
+a miracle happen!</div>
+<div>oriana</div>
+<div>We'll do what
+we can.</div>
+<div></div><div class="stagedirection">(Oriana leaves.)</div>
+<div>tower</div>
+<div>You didn't even ask for some kind of
+recompensation. Running a charity?</div>
+<div>oriana</div>
+<div>She didn't look the type to
+have anything to give.<br>
+And let's not pretend you
+would've asked either.</div>
+<div>tower</div>
+<div>I'm just wary of you turning into one
+of those that'll do anything at no cost,<br>
+they don't tend to last long.</div>
+<div>oriana</div>
+<div>I'm no naive youngster, Tower. But I'll still
+make exceptions for those really in need.</div>
+<div>tower</div>
+<div>That's how it
+always starts.</div>				
+				</div>
+				<hr/>
+				<h3>Quest</h3>
+				<p>A civilian asked us to find
+her friends lost in the woods.
+They were last seen in a
+cave behind a waterfall.<br>
+(Chapter 21)</p>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Upper Dwelling</h1>
+				<div class="container">
+<div>oriana</div>
+<div>What an elaborately carved figure.
+Oh, is this some kind of shrine?</div>
+<div>old woman</div>
+<div>A pitiful excuse for one, yes. I'm too
+old to be keeping it in good condition.</div>
+<div>oriana</div>
+<div>I've never seen one actively
+maintained, only derelict ruins.</div>
+<div>old woman</div>
+<div>The Sect must be doing a thorough
+job, but I do not fear them.<br>
+They cannot stifle incense for the
+Great and Charitable Life Giver.</div>
+<div>oriana</div>
+<div>Life Giver?</div>
+<div>old woman</div>
+<div>It's rare to see adventurers such as
+yourself take an interest in the old ways.<br>
+Here, take a seat. Let me tell you of the
+Life Giver, the most benevolent Lingyue.</div>
+<div>oriana</div>
+<div>(I've made a
+huge mistake.)</div>
+<div>old woman</div>
+<div>The Life Giver was a generous one.<br>
+She often answered the calls of her
+followers and gave them her blessing.<br>
+During a year-long drought, she struck her staff deep into the earth,
+creating a fountain that quenched thirst.<br>
+That same fountain still exists today, deep within those woods.<br>
+Waiting for the call of a faithful one
+that so cares for life as she does.</div>
+<div>oriana</div>
+<div>Thank you for the tale,
+but I really must be going.<br>
+Have the Green Tide
+to fight, and all that.</div>
+<div>old woman</div>
+<div>I still have many stories I can tell,
+but your rest is temporary.<br>
+I will pray to Lingxue to grant
+you and your party safe passage.</div>
+<div></div><div class="stagedirection">(Oriana leaves.)</div>
+<div>tower</div>
+<div>It's pitiful really, clinging onto
+worship as if that can save them.<br>
+No doubt the Green Tide is brought
+by the same hands they revere.</div>
+<div>oriana</div>
+<div>I can see why you
+chose to not enter.</div>
+<div>tower</div>
+<div>Did the incense not make it
+apparent? Can't stand that stuff.</div>
+<div>oriana</div>
+<div>If the gods were as cruel as they say, it is rather curious that so many remain
+faithful long after their disappearance.<br>
+They must have done a good deal of
+good as well, not just what the Sect claims.</div>
+<div>tower</div>
+<div>I do not doubt that, but it is a master
+giving extra scraps of bread to his slave.<br>
+It requires little effort and doesn't change
+the fact they hold the slave in chains.<br>
+Their worship are these chains, fuelling the
+grip those cruel ones have over humanity.</div>
+<div>oriana</div>
+<div>Does any of that still matter now?<br>
+The Gods are gone for good. Most of what
+remains is simply traditions, for comfort.</div>
+<div>tower</div>
+<div>Their foul magic still remains. Who can be
+sure Elis has banished them for good?<br>
+That's why the Disciples of Elis must
+keep the world pure from their influence.</div>
+<div>oriana</div>
+<div>All a lot of effort for something that
+hasn't changed for hundreds of years.</div>
+<div>tower</div>
+<div>Every generation puts less stock into Elis's
+teachings. It is a tragic sight to behold.</div>				
+				</div>
+				<hr/>
+				<h3>Quest</h3>
+				<p>Legend says there's a staff
+placed by a goddess within
+a fountain. Is it merely some
+tale, or something more?<br>
+(Chapter 22)</p>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Thicket</h1>
+				<div class="container">
+<div>oriana</div>
+<div>What's this, shining in the thickets?<br>
+... Wow, it's just like that old sword
+I had at the start of our journey.<br>
+I can't believe so much has happened
+since then... I suppose I'll keep this.</div>
+<div></div><div class="stagedirection">(Oriana receives a Wind Sword.)</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>disciple</div>
+<div>Master Tower, a real honour to be
+working with you on this honourable
+task of defending the Crescent.</div>
+<div>tower</div>
+<div>Ah, you're...
+I don't recall.</div>
+<div>disciple</div>
+<div>I was in the third row during your lessons.
+The one with the bad handwriting.</div>
+<div>tower</div>
+<div>Ah, you're...
+Still got nothing.</div>
+<div>disciple</div>
+<div>... That's alright. I want you to know
+I've not fallen for those slanderous lies.<br>
+You, a pillar of the Sect, would never turn
+on it just for some cursed blood wench.<br>
+It is a falsehood as clear as day.</div>
+<div>tower</div>
+<div>Right.</div>
+<div>disciple</div>
+<div>It is clearly a plot of Merzed and the
+Reclaimist faction to get you out of the
+way before the Sectmaster's passing, for you'd never allow their corrupt
+interpretations to take hold.<br>
+I will clear
+your good name as soon as we return.</div>
+<div>tower</div>
+<div>I care not for my reputation, but it is laudable for you and your
+cohort to fight for the common folk, instead of squabbling pointlessly
+over the Sectmaster's legacy.</div>
+<div>disciple</div>
+<div>Unlike them, we follow Elis's teachings
+where it matters. Rest assured,
+they may have pushed us out now, but our victory over the Tide will
+provide us the support we need to
+throw out those wicked Reclaimists.</div>
+<div>tower</div>
+<div>... Okay. Good for you.</div>
+<div>disciple</div>
+<div>Elis will witness our cause prevail.<br>
+I hear that you are so starved of tomes
+that you fight using axes of all things.<br>
+That simply cannot do. I can provide you
+one of the Sect's finest tomes in its stead.</div>
+<div>tower</div>
+<div>Now we are getting
+somewhere.</div>			
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">Nosferatu</p>
+					<div class="container">
+<div>disciple</div>
+<div>Oh, that one? It happens to
+be one of my favourites...</div>
+<div>tower</div>
+<div>Hmmm? If you insist,
+I can take the oth-</div>
+<div>disciple</div>
+<div>No, no! It is an honour
+for you to take this tome.<br>
+Go! Take it!</div>
+<div>tower</div>
+<div>Alright.</div>				
+					</div>
+				</div>
+				<div>
+					<p class="splitheader">Waste</p>
+					<div class="container">
+<div>disciple</div>
+<div>Ah, that one! Truly fitting for someone
+known to lay waste to his enemies!</div>
+<div>tower</div>
+<div>A fine tome indeed. I'm glad to see
+quality of production has not reduced.</div>
+<div>disciple</div>
+<div>Of course! It took a whole squad
+of indentured servants to make this!</div>
+<div>tower</div>
+<div>Indentured servants? In the Sect?
+This is the first I've heard of this.</div>
+<div>disciple</div>
+<div>Heh, a new development.
+Not that important.</div>					
+					</div>
+				</div>
+			</div>
+			<div class="container transition bottomtransition">
+<div>unari</div>
+<div>You've heard about these new super
+monsters on your stroll through town?</div>
+<div>oriana</div>
+<div>Indeed, we have. They may require a change
+in approach than the usual tactics we use.</div>
+<div>unari</div>
+<div>Of course the Tide has to hit now, while some noble invasion is imminent 
+and the Frostfires are at our weakest.<br>
+After all, it is no skin off Ellerie's nose if we
+all die and lose the whole eastern coast.</div>
+<div>oriana</div>
+<div>She gave whatever help she could
+working under those other constraints.</div>
+<div>unari</div>
+<div>That is certainly what she tells everyone.
+At least we have the Sect's assistance.<br>
+Hunter's Hollow was built to withstand
+hordes; our best odds of victory lie here.</div>
+<div>oriana</div>
+<div>This Green Tide is not like the last.<br>
+We cannot be sure if we can hold out
+against the limits of monster production, or if there even is an upper limit.</div>
+<div>unari</div>
+<div>You intend for us to charge into the
+deadly woods where they are strongest, where adventurers fall by the dozens,
+in the middle of a Green Tide?</div>
+<div>oriana</div>
+<div>Yes, I do intend that.</div>
+<div>tower</div>
+<div>Our venture into the Workshop has shown
+they are brought to life by structures.<br>
+No different in principle to the
+Archsage's who you served.</div>
+<div>unari</div>
+<div>Served is a strong term.
+I prefer coerced into allying with.</div>
+<div>tower</div>
+<div>Worthless semantics.</div>
+<div>oriana</div>
+<div>We must take the initiative and
+wipe them out at the source.<br>
+They're not some arbitrary force
+of nature. They have an origin.</div>
+<div>unari</div>
+<div>I can believe that the Green Tide
+must have some defeatable source, but this is still absurdly audacious.<br>
+We'd be fighting in unknown territory, against unknown foes. It's suicide.</div>
+<div>oriana</div>
+<div>Audacious, but necessary.<br>
+If we can destroy this source, we could
+end the Tide before it reaches its peak.</div>
+<div>tower</div>
+<div>The source must be in the heart of these
+woods, and must be an ancient structure.<br>
+We would not be searching randomly;
+there is a famous landmark satisfying this.<br>
+The Buried City, to be exact. Partially
+documented, but yet to be truly conquered.</div>
+<div>unari</div>
+<div>The Buried City... Yes, I certainly would
+not send my Frostfires to such a place.<br>
+If it was anyone else suggesting this
+course of action, I'd declare them insane.<br>
+But it was your party that conquered the
+Workshop, I suppose you are the experts.</div>
+<div>tower</div>
+<div>Leave your men. We need
+a dedicated band of elites,<br>
+the worthless rabble you call
+adventurers will only hinder us.</div>
+<div>unari</div>
+<div>Harsh words, but
+I won't deny that.</div>			
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Oriana is unpromoted</h1>
+				<div class="container">
+<div>oriana</div>
+<div>... Phew, I think I've got the
+nineteenth stroke down.<br>
+I'll never be as skilled as
+my mother with the blade, but my recent training under her
+should give me more of an edge.</div>		
+<div></div><div class="stagedirection">(Oriana promotes.)</div>
+				</div>
+				<p class="hangingindent itemcut"><b>Swordmaster</b><br>
+				Just like another of
+Mother's students.</p>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Empress</b><br>
+Chickens shouldn't be green, be able to
+soar through the sky or be untrackable
+by human eyes. But what do I know?</p>	
+<p class="hangingindent"><b>Adventurer</b><br>
+Another adventurer like myself. Most of
+them are quite wary of us, as we have
+wiped out a lot of adventuring bands.</p>	
+<p class="hangingindent"><b>Frostfires</b><br>
+A lot less of them now after that failed
+campaign, but still big enough to stay 
+in it. What a load of pointless deaths.</p>	
+<p class="hangingindent"><b>Disciple</b><br>
+Can't say I want to tolerate them, but I
+begrudgingly admit they're putting their
+lives on the line to defend the Crescent.</p>	
+<p class="hangingindent"><b>Rookie</b><br>
+I can never not admire the bravery
+of youths taking up such a risky
+career. Hopefully, this one lasts.</p>	
+<p class="hangingindent"><b>Civilian</b><br>
+We can't forget that the common civilian
+is the backbone of our little society. It is
+our duty to defend them from danger.</p>	
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
