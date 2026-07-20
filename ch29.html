@@ -1,0 +1,1294 @@
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ <link rel="stylesheet" href="FEarchive.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+	<div data-role="header">
+		<h1>Endgame B-1: Ruination</h1> 
+		<button id="collapsible1">Expand all</button>
+		<button id="collapsible2">Collapse all</button>
+	</div>
+	<div data-role="main" class="ui-content">
+		<div class="objectives">
+			<font>Objective</font>
+			<font>Multi-Destroy
+			<p><i>“Visit” all four houses
+and the mansion</i></p></font>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Opening</h1>
+			<div class="container">
+<div>narrator</div>
+<div>Once more, evil has come to Yalunzar.
+Once more, we are the victims of envy
+and greed. But citizens, do not fear.<br>
+You need not deviate from your daily
+work or worry about some tragic fate.<br>
+Time and time again, our most noble
+defenders have vanquished the wicked.<br>
+Evil shall never take hold in Yalunzar,
+the beacon of light on the Crescent.
+<p>
+-Guildmaster's proclamation</p></div>		
+			</div>
+			<h3 class="transition">Yalunzar Walls</h3>
+			<div class="container">
+<div>oily oates</div>
+<div>I cannot even sleep soundly, knowing 
+those barbarians lie in wait out of sight.<br>
+When will these awful days end?
+<p class="stagedirection">(A swarm of war golems, plus a chicken, approach.)</p></div>
+<div>soldier</div>
+<div>Sir, enemies are approaching!<br>
+... Looks like monsters, Sir!</div>
+<div>oily oates</div>
+<div>Monsters? They've replicated the
+capabilities of the Iron Realm?<br>
+No matter. We stomped them out last
+time, we can again. Ballistae, open fire.
+<p class="stagedirection">(Ballistae fire at the war golems, but only manage to inflict flesh wounds. The war golems reach the walls.)</p></div>
+<div>soldier</div>
+<div>... Sir, they're not
+slowing down?</div>
+<div>oily oates</div>
+<div>What is this?
+Useless! Kill them!</div>
+<div>soldier</div>
+<div>Sir, our bolts are not enough!
+They're almost at the walls now!</div>
+<div>oily oates</div>
+<div>How can this be? Are they so much
+more powerful than what came before?<br>
+Give an accurate assessment of their army
+from the ramparts, and report back to me!</div>
+<div>soldier</div>
+<div>Yes, Sir!
+<p class="stagedirection">(While he does so, Oates flees. The war golems batter the gates.)</p></div>
+<div>soldier</div>
+<div>Sir, they're coming in waves!
+What are we to do? Sir! Sir?
+<p class="stagedirection">(The war golems breach the walls.)</p></div>
+			</div>
+			<h3 class="transition">Yalunzar Streets</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(War golems attack the inhabitants indiscriminately. Civilian bodies litter the streets.)</div>
+<div>man</div>
+<div>As long as I can see
+my husband again.</div>
+<div></div><div class="stagedirection">(The war golem kills him. A Guild merchant takes advantage of the distraction to flee.)</div>
+<div>young woman</div>
+<div>Why now, only when things
+were looking up for me?<br>
+The good times really don't last.</div>
+<div></div><div class="stagedirection">(The war golem kills her. A child manages to flee.)</div>
+			</div>
+			<h3 class="transition">Bazaar</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(War golems chase two civilians to a different area. Another war golem hunts down and kills a civilian. A child hides in one of the stalls.)</div>
+<div>boy</div>
+<div>(Quiet. Quiet. Quiet. Quiet.
+Quiet. Quiet. Quiet.)</div>
+<div></div><div class="stagedirection">(A Guild merchant flees. A war golem passes the child by, then suddenly doubles back and kills him.)</div>
+			</div>
+			<h3 class="transition">Estate</h3>
+			<div class="container">
+<div>rosetta</div>
+<div>Is that all you're going to do?<br>
+Just wait here and let your people
+be torn to pieces in the streets?</div>
+<div>guildmaster</div>
+<div>Do you think it does not pain me to see the
+good folk of Yalunzar fall by the dozens?<br>
+With Ellerie soon to arrive in the chaos, the only way we can repel these invaders
+is to fortify our existing footholds.<br>
+instead of sending my troops to their death
+for the chance of saving one more mouth.</div>
+<div>rosetta</div>
+<div>Even if we entrench ourselves, it matters
+little if there's no city left to defend.</div>
+<div>guildmaster</div>
+<div>As long as we hold the core of
+Yalunzar, everything can be rebuilt.<br>
+If even our sole remaining force breaks,
+then Yalunzar shall be lost to Ellerie.<br>
+Lady Rosetta, you should understand
+how to prioritise the bigger picture, especially with how much your last
+headstrong excursion cost House Heron.</div>
+<div>rosetta</div>
+<div>That's a low blow, Guildmaster.<br>
+Let us not forget what your 
+convenient omissions have cost us, and how our ships mysteriously
+were set alight under your watch.</div>
+<div>guildmaster</div>
+<div>With death coming over the walls,
+the time for courtesy is over.<br>
+Be as a good figurehead should and
+leave the decisions to the qualified.<br>
+It is the best chance that you'll 
+have of ever seeing home again.</div>
+<div></div><div class="stagedirection">(The Guildmaster leaves to fortify her position.)</div>
+<div>guildmaster</div>
+<div>Sixty years. I saw the first stone
+being laid for the foundations.<br>
+I saw the walls rise over Yalunzar.<br>
+I buried all of my companions who
+once brought life to Yalunzar.<br>
+I will die with Yalunzar.</div>
+<div></div><div class="stagedirection">(Rosetta confers with her own troops.)</div>
+<div>rosetta</div>
+<div>I cannot be content to sit here like a demure
+princess, while I can still make a difference.</div>
+<div>cherise</div>
+<div>That's more like it. You don't have
+to listen to a thing that hag says.</div>
+<div>rosetta</div>
+<div>You're just eager to get
+to violence, Instructor.</div>
+<div>cherise</div>
+<div>There's nothing wrong with
+desiring bloodshed.</div>
+<div>rosetta</div>
+<div>I can't disregard everything
+she said, but I can compromise.<br>
+I will take a small team to rescue
+whoever I can and return quickly.</div>
+<div>cherise</div>
+<div>Sir Speedwell is not going to agree.<br>
+It will look really bad for him if you
+get eaten while he's just sitting around.</div>
+<div>rosetta</div>
+<div>Hence why we shall depart
+and return as swift as the wind.<br>
+We've fought plenty of monsters, slaying a few more is nothing if more
+people will live to see the sunset.</div>
+<div>cherise</div>
+<div>Save your justifications for someone
+who needs them. Let's get moving.</div>
+<div></div><div class="stagedirection">(Rosetta's squad runs into the city.)</div>
+			</div>
+			<h3 class="transition">Yalunzar Streets</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(A family of civilians cower behind a group of adventurers.)</div>
+<div>rosswick</div>
+<div>What a day to brush off the old
+lance. We'll hold them off here.</div>
+<div>man</div>
+<div>May Elis bless
+you, heroes!</div>
+<div>young woman</div>
+<div>I'll name my next child
+after you, old man!</div>
+<div></div><div class="stagedirection">(The civilians flee.)</div>
+<div>rosswick</div>
+<div>You don't even
+know my name.</div>
+<div>darkwood</div>
+<div>Hey, you don't know
+my name either.</div>
+<div>rosswick</div>
+<div>Of course I do, Bob.
+I'm not senile.</div>
+<div>darkwood</div>
+<div>It's Darkwood, Sir. I don't even
+know where you got Bob from.</div>
+<div>rosswick</div>
+<div>Close enough, Bob.<br>
+A pleasure to have such a courageous young
+man like yourself to hold off the hordes with.</div>
+<div>darkwood</div>
+<div>Sir, please, it's Darkwood. I'm not
+dying here to be remembered as Bob.</div>
+<div></div><div class="stagedirection">(On the other end of the street, the Cannibal kills a war golem. More golems charge Rosswick's position, but he manages to fend them off.)</div>
+<div>the cannibal</div>
+<div>Irritating.</div>
+<div></div><div class="stagedirection">(Mitchell and Oily Oates arrive from the walls, attempting to flee, but the Cannibal stops them.)</div>
+<div>the cannibal</div>
+<div>You are fleeing.</div>
+<div>mitchell</div>
+<div>Of course I am! The walls are down, the
+militia are broken, the hordes are imminent!</div>
+<div>the cannibal</div>
+<div>The Guild stands with Yalunzar.
+The Guild falls with Yalunzar.</div>
+<div>mitchell</div>
+<div>I joined the Guild for the tax cut, not to
+die with the city! Now get out of my way!</div>
+<div>the cannibal</div>
+<div>Then die dishonourably.</div>
+<div></div><div class="stagedirection">(The Cannibal kills Mitchell.)</div>
+<div>mitchell</div>
+<div>I just... Just wanted
+to make money... Why?</div>
+<div></div><div class="stagedirection">(Mitchell dies. The Cannibal approaches Oily Oates.)</div>
+<div>the cannibal</div>
+<div>You are fleeing.</div>
+<div>oily oates</div>
+<div>I wou- would never! Of course not!<br>
+I am simply here to check on the situation
+and relay the Guildmaster's orders.</div>
+<div>the cannibal</div>
+<div>Yes?</div>
+<div>oily oates</div>
+<div>She is... uh, of course, she is calling 
+for the Guild to reinforce her position!</div>
+<div>the cannibal</div>
+<div>Understood.</div>
+<div>oily oates</div>
+<div>(Thank the heavens for
+my wheels being slow.)</div>
+<div></div><div class="stagedirection">(They head back towards the Guildmaster.)</div>
+			</div>
+			<h3 class="transition">Yalunzar Walls</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(The Seahawks enter through the breach.)</div>
+<div>ellerie</div>
+<div>The gambit has paid off
+beyond my expectations.<br>
+We're within Yalunzar's
+walls without a single injury.</div>
+<div>lindros</div>
+<div>...</div>
+<div>ellerie</div>
+<div>It could've been so much worse for us, for
+Irinde, for the Crescent. You'll be a hero.</div>
+<div>lindros</div>
+<div>I don't care about that. Just... Just don't
+get us killed by our own automatons.</div>
+<div>ellerie</div>
+<div>They've performed admirably. Almost
+a shame we have to put them down.</div>
+			</div>
+			<div class="container transition">
+<div>guildmaster</div>
+<div>The main event has arrived, yet I feel
+far calmer than I have any right to be.<br>
+Deploy ballistae from our safehouses.
+Tell the Cannibal to activate the artifact.</div>
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">If you poisoned the water in Chapter 24</p>
+					<div class="container">
+<div></div>
+<div>*Cough* I'm still feeling the effects
+of the tainted water, but it will subside.<br>
+Really, Ellerie? Poisoning the water?</div>
+					</div>
+				</div>
+			</div>
+			<div class="container transition">
+<div>speedwell</div>
+<div>Young Lady, where could you have disappeared
+to now, while calamity springs upon us?<br>
+Your spontaneous acts of chivalry, which I
+once so praised, shall do us no favours here.</div>
+			</div>
+			<div class="container transition">
+<div>ellerie</div>
+<div>Seahawks! This day, the Crescent's
+greatest foes and traitors shall fall!<br>
+Crush their remaining safehouses,
+and Yalunzar shall plague us no more!</div>
+			</div>
+			<div class="container transition">
+<div>the cannibal</div>
+<div>Artifact active.
+Staves locked.</div>
+<div>narrator</div>
+<div><i>Staves are disabled on this
+map until the Cannibal dies.<br>
+Guildmaster acts first on enemy
+phase while Oily Oates acts last.</i>
+<p><i>Mortars target the whole map,
+but <font color="red">can't damage</font> units on a
+tile with a <font color="red">defensive bonus</font>.</i></p></div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 4</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you killed no horses in Chapter 24</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(Mounted reinforcements arrive.)</div>
+<div>soldier</div>
+<div>Charge, Glorious Gamblers, House
+Heron's finest cavalry division!</div>			
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you killed 1 horse in Chapter 24</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(Reinforcements arrive.)</div>
+<div>soldier</div>
+<div>We may not all come mounted, but we shall get revenge for
+our mounts so brutually slain!<br>
+Charge, Glorious Gamblers, House
+Heron's finest cavalry division!</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you killed both horses in Chapter 24</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(Infantry reinforcements arrive.)</div>
+<div>soldier</div>
+<div>Curse the wicked folk of this land
+for slaying innocent horses!<br>
+We may have lost our horses,
+but not our courageous spirit!<br>
+Charge, Glorious Gamblers, House
+Heron's finest cavalry division!</div>					
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Turn 6</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If you killed the pegasus in Chapter 24</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(A spearmaiden arrives, but finds herself trapped on the other side of the wall.)</div>
+<div>soldier</div>
+<div>We'll keep your pegasus safe they said.
+None would cross the Guild, they said.<br>
+Now I can't even get over this wall!
+If the Guild still exists after all this,<br>
+I'm asking for all my payments back.</div>			
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If not</h1>
+				<div class="container">
+<div></div><div class="stagedirection">(A seraph knight arrives.)</div>
+<div>soldier</div>
+<div>100,000 gold for the Irinde Chief's head.
+That's nothing for such a deadly task, but...<br>
+With all the chaos happening right now,
+maybe I can get myself a nice 100,000 gold.<br>
+Yeah, it's 100,000 gold. Let's gooooooo!</div>			
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>When the Cannibal is killed</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>That's one major pain in the backside
+taken care of. Staves back in action!</div>			
+			</div>
+			<div class="split">
+				<div>
+					<p class="splitheader">If the Guildmaster is still alive</p>
+					<div class="container">
+<div>guildmaster</div>
+<div>My greatest supporter falls.
+You served the Guild well.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Conversations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Dockmaster</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>dockmaster</div>
+<div>If I am to fall here, throw
+my body into the docks.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>dockmaster</div>
+<div>Ah, Chief Ellerie.<br>
+Your bounty on Maurice is
+still near the top of the board.</div>
+<div>ellerie</div>
+<div>That's good to hear.
+I donated a lot of gold.</div>
+<div>dockmaster</div>
+<div>However, your bounty has
+surpassed his ten times over.</div>
+<div>ellerie</div>
+<div>That's also good to hear.<br>
+I'm far more valuable
+than that sack of waste.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Basil</h1>
+					<div class="container">
+<div>dockmaster</div>
+<div>I recognise the hat
+Basil? That you, lad?</div>
+<div>basil</div>
+<div>Some do call me by that name.<br>
+What do you want?</div>
+<div>dockmaster</div>
+<div>I loved your in-depth review
+of the Yalunzar Waterfront.<br>
+You really captured the soul
+of each individual little stall, as well as the environment
+of each larger establishment.<br>
+I could ask for no better guide
+to my this slice of Yalunzar.</div>
+<div>basil</div>
+<div>I simply wrote what I saw.<br>
+The Yalunzar Waterfront is the
+finest place on the Crescent.</div>
+<div>dockmaster</div>
+<div>Is that a tear in 
+your eye, I see?</div>
+<div>basil</div>
+<div>Of course not. I'm just shocked
+to hear appreciation for once.</div>
+<div>dockmaster</div>
+<div>There is one. small matter.
+By the end of today,<br>
+all those places in your
+guide will cease to exist.</div>
+<div>basil</div>
+<div>That... That... is not my
+problem. It's what it is.</div>
+<div>dockmaster</div>
+<div>Aye. It's not. But sad 
+to see, isn't it?<br>
+Your guides will refer to
+nothing more than ruins.</div>
+<div>basil</div>
+<div>It is.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>dockmaster</div>
+<div>Saviour of the city one day,
+the destroyer the next.<br>
+The ever changing waves of
+the Crescent finally turn...</div>	
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Oily Oates</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>oily oates</div>
+<div>Egad! I did not think I
+would be seeing combat!</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>ellerie</div>
+<div>I didn't understand all the
+hatred towards the Guild, until I had to deal with you.<br>
+Was it worth shortchanging us
+on a simple few crates of jerky?</div>
+<div>oily oates</div>
+<div>Shortchange? If you had read
+the contract more careful-</div>
+<div>ellerie</div>
+<div>I'm going to enjoy
+watching you die.</div>
+<div>oily oates</div>
+<div>Over a few crates of jerky?</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Caloogo</h1>
+					<div class="container">
+<div>caloogo</div>
+<div>Nice toy you have there.
+A model 67 Rat-type mortar.<br>
+Wait, why do I even know that?</div>
+<div>oily oates</div>
+<div>The monsters, they fly!
+Yalunzar is doomed, doomed!</div>
+<div>caloogo</div>
+<div>This is an overreaction.
+I'm just one undead.</div>
+<div>oily oates</div>
+<div>This is the Crescent's end!
+The end of days!</div>
+<div>caloogo</div>
+<div>Now I feel bad about
+needing to shoot you.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Francisca</h1>
+					<div class="container">
+<div>oily oates</div>
+<div>You're Francisca, the 
+famous mercenary!<br>
+How much gold to sway
+your allegiances? 10000?<br>
+20000? I can't do more.</div>
+<div>francisca</div>
+<div>That's pocket change to me.</div>
+<div>oily oates</div>
+<div>40000 gold. That's the
+sum of everything I own.</div>
+<div>francisca</div>
+<div>I can make that amount 
+in just a week of toiling.</div>
+<div>oily oates</div>
+<div>45000 gold. Plus all the secret
+stashes that I know about.<br>
+... You were never going to
+agree to anything, were you?</div>
+<div>francisca</div>
+<div>Yeah, sorry. I'm just seeing how
+far I can push for a good story.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>oily oates</div>
+<div>I desired a mercantile career
+to escape the wars of my home.<br>
+Was it my own actions that 
+brought about this ironic end, or was it simply cruel fate?</div>			
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>The Cannibal</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>the cannibal</div>
+<div>Hm.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Foxberry</h1>
+					<div class="container">
+<div>foxberry</div>
+<div>Could I get a few words from
+one of the Guild's leaders?<br>
+What are your thoughts on
+losing everything you have?</div>
+<div>the cannibal</div>
+<div>...</div>
+<div>foxberry</div>
+<div>Noting this down. Stayed silent,
+oblivious to his imminent doom...</div>
+<div>the cannibal</div>
+<div>Wretch.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Xeo</h1>
+					<div class="container">
+<div>the cannibal</div>
+<div>You played good music.</div>
+<div>xeo</div>
+<div>I recognise you.<br>
+You slipped me a few coins
+while I was passed out drunk.</div>
+<div>the cannibal</div>
+<div>When you sought our city's
+protection. Now you are its foe.</div>
+<div>xeo</div>
+<div>This is not what I wanted.</div>
+<div>the cannibal</div>
+<div>But you are here.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>the cannical</div>
+<div>I see.<br>
+Unfortunate.</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Speedwell</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>speedwell</div>
+<div>To have witnessed the rise
+and fall of our great house...</div>					
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Aigo</h1>
+					<div class="container">
+<div>speedwell</div>
+<div>Prince Javan.
+An honour.</div>
+<div>aigo</div>
+<div>Prince Javan has been
+dead for decades.</div>
+<div>speedwell</div>
+<div>I'm no good at remembering
+faces, but fighting styles?<br>
+I was the youth you unseated
+in that last tournament, before every prince of the
+kingdom went to war.</div>
+<div>aigo</div>
+<div>What an incredible memory
+you possess, unknown knight.<br>
+I remember you as a youth
+of incredible skill for your age.</div>
+<div>speedwell</div>
+<div>The age of knights died with
+your death, Prince Javan.<br>
+No more do these pretenders 
+abide by the code of chivalry, replacing ideals with gold.</div>
+<div>aigo</div>
+<div>Are you different from
+them, Sir knight?</div>
+<div>speedwell</div>
+<div>I am not. But you were.<br>
+The golden knight,
+the shining example.</div>
+<div>aigo</div>
+<div>This hypothetical golden age
+of knights never existed.<br>
+Knights were always glorifed
+thugs for the noble lineages.<br>
+My appearance, my reputation,
+merely the vanity of youth.</div>
+<div>speedwell</div>
+<div>Perhaps I too fall victim a
+common flaw of one aged, to always believe the past to
+be brighter than what it is.</div>
+<div>aigo</div>
+<div>It's time to set your eyes
+on the future, Sir knight.<br>
+The future of who will
+prevail in our rematch.</div>
+<div>speedwell</div>
+<div>Yes, indeed.
+I look forward to it.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>speedwell</div>
+<div>To think my worst student
+could transform into a warlord.</div>
+<div>ellerie</div>
+<div>A situation can really
+change a woman.</div>
+<div>speedwell</div>
+<div>You had no affinity for battle,
+nor did you care to learn.</div>
+<div>ellerie</div>
+<div>War was supposed to be
+the affairs of the unclean, while I administrate far
+more civil concerns.<br>
+As an exile, I could only
+get my own hands dirty.</div>
+<div>speedwell</div>
+<div>I had scathingly written you
+off as having no talent, and refused to teach you.<br>
+I owe you an apology.</div>
+<div>ellerie</div>
+<div>It is accepted, Master.<br>
+I don't think I cared to learn
+anything from you anyways.</div>
+<div>speedwell</div>
+<div>Then demonstrate to me
+all that you've learned.<br>
+I would like to see
+how wrong I was.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Defeat</h1>
+					<div class="container">
+<div>speedwell</div>
+<div>Has peace so dulled my skill?<br>
+Or is this the onset of the 
+many curses of old age?</div>
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Yarding</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>yarding</div>
+<div>...</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>ellerie</div>
+<div>Sir Yarding. You look the same.<br>
+Still a puppet with no capacity
+for any individual thought?</div>
+<div>yarding</div>
+<div>...</div>
+<div>ellerie</div>
+<div>Right. Not sure what
+else I expected.</div>
+<div>yarding</div>
+<div>...</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>yarding</div>
+<div>I can serve our
+house no more.</div> 					
+					</div>
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Guildmaster</h1>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>Many adventurers died to
+bring me this cannon.<br>
+I shall make good use of it.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Ellerie</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>I knew you were an ambitious
+one, that you'd be a threat.<br>
+I did not expect you to tear
+down our walls in only months.</div>
+<div>ellerie</div>
+<div>Thank you. I couldn't have done
+it without the Guild's help, having burned all of Yalunzar's
+relations with other factions.</div>
+<div>guildmaster</div>
+<div>Even you are not immune to
+the propaganda against us.<br>
+As a newcomer, are you aware
+of why settlers hate us so?</div>
+<div>ellerie</div>
+<div>I don't really care for
+an accurate justification.<br>
+Either way, that's the story
+I'll tell to justify today.</div>
+<div>guildmaster</div>
+<div>What tragedy, Yalunzar,<br>
+to have all your decades-old
+struggles be forgotten,<br>
+instead remembered only
+as the Crescent's villain.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Oren</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>Oren, my good man. You
+turned down all my gifts.</div>
+<div>oren</div>
+<div>I won't invite accusations of
+fraternising with the enemy.</div>
+<div>guildmaster</div>
+<div>That is a shame.
+It was just a simple reward.</div>
+<div>oren</div>
+<div>It was foolhardiness that has
+brought me nothing but misery.<br>
+It shouldn't be rewarded.</div>
+<div>guildmaster</div>
+<div>Refusing to break the treaty
+showed an honourable quality, so alien to the Crescent.<br>
+It
+was not in your interests, but it deserves to be praised.</div>
+<div>oren</div>
+<div>I didn't think you of all people
+would care for such qualities.</div>
+<div>guildmaster</div>
+<div>No leader can rule through
+schemes and plots alone.<br>
+If you harnessed such
+virtues to your advantage...</div>
+<div>oren</div>
+<div>There's no need to put
+more salt on that wound.<br>
+Guildmaster, let's settle things
+in the way of the Crescent.</div>
+<div>guildmaster</div>
+<div>Of course. I'd rather you than
+that red-haired outsider.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Guard</h1>
+					<div class="container">
+<div>guard</div>
+<div>At last, face-to-face with the
+Crescent's greatest villain!<br>
+Do you regret your wrongdoings,
+with your demise imminent?</div>
+<div>guildmaster</div>
+<div>I have nothing to say to
+a thoughtless minion.</div>
+<div>guard</div>
+<div>Then stay silent forever!</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Thyme</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>Mayor Thyme, I'd be shocked
+if I did not see you here, given the chance to feast
+on Yalunzar's carcass.</div>
+<div>thyme</div>
+<div>You can belittle me as much
+as you desire. But today, I shall be the only leader left
+among the Coastal Coalition.</div>
+<div>guildmaster</div>
+<div>A cockroach could outlive a
+bird, but it is still a cockroach.<br>
+Your only actions have been
+to hide in Ellerie's shadow.</div>
+<div>thyme</div>
+<div>I saw good talent to invest in,
+and it has paid dividends.<br>
+I might get Yalunzar myself,
+given proximity to the Bay.</div>
+<div>guildmaster</div>
+<div>I'd rather see my city burn
+than to have you taint it. </div>
+<div>thyme</div>
+<div>Ellerie seems to have
+beaten you to that, but I care not for the city.<br>
+I'll be sure to pillage every
+gold stockpile in these ruins.</div>
+<div>guildmaster</div>
+<div>A promise you cannot keep,
+for I shall have your head here.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Aigo</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>I had recalled the spies sent
+to observe you years ago, assuming that this lost prince
+was of no threat to us at all.</div>
+<div>aigo</div>
+<div>My youthful self was foolish
+to think his disguise absolute.<br>
+But what's left before you is
+no prince. Just an old man.</div>
+<div>guildmaster</div>
+<div>There is very little that can
+escape my very large eyes.<br>
+Yet you still find your way 
+here as our foe all the same.<br>
+Why now, when you never 
+showed any interest before?</div>
+<div>aigo</div>
+<div>I had no reason to before.
+I owe a debt to be repaid.<br>
+What more can be said?</div>
+<div>guildmaster</div>
+<div>How odd that the insane royal
+line produced someone so simple.</div>
+<div>aigo</div>
+<div>Too simple to believe,
+and still not quite sane.</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Combat w/ Zububai</h1>
+					<div class="container">
+<div>zububai</div>
+<div>This whole continent had been
+flattened by primal wrath.<br>
+To see a city of this size, 
+without relying on past ruins, it's impressive.<br>
+A great feat,
+for you as this city's master.</div>
+<div>guildmaster</div>
+<div>There were only untamed 
+grasslands when I fast landed.<br>
+Yes, I am proud of building 
+Yalunzar to what it is today.<br>
+But who are you supposed to
+be, acting so above of it all?</div>
+<div>zububai</div>
+<div>Your elder by a good
+few years, I would say.</div>
+<div>guildmaster</div>
+<div>Ah, I get it now. You're one
+of those beings. Very well.<br>
+A compliment from you is
+a compliment with value.</div>
+<div>zububai</div>
+<div>It may all be lost today, but
+your city will be remembered.<br>
+Who else can claim to have
+built civilisation from nothing, while at their most vulnerable
+from Qiulan's toys?</div>
+<div>guildmaster</div>
+<div>Remembered. Hah, remembered!
+that's the best I can hope for.<br>
+There will be a chapter just for 
+me in the Crescent's history!</div>
+					</div>
+				</div>
+				<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Death</h1>
+					<div class="container">
+<div>guildmaster</div>
+<div>Yalunzar! My beautiful city!
+Why am I cursed with longevity,<br>
+To have to see my life's work
+collapse before my eyes...</div>			
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Locations</h1>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>City Gate</h1>
+				<div class="container">
+<div>narrator</div>
+<div>Big loot found!
+<p class="stagedirection">(The visitor receives an Iron Sword.)</p></div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Central Safehouse</h1>
+				<div class="container">
+<div>old woman</div>
+<div>Filthy invaders! You only know to be envious
+of our wealth instead of working hard!</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>East Safehouse</h1>
+				<div class="container">
+<div>man</div>
+<div>Those who know only how
+to take shall never prosper.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Southwest Safehouse</h1>
+				<div class="container">
+<div>old man</div>
+<div>I'm just tired.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>South Safehouse</h1>
+				<div class="container">
+<div>fighter</div>
+<div>I don't really care who wins.
+I just want the wars to end.</div>				
+				</div>
+			</div>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Mansion</h1>
+				<div class="container">
+<div>man</div>
+<div>If even the Guildmaster goes
+down, what hope do we have left?</div>				
+				</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Ending</h1>
+			<div class="container">
+<div>ellerie</div>
+<div>Their last stronghold falls.
+The Guild is finished.
+<p>To think I came here merely an exile, yet now both House Heron and the
+Crescent's best lie dead at my feet.<br>
+It's not like Rosetta to flee a battle.<br>
+Onwards, Seahawks! We've yet
+to cut off the head of the heron.</p></div>
+			</div>
+			<div class="container transition">
+<div>nerysa</div>
+<div>Lindros, you damned fool!<br>
+You promised me you learned from
+the mistakes of your predecessors.<br>
+You were supposed to be true
+to Oakhall's ideals. To be better.<br>
+...<br>
+Perhaps I have no one to blame 
+for this but my own foolishness.<br>
+So taken was I by the need to
+show my worth as an Archsage, to return to the days in my laboratory,
+that I ignored my own reservations.<br>
+Oakhall's ideals were always lies.
+Why did I fall for those lies once more?</div>
+			</div>
+			<h3 class="transition">Yalunzar Streets</h3>
+			<div class="container">
+<div></div><div class="stagedirection">(Rosetta defends a group of civilians from a war golem.)</div>
+<div>rosetta</div>
+<div>By Elis... Is that the last one?
+What have you done, Ellerie?</div>
+<div>woman</div>
+<div>I thought all you nobles were good-for
+-nothing leeches. How wrong I was!</div>
+<div>girl</div>
+<div>You're like one of those real heroes,
+not like those smelly adventurers!</div>
+<div>rosetta</div>
+<div>There is no need for thanks, madam.
+Head west, Cherise has cleared that area.</div>
+<div></div><div class="stagedirection">(The civilians flee. Cherise approaches.)</div>
+<div>cherise</div>
+<div>Are these monsters truly
+the work of the settlers?<br>
+They far outclass even the
+mightiest monsters I've fought.</div>
+<div>rosetta</div>
+<div>That took... huff... so much
+more time than I thought.<br>
+It was supposed to be a quick
+rescue, not... whatever that was.</div>
+<div>cherise</div>
+<div>We need to put down the insane
+mages that concocted this mess.</div>
+<div>rosetta</div>
+<div>I'm in full agreement, but I
+thought you enjoyed a good fight.</div>
+<div>cherise</div>
+<div>I don't enjoy fighting a meat tower that will
+break every bone in my body with one swing.<br>
+There's no art in that. At least dragons
+have the decency to make good trophies.</div>
+<div>rosetta</div>
+<div>That's an odd priority. Let's return before
+Sir Speedwell rakes us over the coals.</div>
+<div>cherise</div>
+<div>Too late, there he is himself. 
+And he does not look well.<br>
+You better brace yourself.
+Good news is not coming.</div>
+<div></div><div class="stagedirection">(Speedwell approaches.)</div>
+<div>rosetta</div>
+<div>Sir Speedwell! You're wounded!
+Has Ellerie struck already?</div>
+<div>speedwell</div>
+<div>She has.<br>
+Yalunzar is lost.</div>
+<div>cherise</div>
+<div>The Guild folded that fast? So much for
+the strongest faction on the Crescent.</div>
+<div>rosetta</div>
+<div>But we were only gone for...<br>
+Speedwell, where is everyone
+else? Where is Sir Yarding?</div>
+<div>speedwell</div>
+<div>Fallen in the
+line of duty.</div>
+<div>rosetta</div>
+<div>That...
+can't be possible.</div>
+<div>cherise</div>
+<div>That's like coming back from lunch 
+and discovering your house burnt down.<br>
+Hmm, poor use of metaphor there.</div>
+<div>rosetta</div>
+<div>I convinced my father... It was my hubris, my arrogance, that sent all these loyal
+subjects of House Heron to their deaths!<br>
+With my own two hands, I've destroyed
+the legacy of House Heron!</div>
+<div>speedwell</div>
+<div>Yalunzar is lost, but House Heron lives.<br>
+Take our remaining men guarding
+the boats and leave the Crescent.</div>
+<div>cherise</div>
+<div>I suppose now we have
+enough space on the boats.</div>
+<div>rosetta</div>
+<div>What a cruel thing to say, Instructor.<br>
+How can I escape, when it was I who
+brought everyone to the Crescent to die?<br>
+How can I do something so despicable?</div>
+<div>speedwell</div>
+<div>Is there any use to dying here, you fool?<br>
+If you return alive, perhaps you may one
+day restore the glory of House Heron.<br>
+Now go to the ship, before I beat you
+over the head and drag you there!</div>
+<div>rosetta</div>
+<div>... Yes, Sir.</div>
+<div>speedwell</div>
+<div>Cherise. You owe nothing to House Heron,
+but I ask you to escort the Young Lady.<br>
+I used to think little of you, but you've aided
+us faithfully and none can rival you in skill.</div>
+<div>cherise</div>
+<div>First compliment I've gotten from you.<br>
+Well, it'd be rather rude of me to say
+no now, wouldn't it? I'm too committed.</div>
+<div>rosetta</div>
+<div>Sir Speedwell,
+aren't you-</div>
+<div>speedwell</div>
+<div>I am owed some rest considering
+the gaping hole in my chest.<br>
+My trusty steed will ensure
+I catch up. Now, move!</div>
+<div></div><div class="stagedirection">(Rosetta's squad leaves.)</div>
+<div>speedwell</div>
+<div>Is it unsophisticated to not reflect on the life
+I've lived, but to instead think of the luxuries
+I will never have the chance to experience?</div>
+<div></div><div class="stagedirection">(Speedwell moves to guard the street opposite the one Rosetta fled down. Ellerie arrives and approaches him.)</div>
+<div>ellerie</div>
+<div>Master Speedwell.</div>
+<div>speedwell</div>
+<div>Was your hatred of your family,
+your uncle, so all-encompassing,<br>
+that you'd so willingly tear down
+this dynasty lasting hundreds of years,<br>
+send the lives of so many into disarray
+and throw the realm into chaos?</div>
+<div>ellerie</div>
+<div>I wouldn't have moved heaven
+and earth for so little, Master.<br>
+I want all of House Heron's lands.
+Then, the Kingdom.</div>
+<div>speedwell</div>
+<div>I should have known you were
+not so short-sighted. It's a shame.<br>
+If Lord Daygon had not harboured
+such bitterness towards your Mother, you and Rosetta would have ensured
+the prosperity of our house for decades.</div>
+<div>ellerie</div>
+<div>If Uncle had not been a pathetic creature of
+envy, then I wouldn't be driven to this.<br>
+It's a pointless hypothetical and you're
+wasting the time I need to catch Rosetta.</div>
+<div>speedwell</div>
+<div>Know your etiquette. It is right to
+respect your elders when they speak.<br>
+I shall delay you as long as I can.</div>
+<div>ellerie</div>
+<div>Loyal to the end, Master? For what?
+For Uncle? For that vile man?<br>
+For House Heron's lineage which has
+had at best, tolerable rulers?</div>
+<div>speedwell</div>
+<div>Nothing you'd be
+able to relate to.</div>
+<div></div><div class="stagedirection">(Ellerie kills Speedwell.)</div>
+<div>ellerie</div>
+<div>The old fox tried to mislead us into
+thinking Rosetta fled this way.<br>
+It's just a shame I've already been
+told where the last boats are.</div>
+<div></div><div class="stagedirection">(Ellerie leaves.)</div>
+			</div>
+			<br>
+			<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>If Tasel is alive</h1>
+				<h3>Bazaar</h3>
+				<div class="container">
+	<div></div><div class="stagedirection">(Tasel wanders through the carnage, stopping when he finds Mitchell's body.)</div>
+	<div>tasel</div>
+	<div>It is as if a great light has been
+	extinguished. Mitchell, my friend.<br>
+	There shall be no other who
+	understands me as you did.<br>
+	If only there was another way I could
+	repay you with the gift you gave me.</div>
+				</div>
+			</div>
+			<div class="container transition">
+<div>krynia</div>
+<div>Mother? I didn't expect
+you'd be back so soon.</div>
+<div>oriana</div>
+<div>The Green Tides are finally no more.
+I wanted to return as fast as possible.</div>
+<div>krynia</div>
+<div>I'm doing fine, Mother.
+There's no need to worry.</div>
+<div>oriana</div>
+<div>I left you in a war with the Mainland, Krynia.
+How could you tell me to not worry?</div>
+<div>krynia</div>
+<div>I'm as fine as I can be, now that you've
+ended any chance of me living until old age.</div>
+<div></div><div class="stagedirection">(The world fades away.)</div>
+<div><img class="portrait" src="images/Krynia_monster.png">
+krynia</div>
+<div>You always say I'm the most important
+thing to you, but I guess it's not enough.<br>
+Not enough to pick your daughter's future
+over fulfilling your own sense of justice.</div>
+<div>oriana</div>
+<div>What are you saying, Krynia?
+I've always put you first.</div>
+<div>krynia</div>
+<div>Did you? Then why didn't
+you listen to her?</div>
+<div>oriana</div>
+<div>That's because, because,
+I-</div>
+<div></div><div class="stagedirection">(Oriana wakes up.)</div>
+<div>oriana</div>
+<div>...<br>
+Again.</div>
+			</div>
+		</div>
+		<div data-role="collapsible" class="collapsible" data-collapsed="true"><h1>Character Descriptions</h1>
+<p class="hangingindent"><b>Guildmaster</b><br>
+The ancient head of the Guild whose
+presence has shaped the Crescent
+for decades. That will end with me.</p>
+<p class="hangingindent"><b>The Cannibal</b><br>
+His nickname refers to his business
+practices, not a taste for human flesh.
+Or so I've been told.</p>
+<p class="hangingindent"><b>Oily Oates</b><br>
+A member of the merchant kings known
+for turning massive profits from the 
+Green Tide, at the cost of the victims.</p>
+<p class="hangingindent"><b>Dockmaster</b><br>
+The head of the Harbourmen.
+Doesn't actually know a thing about
+docks, the title is just an old tradition.</p>
+<p class="hangingindent"><b>Yarding</b><br>
+House Heron's silent guardian. Often
+given tasks beneath his position but
+he carries them out without complaint.</p>
+<p class="hangingindent"><b>Speedwell</b><br>
+House Heron's finest knight, who has
+served five different heads of the House.
+What use is loyalty to a corrupt cause?</p>
+<p class="hangingindent"><b>Executioner</b><br>
+A knock on the door late at night from
+them is the greatest fear of all those
+who live under House Heron's banner.</p>		
+<p class="hangingindent"><b>Hexbreakder</b><br>
+The greatest threat to public order is a
+rogue magic user. This force ensures they
+stay in line. The Sect is not fond of them.</p>
+<p class="hangingindent"><b>Trailblazer</b><br>
+Acting as scouts and law enforcement
+officers, a few of them ensures words of 
+treason are reported and spies put down.</p>	
+<p class="hangingindent"><b>Linecrusher</b><br>
+When peace needs to come fast, this
+squad is deployed. A few of them is a
+match for a whole army of peasants.</p>
+<p class="hangingindent"><b>House Heron</b><br>
+All kinds of troops bound to serve House
+Heron as willing fodder to advance the
+purpose of those of superior bloodlines.</p>
+<p class="hangingindent"><b>The Circle</b><br>
+A tightly-knit organisation responsible
+for many of the Crescent's rising stars.
+Their members seem to follow conflict.</p>	
+<p class="hangingindent"><b>Harbourmen</b><br>
+A decades old organisation dedicated to
+peacekeeping in Yalunzar. Despite the
+name, are no longer limited to only men.</p>
+<p class="hangingindent"><b>The Guild</b><br>
+Various merchants and artisans that
+make up the bulk of the Guild. Say
+what you will, their skill is undeniable.</p>	
+<p class="hangingindent"><b>Militia</b><br>
+Faceless fodder who will be the first to
+die when any kind of true threat arises.</p>	
+<p class="hangingindent"><b>War Golem</b><br>
+Artifical beings built for the war effort,
+great as replaceable cannon fodder but
+aren't very good at following orders.</p>	
+		</div>
+	</div>
+</div>
+
+<script>
+window.onload = function func(){
+	button1=document.getElementById("collapsible1");
+	button2=document.getElementById("collapsible2");
+	button1.onclick = function(){
+
+	$( ".collapsible" ).collapsible( "expand" );
+	}
+	button2.onclick = function(){
+
+	$('[data-role="collapsible"]').collapsible( "collapse" );
+	}
+}
+</script>
+</body>
+</html>
